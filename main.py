@@ -50,6 +50,42 @@ def i18n_subtitle(subtitle: str):
     # KO
     subtitle = subtitle.replace("「", "")
     subtitle = subtitle.replace("」 기원", "")
+    subtitle = subtitle.replace(" 기원", "")
+    # ES
+    subtitle = subtitle.replace("Gachapón «", "")
+    subtitle = subtitle.replace("»", "")
+    # FR
+    subtitle = subtitle.replace("Vœux « ", "")
+    subtitle = subtitle.replace(" »", "")
+    subtitle = subtitle.replace(" ", "")
+    # RU
+    subtitle = subtitle.replace("Молитва «", "")
+    subtitle = subtitle.replace("»", "")
+    subtitle = subtitle.replace("Молитва: ", "")
+    # TH
+    subtitle = subtitle.replace("การอธิษฐาน \"", "")
+    subtitle = subtitle.replace("\"", "")
+    # VI
+    subtitle = subtitle.replace("Cầu Nguyện \"", "")
+    subtitle = subtitle.replace("\"", "")
+    subtitle = subtitle.replace("Cầu Nguyện ", "")
+    # DE
+    subtitle = subtitle.replace("Gebet „", "")
+    subtitle = subtitle.replace("“", "")
+    # ID
+    subtitle = subtitle.replace("Event Permohonan \"", "")
+    subtitle = subtitle.replace("\"", "")
+    subtitle = subtitle.replace("Event Permohonan ", "")
+    # PT
+    subtitle = subtitle.replace("Oração \"", "")
+    subtitle = subtitle.replace("\"", "")
+    subtitle = subtitle.replace("Oração ", "")
+    # TR
+    subtitle = subtitle.replace("\" Etkinliği Dileği", "")
+    subtitle = subtitle.replace(" Etkinliği Dileği", "")
+    subtitle = subtitle.replace("\"", "")
+    # IT
+    subtitle = subtitle.replace("Desiderio ", "")
     return subtitle
 
 
@@ -131,7 +167,8 @@ if __name__ == "__main__":
     result = {}
     output = {}
     banner_ann_id = []
-    target_language = ["zh-cn", "en-us", "zh-tw", "ja", "ko"]
+    target_language = ["zh-cn", "en-us", "zh-tw", "ja", "ko", "es", "fr",
+                       "ru", "th", "vi", "de", "id", "pt", "tr", "it"]
     for lang in target_language:
         result[lang] = get_data(lang)
 
