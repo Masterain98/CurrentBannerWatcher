@@ -200,5 +200,5 @@ if __name__ == "__main__":
             output[ann_id][lang]["banner_image"] = banner["banner_image"]
             output[ann_id][lang]["banner_subtitle"] = banner["subtitle"]
 
-    with open("output.json", "w", encoding="utf-8") as outfile:
+    with open("banner-data.json", "w", encoding="utf-8") as outfile:
         json.dump(output, outfile, indent=2, ensure_ascii=False)
