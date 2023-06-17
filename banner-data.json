@@ -1,0 +1,205 @@
+{
+  "3611": {
+    "zh-cn": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/c2bfcc0cb66924a75e60571a09979079_7318787619752922886.png",
+      "banner_subtitle": "敕诫枢谋"
+    },
+    "en-us": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/8b600da66b8e34b0ee8c5818c07365ba_2619383580423857758.png",
+      "banner_subtitle": "Caution in Confidence"
+    },
+    "zh-tw": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/8462f0a32d3ef58f27d460996f3db75a_6221378938612482943.png",
+      "banner_subtitle": "敕誡樞謀"
+    },
+    "ja": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/64c6391d4cb8640b4e6a3f962c08b691_6452666083369150425.png",
+      "banner_subtitle": "戒勅枢策"
+    },
+    "ko": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/a7d25af8a9d844b5d1b0bd2db1877199_2522269870758469040.png",
+      "banner_subtitle": "지략가의 경고"
+    },
+    "es": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/b2b64795fc41eafd9f15ada8fd6aa271_1483805823138537785.png",
+      "banner_subtitle": "Confidencia exhortativa"
+    },
+    "fr": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/e885d8b9cbb9f52c6f26298617a7b93a_4313128837985931851.png",
+      "banner_subtitle": "Prudence en toute confidence"
+    },
+    "ru": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/9fec023678049ca040e69f5735f61816_4563600448969698757.png",
+      "banner_subtitle": "Сдержанное благоразумие"
+    },
+    "th": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/14630aba60189d1d2267fba57393bd41_9023376383440239491.png",
+      "banner_subtitle": "เล่ห์ลับวาจาลวง"
+    },
+    "vi": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/88747d532533f71fcbb0ccd6281222de_4573637795946161479.png",
+      "banner_subtitle": "Chìa Khóa Sắc Lệnh"
+    },
+    "de": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/0f91253819afaaa95bce3f081003a343_313506888456045828.png",
+      "banner_subtitle": "Verhaltene Zuversicht"
+    },
+    "id": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/810107a44f64ecccbf44e29dab051cf9_6524277753198856010.png",
+      "banner_subtitle": "Perintah dan Siasat"
+    },
+    "pt": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/76d167e93d83136149d91a3869fbc7f1_1649255853859743932.png",
+      "banner_subtitle": "Estratégia Imperativa"
+    },
+    "tr": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/8cc51256699827b0b23e9d8a6cba7059_5490700978163149268.png",
+      "banner_subtitle": "Stratejik Uyarı"
+    },
+    "it": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/7370c96f99ffca616d4bb97dda508644_577345210163581062.png",
+      "banner_subtitle": "Monito implacabile"
+    },
+    "five_star_item_1": 10000078,
+    "four_star_item_1": 10000077,
+    "four_star_item_2": 10000059,
+    "four_star_item_3": 10000023,
+    "four_star_item_4": 10000078
+  },
+  "3612": {
+    "zh-cn": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/570ec86c39ebdefd386452630c5dd62a_592202991956503059.png",
+      "banner_subtitle": "叶落风随"
+    },
+    "en-us": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/eb9c98ddfa2a07e7bded5278439723a7_7683176800244148950.png",
+      "banner_subtitle": "Leaves in the Wind"
+    },
+    "zh-tw": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/3d4a0e0f8c125ae03998e9c7288f76c7_3374917149514753160.png",
+      "banner_subtitle": "葉落風隨"
+    },
+    "ja": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/6c5f4234f75616f20271e65522226ad8_5335249854409980461.png",
+      "banner_subtitle": "辻風に舞う落葉"
+    },
+    "ko": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/d592d0f4cbff63a91fe39f1095a022d3_3515349986522611745.png",
+      "banner_subtitle": "바람에 지는 낙엽"
+    },
+    "es": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/1eaccc1a96a423c05bb821cb72126b38_1083761850700346487.png",
+      "banner_subtitle": "Hojas en el viento"
+    },
+    "fr": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/004bb2b6a92c9f934c89493a5df98ebb_2764367977910748023.png",
+      "banner_subtitle": "Feuilles dans le vent"
+    },
+    "ru": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/01faea822287e987e028614e97741c3d_1887965408229363235.png",
+      "banner_subtitle": "Листья на ветру"
+    },
+    "th": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/d66543978fc8208cd7ab6f3bf221c1e5_8271301102688424369.png",
+      "banner_subtitle": "ใบไม้ร่วงตามสายลม"
+    },
+    "vi": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/a5652956a4924b11fe9d599455f04b07_7017137277880375856.png",
+      "banner_subtitle": "Lá Rụng Theo Gió"
+    },
+    "de": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/189f48e497efc66bbc18b6916b97bd32_5476778144474307484.png",
+      "banner_subtitle": "Blätter im Wind"
+    },
+    "id": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/6702a1c47c14144d3baae38c01a12320_7514623120299903806.png",
+      "banner_subtitle": "Dedaunan di Tengah Angin"
+    },
+    "pt": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/425493a1fda0d090fba4eb151eaa421e_3956817909743130831.png",
+      "banner_subtitle": "Folhas ao Vento"
+    },
+    "tr": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/2462fba082861247e7d92dfb57b92042_3935177280880202231.png",
+      "banner_subtitle": "Rüzgardaki Yapraklar"
+    },
+    "it": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/c09f1e225ee0eb93706de2c485a20f44_5820114235347977980.png",
+      "banner_subtitle": "Foglie nel vento"
+    },
+    "five_star_item_1": 10000047,
+    "four_star_item_1": 10000077,
+    "four_star_item_2": 10000059,
+    "four_star_item_3": 10000023,
+    "four_star_item_4": 10000047
+  },
+  "3613": {
+    "zh-cn": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/0a20f99c41b4baa2cc53227348f10a05_5813657821532510958.png",
+      "banner_subtitle": "神铸赋形"
+    },
+    "en-us": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/7487ba63ebbcac82858a8e413a40c872_3474906954147013691.png",
+      "banner_subtitle": "Epitome Invocation"
+    },
+    "zh-tw": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/2d5f429d536915c6fd9efed4167128ea_2407996153494472725.png",
+      "banner_subtitle": "神鑄賦形"
+    },
+    "ja": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/94a58a29fdfb8d322b20c8b95afb00aa_831231538000742509.png",
+      "banner_subtitle": "神鋳賦形"
+    },
+    "ko": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/f89f20d31ebe5495f0272094a36fc81e_3984609779452017410.png",
+      "banner_subtitle": "신의 주조"
+    },
+    "es": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/f15be50e4d153a5699c3f35455eace34_7146157061773262944.png",
+      "banner_subtitle": "Encarnación divina"
+    },
+    "fr": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/57bcf0ba83f052ae67b3ebff28d68f0f_1921569012612046724.png",
+      "banner_subtitle": "Incarnation divine"
+    },
+    "ru": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/36865751de530cfdbcd0e80a7c1878fe_4662978542654738155.png",
+      "banner_subtitle": "Воплощение божества"
+    },
+    "th": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/362ddbbeb75ba0f6bab7f90e52a7fbb2_7096501361243077980.png",
+      "banner_subtitle": "สรรค์สร้างเซียน"
+    },
+    "vi": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/342e11625c6360429d6cb41bb98eeab3_6060866840299130322.png",
+      "banner_subtitle": "Thân Hình Thần Đúc"
+    },
+    "de": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/98c9bed1bc28c088ebf5f0ec51c293c0_8213754645043991607.png",
+      "banner_subtitle": "Göttliches Werk"
+    },
+    "id": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/2010f0d31bdbdcf55e56a2791ec9ace8_5491168011179057695.png",
+      "banner_subtitle": "Epitome Invocation"
+    },
+    "pt": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/f88d435f029cca2bc0089f58cb51ac1d_3092023335647553580.png",
+      "banner_subtitle": "Encarnação Divina"
+    },
+    "tr": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/a4794712dbd4554a185aecb0b714ac6c_2834125887039451809.png",
+      "banner_subtitle": "İlahi Çağrı"
+    },
+    "it": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/05/30/94c54f5eb36cf5ec74217a682bd17b3a_7042081146225136305.png",
+      "banner_subtitle": "Incarnazione divina"
+    },
+    "five_star_item_1": 11512,
+    "five_star_item_2": 11503,
+    "four_star_item_1": 13416,
+    "four_star_item_2": 15416,
+    "four_star_item_3": 11401,
+    "four_star_item_4": 12403,
+    "four_star_item_5": 14401
+  }
+}
