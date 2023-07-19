@@ -1,0 +1,48 @@
+name: ConfigMaker
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+    inputs:
+       logLevel:
+        description: 'Log level'
+        required: true
+        default: 'warning'
+        type: choice
+        options:
+        - info
+        - warning
+        - debug
+  
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo content
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.TOKEN }}
+
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - run: pip install -r requirements.txt
+
+      - name: Generate Config
+        env:
+            POST_URL: ${{ secrets.POST_URL }}
+        run : |
+          python ${{ github.workspace }}/main.py
+
+      - name: Commit Output
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Automated Change
+          branch: main
+          create_branch: true
+          commit_options: '--no-verify --signoff'
+          file_pattern: '/banner-data.json upload/*'
+          repository: .
