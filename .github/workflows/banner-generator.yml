@@ -44,5 +44,5 @@ jobs:
           branch: main
           create_branch: true
           commit_options: '--no-verify --signoff'
-          file_pattern: '/banner-data.json upload/*'
+          file_pattern: 'banner-data.json upload/*'
           repository: .
