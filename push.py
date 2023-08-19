@@ -2,7 +2,8 @@ import requests
 import json
 import os
 
-if __name__ == "__main__":
+
+def update_banner():
     url = os.getenv("POST_ENDPOINT")
     if url is None:
         raise ValueError("POST_ENDPOINT is not set.")
@@ -44,6 +45,8 @@ if __name__ == "__main__":
                     locale = "PT"
                 case "it":
                     locale = "IT"
+                case "tr":
+                    locale = "TR"
                 case __:
                     break
             body = {
@@ -56,7 +59,11 @@ if __name__ == "__main__":
             }
             print("Sending data: " + str(body))
             result = requests.post(url, json=body)
-            print("Result: " + str(result.status_code) + "\n" + "="*20)
+            print("Result: " + str(result.status_code) + "\n" + "=" * 20)
             image_data = requests.get(data["banner_image"])
             os.makedirs(os.path.dirname(data["banner_image"].replace('https://sdk.hoyoverse.com/', "")), exist_ok=True)
             open(data["banner_image"].replace('https://sdk.hoyoverse.com/', ""), 'wb').write(image_data.content)
+
+
+def create_banner():
+    pass

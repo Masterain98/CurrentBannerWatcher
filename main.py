@@ -1,6 +1,7 @@
 import requests
 import re
 import json
+from bs4 import BeautifulSoup
 
 keyword_dict = {
     "zh-cn": {
@@ -106,29 +107,38 @@ def get_data(language: str):
     for k, v in params.items():
         url += f"{k}={v}&"
     url += "uid=100000000"
-    print(url)
-    data = requests.get(url).json().get("data").get("list")
-    for ann in data:
-        this_result = {
-            "banner_name": "",
-            "banner_image": "",
-            "ann_id": "",
-            "five_star_item_1": "",
-            "five_star_item_2": "",
-            "four_star_item_1": "",
-            "four_star_item_2": "",
-            "four_star_item_3": "",
-            "four_star_item_4": "",
-            "four_star_item_5": ""
-        }
+    print(language + ": " + url)
+    banner_data = requests.get(url).json().get("data").get("list")
+    for ann in banner_data:
         if ann["ann_id"] in banner_ann_id or this_keyword_dict.get("title_keyword") in ann["title"]:
+            # Beginning code of matched announcement
             # print(language + " " + ann["title"] + " " + str(ann["ann_id"]) + " " + str(banner_ann_id))
+            this_result = {
+                "banner_name": "",
+                "banner_image": "",
+                "ann_id": "",
+                "UIGF_pool_type": 0,
+                "five_star_item_1": "",
+                "five_star_item_2": "",
+                "four_star_item_1": "",
+                "four_star_item_2": "",
+                "four_star_item_3": "",
+                "four_star_item_4": "",
+                "four_star_item_5": ""
+            }
+            print(ann)
             this_result["banner_image"] = ann["banner"]
             this_result["ann_id"] = ann["ann_id"]
             this_result["subtitle"] = i18n_subtitle(ann["subtitle"])
             if language == "zh-cn":
+                # zh-cn language is the base language to identify banner metadata
+                # Other language will use zh-cn data directly
+                # Except banner_image, ann_id and subtitle
+                content_text = BeautifulSoup(ann["content"], "html.parser").text
+                print(content_text)
                 this_result["banner_name"] = ann["subtitle"].replace("」祈愿", "").replace("「", "")
                 banner_ann_id.append(ann["ann_id"])
+                # Identify banner type and items
                 if this_keyword_dict["character_pool_keyword"] in ann["content"]:
                     # 角色池，单个5星角色和三个4星角色
                     characters_list = re.findall(this_keyword_dict["character_re_patten"], ann["content"])
@@ -159,7 +169,43 @@ def get_data(language: str):
                                                        "id": get_item_id_by_name(weapons_list[5])}
                     this_result["four_star_item_5"] = {"name": weapons_list[6],
                                                        "id": get_item_id_by_name(weapons_list[6])}
+                # Identify pool type
+                if "※ 本祈愿属于「角色活动祈愿」" in ann["content"]:
+                    this_result["UIGF_pool_type"] = 301
+                elif "※ 本祈愿属于「角色活动祈愿-2」" in ann["content"]:
+                    this_result["UIGF_pool_type"] = 400
+                elif "神铸赋形" in ann["subtitle"]:
+                    this_result["UIGF_pool_type"] = 302
+                else:
+                    raise ValueError("Unknown pool type\nAnnouncement Content: " + ann["content"])
+
+                # Identify start time
+                time_pattern = (r"(?:〓祈愿介绍〓祈愿时间概率提升(?:角色|武器)（5星）概率提升(?:角色|武器)（4星）)"
+                                r"(?P<start>\d.\d版本更新后|20\d{2}/\d{2}/\d{2} \d{2}:\d{2}:\d{2})"
+                                r"(?: ~ <t class=\"(?:t_lc|t_gl)\">)"
+                                r"(?P<end>20\d{2}/\d{2}/\d{2} \d{2}:\d{2}:\d{2})")
+                try:
+                    time_result = re.search(time_pattern, content_text)
+                    start_time = time_result.group("start")
+                    this_result["start_time"] = start_time
+                    end_time = time_result.group("end")
+                    this_result["end_time"] = end_time
+                except AttributeError:
+                    raise ValueError("Unknown time format\nAnnouncement Content: " + content_text)
+                if "更新后" in start_time:
+                    # find accurate time in update log
+                    version_number = re.search(r"^(\d.\d)", start_time).group(0)
+                    patch_note = BeautifulSoup([b for b in banner_data if b["subtitle"] == version_number +
+                                                "版本更新说明"][0]["content"], "html.parser").text
+                    patch_time_pattern = (r"(?:〓更新时间〓<t class=\"t_(gl|lc)\">)"
+                                          r"(?P<start>20\d{2}/\d{2}/\d{2} \d{2}:\d{2}:\d{2})"
+                                          r"(?:</t>开始)")
+                    patch_time = re.search(patch_time_pattern, patch_note).group("start")
+                    this_result["start_time"] = patch_time
             return_result.append(this_result)
+        else:
+            # Announcement not matched for wish event
+            pass
     return return_result
 
 
@@ -172,6 +218,7 @@ if __name__ == "__main__":
     for lang in target_language:
         result[lang] = get_data(lang)
 
+    # banner_ann_id is fulfilled by get_data function
     for ann_id in banner_ann_id:
         output[ann_id] = {}
         for lang in target_language:
@@ -197,6 +244,9 @@ if __name__ == "__main__":
                     output[ann_id]["four_star_item_5"] = banner.get("four_star_item_5").get("id")
                 except AttributeError:
                     print("no 5th 4 star found")
+                output[ann_id]["UIGF_pool_type"] = banner["UIGF_pool_type"]
+                output[ann_id]["start_time"] = banner["start_time"]
+                output[ann_id]["end_time"] = banner["end_time"]
             output[ann_id][lang]["banner_image"] = banner["banner_image"]
             output[ann_id][lang]["banner_subtitle"] = banner["subtitle"]
 
