@@ -64,7 +64,10 @@
     "four_star_item_1": 10000083,
     "four_star_item_2": 10000032,
     "four_star_item_3": 10000014,
-    "four_star_item_4": 10000084
+    "four_star_item_4": 10000084,
+    "UIGF_pool_type": 301,
+    "start_time": "2023/08/16 06:00:00",
+    "end_time": "2023/09/05 17:59:00"
   },
   "3727": {
     "zh-cn": {
@@ -131,7 +134,10 @@
     "four_star_item_1": 10000083,
     "four_star_item_2": 10000032,
     "four_star_item_3": 10000014,
-    "four_star_item_4": 10000060
+    "four_star_item_4": 10000060,
+    "UIGF_pool_type": 400,
+    "start_time": "2023/08/16 06:00:00",
+    "end_time": "2023/09/05 17:59:00"
   },
   "3728": {
     "zh-cn": {
@@ -200,6 +206,9 @@
     "four_star_item_2": 12401,
     "four_star_item_3": 13407,
     "four_star_item_4": 14403,
-    "four_star_item_5": 15403
+    "four_star_item_5": 15403,
+    "UIGF_pool_type": 302,
+    "start_time": "2023/08/16 06:00:00",
+    "end_time": "2023/09/05 17:59:00"
   }
 }
