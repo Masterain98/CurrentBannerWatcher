@@ -34,6 +34,7 @@ jobs:
       - name: Generate Config
         env:
             POST_URL: ${{ secrets.POST_URL }}
+            CREATION_POST_ENDPOINT: ${{ secrets.CREATION_POST_ENDPOINT }}
         run : |
           python ${{ github.workspace }}/main.py
 
