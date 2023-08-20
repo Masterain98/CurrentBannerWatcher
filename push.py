@@ -117,7 +117,7 @@ def create_banner():
 
     # Start of Debug #
     print(new_data)
-    with open("post_data.json", "w", encoding="utf-8") as outfile:
+    with open("post-data.json", "w", encoding="utf-8") as outfile:
         json.dump(new_data, outfile, indent=2, ensure_ascii=False)
     # END of Debug #
 
