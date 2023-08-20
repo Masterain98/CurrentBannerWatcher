@@ -68,7 +68,7 @@
     "UIGF_pool_type": 301,
     "start_time": "2023/08/16 06:00:00",
     "end_time": "2023/09/05 17:59:00",
-    "version_number": "9.9",
+    "version_number": "4.0",
     "order_number": 1
   },
   "3727": {
@@ -140,7 +140,7 @@
     "UIGF_pool_type": 400,
     "start_time": "2023/08/16 06:00:00",
     "end_time": "2023/09/05 17:59:00",
-    "version_number": "9.9",
+    "version_number": "4.0",
     "order_number": 1
   },
   "3728": {
@@ -214,7 +214,7 @@
     "UIGF_pool_type": 302,
     "start_time": "2023/08/16 06:00:00",
     "end_time": "2023/09/05 17:59:00",
-    "version_number": "9.9",
+    "version_number": "4.0",
     "order_number": 1
   }
 }
