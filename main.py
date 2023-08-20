@@ -2,6 +2,7 @@ import requests
 import re
 import json
 from bs4 import BeautifulSoup
+from push import create_banner
 
 keyword_dict = {
     "zh-cn": {
@@ -129,14 +130,14 @@ def get_data(language: str):
             print(ann)
             this_result["banner_image"] = ann["banner"]
             this_result["ann_id"] = ann["ann_id"]
-            this_result["subtitle"] = i18n_subtitle(ann["subtitle"])
+            this_result["banner_name"] = i18n_subtitle(ann["subtitle"])
             if language == "zh-cn":
                 # zh-cn language is the base language to identify banner metadata
                 # Other language will use zh-cn data directly
                 # Except banner_image, ann_id and subtitle
                 content_text = BeautifulSoup(ann["content"], "html.parser").text
                 print(content_text)
-                this_result["banner_name"] = ann["subtitle"].replace("」祈愿", "").replace("「", "")
+                #this_result["banner_name"] = ann["subtitle"].replace("」祈愿", "").replace("「", "")
                 banner_ann_id.append(ann["ann_id"])
                 # Identify banner type and items
                 if this_keyword_dict["character_pool_keyword"] in ann["content"]:
@@ -202,6 +203,10 @@ def get_data(language: str):
                                           r"(?:</t>开始)")
                     patch_time = re.search(patch_time_pattern, patch_note).group("start")
                     this_result["start_time"] = patch_time
+                    this_result["version_number"] = version_number
+                    this_result["order_number"] = 1
+                else:
+                    this_result["order_number"] = 2
             return_result.append(this_result)
         else:
             # Announcement not matched for wish event
@@ -229,7 +234,6 @@ if __name__ == "__main__":
         print("================\n%s language data: %s" % (lang, data))
         for banner in data:
             ann_id = banner["ann_id"]
-            print("processing banner: %s" % banner)
             if lang == "zh-cn":
                 output[ann_id]["five_star_item_1"] = banner["five_star_item_1"]["id"]
                 try:
@@ -247,8 +251,12 @@ if __name__ == "__main__":
                 output[ann_id]["UIGF_pool_type"] = banner["UIGF_pool_type"]
                 output[ann_id]["start_time"] = banner["start_time"]
                 output[ann_id]["end_time"] = banner["end_time"]
+                output[ann_id]["version_number"] = banner["version_number"]
+                output[ann_id]["order_number"] = banner["order_number"]
             output[ann_id][lang]["banner_image"] = banner["banner_image"]
-            output[ann_id][lang]["banner_subtitle"] = banner["subtitle"]
+            output[ann_id][lang]["banner_name"] = banner["banner_name"]
 
     with open("banner-data.json", "w", encoding="utf-8") as outfile:
         json.dump(output, outfile, indent=2, ensure_ascii=False)
+
+    create_banner()
