@@ -99,7 +99,7 @@ def create_banner():
                                              this_post["four_star_item_5"]]
             except KeyError:
                 this_post["UpPurpleList"] = [this_post["four_star_item_1"], this_post["four_star_item_2"],
-                                             this_post["four_star_item_3"], this_post["four_star_item_4"]]
+                                             this_post["four_star_item_3"]]
             this_post.pop("five_star_item_1")
             try:
                 this_post.pop("five_star_item_2")
@@ -156,6 +156,7 @@ def create_banner():
             case __:
                 break
         for banner in new_data[lang]:
+            print("Sending data: " + str(banner))
             return_result = requests.post(url.format(locale=locale), json=banner)
             print("status_code: " + str(return_result.status_code))
             print("content: " + json.loads(return_result.content.decode("utf-8"))["message"])
