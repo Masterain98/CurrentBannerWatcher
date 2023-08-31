@@ -92,6 +92,7 @@ def i18n_subtitle(subtitle: str):
 
 
 def get_data(language: str):
+    version_number = ""
     return_result = []
     this_keyword_dict = keyword_dict.get(language, {"title_keyword": "Masterain"})
     url = "https://sg-hk4e-api-static.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?"
@@ -181,9 +182,10 @@ def get_data(language: str):
                     raise ValueError("Unknown pool type\nAnnouncement Content: " + ann["content"])
 
                 # Identify start time
-                time_pattern = (r"(?:〓祈愿介绍〓祈愿时间概率提升(?:角色|武器)（5星）概率提升(?:角色|武器)（4星）)"
-                                r"(?P<start>\d.\d版本更新后|20\d{2}/\d{2}/\d{2} \d{2}:\d{2}:\d{2})"
-                                r"(?: ~ <t class=\"(?:t_lc|t_gl)\">)"
+                time_pattern = (r"(?:〓祈愿介绍〓祈愿时间概率提升(?:角色|武器)（5星）概率提升(?:角色|武器)（4星）"
+                                r"(<t class=\"(?:(t_lc)|(t_gl))\">)?)"
+                                r"(?P<start>(\d.\d版本更新后)|(20\d{2}/\d{2}/\d{2} \d{2}:\d{2}:\d{2}))"
+                                r"(?:(</t>)?( )?~ <t class=\"(?:(t_lc)|(t_gl))\">)"
                                 r"(?P<end>20\d{2}/\d{2}/\d{2} \d{2}:\d{2}:\d{2})")
                 try:
                     time_result = re.search(time_pattern, content_text)
@@ -251,7 +253,10 @@ if __name__ == "__main__":
                 output[ann_id]["UIGF_pool_type"] = banner["UIGF_pool_type"]
                 output[ann_id]["start_time"] = banner["start_time"]
                 output[ann_id]["end_time"] = banner["end_time"]
-                output[ann_id]["version_number"] = banner["version_number"]
+                try:
+                    output[ann_id]["version_number"] = banner["version_number"]
+                except KeyError:
+                    output[ann_id]["version_number"] = "4.0"
                 output[ann_id]["order_number"] = banner["order_number"]
             output[ann_id][lang]["banner_image"] = banner["banner_image"]
             output[ann_id][lang]["banner_name"] = banner["banner_name"]
