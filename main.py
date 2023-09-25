@@ -92,7 +92,6 @@ def i18n_subtitle(subtitle: str):
 
 
 def get_data(language: str):
-    version_number = ""
     return_result = []
     this_keyword_dict = keyword_dict.get(language, {"title_keyword": "Masterain"})
     url = "https://sg-hk4e-api-static.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?"
@@ -115,30 +114,17 @@ def get_data(language: str):
         if ann["ann_id"] in banner_ann_id or this_keyword_dict.get("title_keyword") in ann["title"]:
             # Beginning code of matched announcement
             # print(language + " " + ann["title"] + " " + str(ann["ann_id"]) + " " + str(banner_ann_id))
-            this_result = {
-                "banner_name": "",
-                "banner_image": "",
-                "ann_id": "",
-                "UIGF_pool_type": 0,
-                "five_star_item_1": "",
-                "five_star_item_2": "",
-                "four_star_item_1": "",
-                "four_star_item_2": "",
-                "four_star_item_3": "",
-                "four_star_item_4": "",
-                "four_star_item_5": ""
-            }
-            print(ann)
-            this_result["banner_image"] = ann["banner"]
-            this_result["ann_id"] = ann["ann_id"]
-            this_result["banner_name"] = i18n_subtitle(ann["subtitle"])
+            this_result = {"banner_name": i18n_subtitle(ann["subtitle"]), "banner_image": ann["banner"],
+                           "ann_id": ann["ann_id"], "UIGF_pool_type": 0, "five_star_item_1": "", "five_star_item_2": "",
+                           "four_star_item_1": "", "four_star_item_2": "", "four_star_item_3": "",
+                           "four_star_item_4": "", "four_star_item_5": ""}
             if language == "zh-cn":
                 # zh-cn language is the base language to identify banner metadata
                 # Other language will use zh-cn data directly
                 # Except banner_image, ann_id and subtitle
                 content_text = BeautifulSoup(ann["content"], "html.parser").text
                 print(content_text)
-                #this_result["banner_name"] = ann["subtitle"].replace("」祈愿", "").replace("「", "")
+                # this_result["banner_name"] = ann["subtitle"].replace("」祈愿", "").replace("「", "")
                 banner_ann_id.append(ann["ann_id"])
                 # Identify banner type and items
                 if this_keyword_dict["character_pool_keyword"] in ann["content"]:
@@ -198,11 +184,20 @@ def get_data(language: str):
                 if "更新后" in start_time:
                     # find accurate time in update log
                     version_number = re.search(r"^(\d.\d)", start_time).group(0)
-                    patch_note = BeautifulSoup([b for b in banner_data if b["subtitle"] == version_number +
-                                                "版本更新说明"][0]["content"], "html.parser").text
-                    patch_time_pattern = (r"(?:〓更新时间〓<t class=\"t_(gl|lc)\">)"
-                                          r"(?P<start>20\d{2}/\d{2}/\d{2} \d{2}:\d{2}:\d{2})"
-                                          r"(?:</t>开始)")
+                    try:
+                        # 更新说明
+                        patch_note = BeautifulSoup([b for b in banner_data if b["subtitle"] == version_number +
+                                                    "版本更新说明"][0]["content"], "html.parser").text
+                        patch_time_pattern = (r"(?:〓更新时间〓<t class=\"t_(gl|lc)\">)"
+                                              r"(?P<start>20\d{2}/\d{2}/\d{2} \d{2}:\d{2}:\d{2})"
+                                              r"(?:</t>开始)")
+                    except IndexError:
+                        # 更新预告
+                        patch_note = BeautifulSoup([b for b in banner_data if b["subtitle"] == version_number +
+                                                    "版本更新维护预告"][0]["content"], "html.parser").text
+                        patch_time_pattern = (r"(?:预计将于<t class=\"t_(gl|lc)\">)"
+                                              r"(?P<start>20\d{2}/\d{2}/\d{2} \d{2}:\d{2}:\d{2})"
+                                              r"(?:</t>进行版本更新维护)")
                     patch_time = re.search(patch_time_pattern, patch_note).group("start")
                     this_result["start_time"] = patch_time
                     this_result["version_number"] = version_number
