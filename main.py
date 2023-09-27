@@ -1,3 +1,5 @@
+import os
+
 import requests
 import re
 import json
@@ -20,6 +22,9 @@ keyword_dict = {
         "weapon_re_patten": r"·([\u4e00-\u9fa5]+)"
     }
 }
+
+run_mode = os.getenv("run_mode", "production")
+debug = True if run_mode == "debug" else False
 
 
 def get_item_id_by_name(name: str):
@@ -184,6 +189,10 @@ def get_data(language: str):
                 if "更新后" in start_time:
                     # find accurate time in update log
                     version_number = re.search(r"^(\d.\d)", start_time).group(0)
+
+                    if debug:
+                        print(f"Found version_number: {version_number}")
+
                     try:
                         # 更新说明
                         patch_note = BeautifulSoup([b for b in banner_data if b["subtitle"] == version_number +
@@ -192,12 +201,20 @@ def get_data(language: str):
                                               r"(?P<start>20\d{2}/\d{2}/\d{2} \d{2}:\d{2}:\d{2})"
                                               r"(?:</t>开始)")
                     except IndexError:
-                        # 更新预告
-                        patch_note = BeautifulSoup([b for b in banner_data if b["subtitle"] == version_number +
-                                                    "版本更新维护预告"][0]["content"], "html.parser").text
-                        patch_time_pattern = (r"(?:预计将于<t class=\"t_(gl|lc)\">)"
-                                              r"(?P<start>20\d{2}/\d{2}/\d{2} \d{2}:\d{2}:\d{2})"
-                                              r"(?:</t>进行版本更新维护)")
+                        try:
+                            # 更新预告
+                            patch_note = BeautifulSoup([b for b in banner_data if b["subtitle"] == version_number +
+                                                        "版本更新维护预告"][0]["content"], "html.parser").text
+                            patch_time_pattern = (r"(?:预计将于<t class=\"t_(gl|lc)\">)"
+                                                  r"(?P<start>20\d{2}/\d{2}/\d{2} \d{2}:\d{2}:\d{2})"
+                                                  r"(?:</t>进行版本更新维护)")
+                        except IndexError:
+                            if debug:
+                                for b in banner_data:
+                                    print(b["subtitle"])
+                                    print(b["content"])
+                            print("No update log found; game is most likely under maintenance")
+                            exit(500)
                     patch_time = re.search(patch_time_pattern, patch_note).group("start")
                     this_result["start_time"] = patch_time
                     this_result["version_number"] = version_number
