@@ -2,6 +2,69 @@
   "zh-cn": [
     [
       {
+        "Name": "渊海界令",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/e04ee25a3d1e9b28a88ec4be2e4f934b_7663818284853067747.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/e04ee25a3d1e9b28a88ec4be2e4f934b_7663818284853067747.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 301,
+        "UpOrangeList": [
+          10000087
+        ],
+        "UpPurpleList": [
+          10000031,
+          10000025,
+          10000039
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "赤团开时",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/1bddb371211bfd9cba985e9fd719f38d_6792309340048855182.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/1bddb371211bfd9cba985e9fd719f38d_6792309340048855182.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 400,
+        "UpOrangeList": [
+          10000046
+        ],
+        "UpPurpleList": [
+          10000031,
+          10000025,
+          10000039
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "神铸赋形",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/c46114efac280e591b0fdcdb6632c2fe_6995747036574709499.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/c46114efac280e591b0fdcdb6632c2fe_6995747036574709499.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 302,
+        "UpOrangeList": [
+          14514,
+          13501
+        ],
+        "UpPurpleList": [
+          11427,
+          12427,
+          15412,
+          13407,
+          14401
+        ]
+      }
+    ],
+    [
+      {
         "Name": "陵薮市朝",
         "Version": "4.0",
         "Order": 2,
@@ -65,6 +128,69 @@
     ]
   ],
   "en-us": [
+    [
+      {
+        "Name": "Decree of the Deeps",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/b5c1caad72f97cbd51abece4458f01e6_5807411501464579628.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/b5c1caad72f97cbd51abece4458f01e6_5807411501464579628.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 301,
+        "UpOrangeList": [
+          10000087
+        ],
+        "UpPurpleList": [
+          10000031,
+          10000025,
+          10000039
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Moment of Bloom",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/206154227198baa7fab5c9aec544a33a_5692196502069258918.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/206154227198baa7fab5c9aec544a33a_5692196502069258918.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 400,
+        "UpOrangeList": [
+          10000046
+        ],
+        "UpPurpleList": [
+          10000031,
+          10000025,
+          10000039
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Epitome Invocation",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/9acfdc45a004fd239d8047f9200c7eee_1743012177357125179.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/9acfdc45a004fd239d8047f9200c7eee_1743012177357125179.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 302,
+        "UpOrangeList": [
+          14514,
+          13501
+        ],
+        "UpPurpleList": [
+          11427,
+          12427,
+          15412,
+          13407,
+          14401
+        ]
+      }
+    ],
     [
       {
         "Name": "Gentry of Hermitage",
@@ -132,6 +258,69 @@
   "zh-tw": [
     [
       {
+        "Name": "淵海界令",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/8f305820ba718c8aa5ae67ee8010620d_2737379817998574283.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/8f305820ba718c8aa5ae67ee8010620d_2737379817998574283.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 301,
+        "UpOrangeList": [
+          10000087
+        ],
+        "UpPurpleList": [
+          10000031,
+          10000025,
+          10000039
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "赤團開時",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/53130d322d544ec12e4320f491ac086a_3370266992029965775.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/53130d322d544ec12e4320f491ac086a_3370266992029965775.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 400,
+        "UpOrangeList": [
+          10000046
+        ],
+        "UpPurpleList": [
+          10000031,
+          10000025,
+          10000039
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "神鑄賦形",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/7fbdc573f9cfdf6844519a47169d1aeb_3055975723761915800.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/7fbdc573f9cfdf6844519a47169d1aeb_3055975723761915800.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 302,
+        "UpOrangeList": [
+          14514,
+          13501
+        ],
+        "UpPurpleList": [
+          11427,
+          12427,
+          15412,
+          13407,
+          14401
+        ]
+      }
+    ],
+    [
+      {
         "Name": "陵藪市朝",
         "Version": "4.0",
         "Order": 2,
@@ -195,6 +384,69 @@
     ]
   ],
   "ja": [
+    [
+      {
+        "Name": "淵海に令する者",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/aa0132fdcde3d4942577fa8ac2dca405_5245016600251926718.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/aa0132fdcde3d4942577fa8ac2dca405_5245016600251926718.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 301,
+        "UpOrangeList": [
+          10000087
+        ],
+        "UpPurpleList": [
+          10000031,
+          10000025,
+          10000039
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "彼岸満開",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/713647636550205aff16b9a01b0ff06d_1518694525221388296.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/713647636550205aff16b9a01b0ff06d_1518694525221388296.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 400,
+        "UpOrangeList": [
+          10000046
+        ],
+        "UpPurpleList": [
+          10000031,
+          10000025,
+          10000039
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "神鋳賦形",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/c4bcdb13eaa2d6911cb9ad2563e84a93_8306323854861626829.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/c4bcdb13eaa2d6911cb9ad2563e84a93_8306323854861626829.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 302,
+        "UpOrangeList": [
+          14514,
+          13501
+        ],
+        "UpPurpleList": [
+          11427,
+          12427,
+          15412,
+          13407,
+          14401
+        ]
+      }
+    ],
     [
       {
         "Name": "大隠朝市",
@@ -262,6 +514,69 @@
   "ko": [
     [
       {
+        "Name": "심해를 가르는 법령",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/d1776cbcdef371785fdd3cf106b2eb40_8446763290140292609.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/d1776cbcdef371785fdd3cf106b2eb40_8446763290140292609.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 301,
+        "UpOrangeList": [
+          10000087
+        ],
+        "UpPurpleList": [
+          10000031,
+          10000025,
+          10000039
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "매화가 만개할 때",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/c964595bb38e6f194ce2ecd38f6ce82d_3188485019179841890.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/c964595bb38e6f194ce2ecd38f6ce82d_3188485019179841890.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 400,
+        "UpOrangeList": [
+          10000046
+        ],
+        "UpPurpleList": [
+          10000031,
+          10000025,
+          10000039
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "신의 주조",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/252141b573696420334154d889ccb947_7159335170687238095.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/252141b573696420334154d889ccb947_7159335170687238095.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 302,
+        "UpOrangeList": [
+          14514,
+          13501
+        ],
+        "UpPurpleList": [
+          11427,
+          12427,
+          15412,
+          13407,
+          14401
+        ]
+      }
+    ],
+    [
+      {
         "Name": "산야의 시조",
         "Version": "4.0",
         "Order": 2,
@@ -325,6 +640,69 @@
     ]
   ],
   "es": [
+    [
+      {
+        "Name": "Edicto abisal",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/08546b374f0cc48f9b5007a1202d0475_7159170850318169648.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/08546b374f0cc48f9b5007a1202d0475_7159170850318169648.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 301,
+        "UpOrangeList": [
+          10000087
+        ],
+        "UpPurpleList": [
+          10000031,
+          10000025,
+          10000039
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Florecimiento fugaz",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/24fde25e7ab8e6784afe05a9ac98d3b9_3972180782508494416.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/24fde25e7ab8e6784afe05a9ac98d3b9_3972180782508494416.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 400,
+        "UpOrangeList": [
+          10000046
+        ],
+        "UpPurpleList": [
+          10000031,
+          10000025,
+          10000039
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Encarnación divina",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/fb9dd45f1c8d4fd34003a1261ab559d2_4264797073109780388.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/fb9dd45f1c8d4fd34003a1261ab559d2_4264797073109780388.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 302,
+        "UpOrangeList": [
+          14514,
+          13501
+        ],
+        "UpPurpleList": [
+          11427,
+          12427,
+          15412,
+          13407,
+          14401
+        ]
+      }
+    ],
     [
       {
         "Name": "Soledad de la nobleza",
@@ -392,6 +770,69 @@
   "fr": [
     [
       {
+        "Name": "Décret des profondeurs",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/feaa74633e54ede48f47aa110c555e0a_2512102241952024789.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/feaa74633e54ede48f47aa110c555e0a_2512102241952024789.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 301,
+        "UpOrangeList": [
+          10000087
+        ],
+        "UpPurpleList": [
+          10000031,
+          10000025,
+          10000039
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Floraison écarlate",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/4397b82d31269982d792af557a971c01_4037200033289131321.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/4397b82d31269982d792af557a971c01_4037200033289131321.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 400,
+        "UpOrangeList": [
+          10000046
+        ],
+        "UpPurpleList": [
+          10000031,
+          10000025,
+          10000039
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Incarnation divine ",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/a7bc23b967f76abe199338afd34bc60a_4750375445087532704.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/a7bc23b967f76abe199338afd34bc60a_4750375445087532704.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 302,
+        "UpOrangeList": [
+          14514,
+          13501
+        ],
+        "UpPurpleList": [
+          11427,
+          12427,
+          15412,
+          13407,
+          14401
+        ]
+      }
+    ],
+    [
+      {
         "Name": "Monts et marchés",
         "Version": "4.0",
         "Order": 2,
@@ -455,6 +896,69 @@
     ]
   ],
   "ru": [
+    [
+      {
+        "Name": "Завет глубин",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/39bf4ee7051f6af68722f83871d513af_6522239735094027064.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/39bf4ee7051f6af68722f83871d513af_6522239735094027064.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 301,
+        "UpOrangeList": [
+          10000087
+        ],
+        "UpPurpleList": [
+          10000031,
+          10000025,
+          10000039
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Момент цветения",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/997073dfd4ea866d0cbb7b47c0701f45_4945727163152061310.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/997073dfd4ea866d0cbb7b47c0701f45_4945727163152061310.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 400,
+        "UpOrangeList": [
+          10000046
+        ],
+        "UpPurpleList": [
+          10000031,
+          10000025,
+          10000039
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Воплощение божества",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/97b18787eac4dbfddb9a62981c8bb890_4468400213880059315.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/97b18787eac4dbfddb9a62981c8bb890_4468400213880059315.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 302,
+        "UpOrangeList": [
+          14514,
+          13501
+        ],
+        "UpPurpleList": [
+          11427,
+          12427,
+          15412,
+          13407,
+          14401
+        ]
+      }
+    ],
     [
       {
         "Name": "Горы и рынки",
@@ -522,6 +1026,69 @@
   "th": [
     [
       {
+        "Name": "บัญชาแห่งห้วงสมุทร",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/178ba099186d8145b8324bb8c8b3d342_766864148463518060.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/178ba099186d8145b8324bb8c8b3d342_766864148463518060.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 301,
+        "UpOrangeList": [
+          10000087
+        ],
+        "UpPurpleList": [
+          10000031,
+          10000025,
+          10000039
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "ช่วงเวลาแห่งการผลิบาน",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/11e1a841c320fc5ba600d178b51f6414_2145093907442877931.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/11e1a841c320fc5ba600d178b51f6414_2145093907442877931.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 400,
+        "UpOrangeList": [
+          10000046
+        ],
+        "UpPurpleList": [
+          10000031,
+          10000025,
+          10000039
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "สรรค์สร้างเซียน",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/64a64f052f12c6c10cc7601f2f115ddf_7751370874445821751.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/64a64f052f12c6c10cc7601f2f115ddf_7751370874445821751.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 302,
+        "UpOrangeList": [
+          14514,
+          13501
+        ],
+        "UpPurpleList": [
+          11427,
+          12427,
+          15412,
+          13407,
+          14401
+        ]
+      }
+    ],
+    [
+      {
         "Name": "ขุนเขาและเมืองใหญ่",
         "Version": "4.0",
         "Order": 2,
@@ -585,6 +1152,69 @@
     ]
   ],
   "vi": [
+    [
+      {
+        "Name": "Pháp Lệnh Biển Sâu",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/e254ba7ebc41004d11b3fcaa5f4867a6_6358788980367811749.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/e254ba7ebc41004d11b3fcaa5f4867a6_6358788980367811749.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 301,
+        "UpOrangeList": [
+          10000087
+        ],
+        "UpPurpleList": [
+          10000031,
+          10000025,
+          10000039
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Xích Đoàn Khai Mở",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/f04c54a3e806d95caaacac8b7b6fe1c5_5248782706300485075.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/f04c54a3e806d95caaacac8b7b6fe1c5_5248782706300485075.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 400,
+        "UpOrangeList": [
+          10000046
+        ],
+        "UpPurpleList": [
+          10000031,
+          10000025,
+          10000039
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Thân Hình Thần Đúc",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/524ea96f7bbe8e6e221b9ef360074f19_7610791942616235742.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/524ea96f7bbe8e6e221b9ef360074f19_7610791942616235742.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 302,
+        "UpOrangeList": [
+          14514,
+          13501
+        ],
+        "UpPurpleList": [
+          11427,
+          12427,
+          15412,
+          13407,
+          14401
+        ]
+      }
+    ],
     [
       {
         "Name": "Đồng Cỏ Thị Thành",
@@ -652,6 +1282,69 @@
   "de": [
     [
       {
+        "Name": "Gebot über die Meerestiefen",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/365b42142c7a6f7ca1e39f4233e5b260_3555175750330336467.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/365b42142c7a6f7ca1e39f4233e5b260_3555175750330336467.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 301,
+        "UpOrangeList": [
+          10000087
+        ],
+        "UpPurpleList": [
+          10000031,
+          10000025,
+          10000039
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Augenblick des Erblühens",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/468f7330b081a032669cfe26f72b21ae_1712882364568714594.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/468f7330b081a032669cfe26f72b21ae_1712882364568714594.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 400,
+        "UpOrangeList": [
+          10000046
+        ],
+        "UpPurpleList": [
+          10000031,
+          10000025,
+          10000039
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Göttliches Werk",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/0f101cba1d8f87272885adaabcc51985_6056579365034702272.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/0f101cba1d8f87272885adaabcc51985_6056579365034702272.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 302,
+        "UpOrangeList": [
+          14514,
+          13501
+        ],
+        "UpPurpleList": [
+          11427,
+          12427,
+          15412,
+          13407,
+          14401
+        ]
+      }
+    ],
+    [
+      {
         "Name": "Abgeschiedener Adel",
         "Version": "4.0",
         "Order": 2,
@@ -715,6 +1408,69 @@
     ]
   ],
   "id": [
+    [
+      {
+        "Name": "Titah di Kedalaman Lautan",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/14eca90449647c1d0060c8a55f3328c1_1918409962669813964.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/14eca90449647c1d0060c8a55f3328c1_1918409962669813964.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 301,
+        "UpOrangeList": [
+          10000087
+        ],
+        "UpPurpleList": [
+          10000031,
+          10000025,
+          10000039
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Bunga Bersemi",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/4701d7fe0371a2c5ae87dee58d4a8518_5300552276666386767.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/4701d7fe0371a2c5ae87dee58d4a8518_5300552276666386767.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 400,
+        "UpOrangeList": [
+          10000046
+        ],
+        "UpPurpleList": [
+          10000031,
+          10000025,
+          10000039
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Epitome Invocation",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/82a7315f635d1843186e9e0d3f9e38d2_6519714494637440863.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/82a7315f635d1843186e9e0d3f9e38d2_6519714494637440863.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 302,
+        "UpOrangeList": [
+          14514,
+          13501
+        ],
+        "UpPurpleList": [
+          11427,
+          12427,
+          15412,
+          13407,
+          14401
+        ]
+      }
+    ],
     [
       {
         "Name": "Bangsawan dan Pertapa",
@@ -782,6 +1538,69 @@
   "pt": [
     [
       {
+        "Name": "A Ordem das Profundezas",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/a82c4cbd130da23ce4c1b531598fa8a4_3728915806867663230.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/a82c4cbd130da23ce4c1b531598fa8a4_3728915806867663230.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 301,
+        "UpOrangeList": [
+          10000087
+        ],
+        "UpPurpleList": [
+          10000031,
+          10000025,
+          10000039
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Momento de Florescer",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/97ffd61b7e9e78211fe1925d60cc5b63_1322194059435382045.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/97ffd61b7e9e78211fe1925d60cc5b63_1322194059435382045.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 400,
+        "UpOrangeList": [
+          10000046
+        ],
+        "UpPurpleList": [
+          10000031,
+          10000025,
+          10000039
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "de Encarnação Divina",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/d469c8bbb29c30e6ac8ec8cf20cbff83_1362735474292514170.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/d469c8bbb29c30e6ac8ec8cf20cbff83_1362735474292514170.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 302,
+        "UpOrangeList": [
+          14514,
+          13501
+        ],
+        "UpPurpleList": [
+          11427,
+          12427,
+          15412,
+          13407,
+          14401
+        ]
+      }
+    ],
+    [
+      {
         "Name": "Aristocracia Ermida",
         "Version": "4.0",
         "Order": 2,
@@ -847,6 +1666,69 @@
   "tr": [
     [
       {
+        "Name": "Derinliklerin Fermanı",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/35a467ec015c16d0acf2af42e9615f2a_1484922585476985463.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/35a467ec015c16d0acf2af42e9615f2a_1484922585476985463.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 301,
+        "UpOrangeList": [
+          10000087
+        ],
+        "UpPurpleList": [
+          10000031,
+          10000025,
+          10000039
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Çiçeklenme Anı",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/a22ff16215b51cc2bfc885a799853417_5121144259029719701.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/a22ff16215b51cc2bfc885a799853417_5121144259029719701.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 400,
+        "UpOrangeList": [
+          10000046
+        ],
+        "UpPurpleList": [
+          10000031,
+          10000025,
+          10000039
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "İlahi Çağrı",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/b7f10cbacbc7e4d84f51e58f74df49cb_893549880845951846.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/b7f10cbacbc7e4d84f51e58f74df49cb_893549880845951846.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 302,
+        "UpOrangeList": [
+          14514,
+          13501
+        ],
+        "UpPurpleList": [
+          11427,
+          12427,
+          15412,
+          13407,
+          14401
+        ]
+      }
+    ],
+    [
+      {
         "Name": "Asilin Yalnızlığı",
         "Version": "4.0",
         "Order": 2,
@@ -910,6 +1792,69 @@
     ]
   ],
   "it": [
+    [
+      {
+        "Name": "Decreto delle profondità",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/10566ca5b122d58cbf4e32dae55f8cac_3914647273617941407.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/10566ca5b122d58cbf4e32dae55f8cac_3914647273617941407.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 301,
+        "UpOrangeList": [
+          10000087
+        ],
+        "UpPurpleList": [
+          10000031,
+          10000025,
+          10000039
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Tempo di fioritura",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/56c9465ecf8c72c675d9f84c1291ccb8_3703847975674644575.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/56c9465ecf8c72c675d9f84c1291ccb8_3703847975674644575.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 400,
+        "UpOrangeList": [
+          10000046
+        ],
+        "UpPurpleList": [
+          10000031,
+          10000025,
+          10000039
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Incarnazione divina",
+        "Version": "4.1",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/d5b975bccf8d419d871a75d14d242f78_3548346495090168793.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/09/14/d5b975bccf8d419d871a75d14d242f78_3548346495090168793.jpg",
+        "From": "2023-09-27T06:00:00",
+        "To": "2023-10-17T17:59:00",
+        "Type": 302,
+        "UpOrangeList": [
+          14514,
+          13501
+        ],
+        "UpPurpleList": [
+          11427,
+          12427,
+          15412,
+          13407,
+          14401
+        ]
+      }
+    ],
     [
       {
         "Name": "Aristocrazia eremita",
