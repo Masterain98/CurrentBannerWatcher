@@ -1,4 +1,222 @@
 {
+  "3808": {
+    "zh-cn": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/09/27/e930bf7bff8da8516a4c67fb9ae0ef2f_7673749282390074810.jpg",
+      "banner_name": "劫中泛滥"
+    },
+    "en-us": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/09/27/897904799cf701703c2254bfd4f66c90_493295120887681702.jpg",
+      "banner_name": "Tempestuous Destiny"
+    },
+    "zh-tw": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/09/27/8cc353df2ffe3418e3167b029ee4070c_957362057369204620.jpg",
+      "banner_name": "劫中泛濫"
+    },
+    "ja": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/09/27/e823a7823c725e11ba714d36292dd078_8879913399823600715.jpg",
+      "banner_name": "万劫に渡る氾濫"
+    },
+    "ko": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/09/27/956c1734c4b03904ecba4e2884fb7bdf_7314014771194461743.jpg",
+      "banner_name": "요동치는 운명"
+    },
+    "es": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/09/27/f0683d8edd7d56618a3d30c218a02dfc_7109279113887238829.jpg",
+      "banner_name": "Destino tumultuoso"
+    },
+    "fr": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/09/27/539ed609fa55da9c3a0f0e772f3e76a6_8930053973108330945.jpg",
+      "banner_name": "Destin tumultueux"
+    },
+    "ru": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/09/27/bb25c8a30ec2b1e97c0f34fe3b715179_6492894353929224373.jpg",
+      "banner_name": "Бушующий рок"
+    },
+    "th": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/09/27/f4a9536623f32dd3e5e7a1dd1373fc72_2743468192582604245.jpg",
+      "banner_name": "ชะตาอันทุกข์เข็ญ"
+    },
+    "vi": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/09/27/0ca26bca41821e49f8d918f1a1fb8dcc_1186839653417118944.jpg",
+      "banner_name": "Sóng Gió Vận Mệnh"
+    },
+    "de": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/09/27/40e73846c01cf49b3bd4a60afa086e58_5210165950859631336.jpg",
+      "banner_name": "Stürmisches Schicksal"
+    },
+    "id": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/09/27/ad5856f6f40b7e0c8fd6e97284b3c614_857212708289613347.jpg",
+      "banner_name": "Lilitan Takdir Menggelora"
+    },
+    "pt": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/09/27/0538e2d0888d8dbd09ee3845b6f06d31_7015452330358185829.jpg",
+      "banner_name": "Inundado Junto à Calamidade"
+    },
+    "tr": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/09/27/f1c7838ffe88488a70ac001bbf5d196d_7228960991474682956.jpg",
+      "banner_name": "Çalkantılı Kader"
+    },
+    "it": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/09/27/076e6855c8ec691fdc5fff1a309badd2_4358583380367669854.jpg",
+      "banner_name": "Destino tempestoso"
+    },
+    "five_star_item_1": 10000086,
+    "four_star_item_1": 10000036,
+    "four_star_item_2": 10000050,
+    "four_star_item_3": 10000068,
+    "four_star_item_4": 10000086,
+    "UIGF_pool_type": 301,
+    "start_time": "2023/10/17 18:00:00",
+    "end_time": "2023/11/07 14:59:59",
+    "version_number": "4.0",
+    "order_number": 2
+  },
+  "3809": {
+    "zh-cn": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/09/27/c47ad3d351c9f17c4cb1da1442d6702b_7787471987916304159.jpg",
+      "banner_name": "杯装之诗"
+    },
+    "en-us": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/09/27/3991e64f2cf2196ba5e6856b31ff8921_8477288140771303764.jpg",
+      "banner_name": "Ballad in Goblets"
+    },
+    "zh-tw": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/09/27/ea496ac114aba85c61154a0b9870c3cd_7973276648292782540.jpg",
+      "banner_name": "杯裝之詩"
+    },
+    "ja": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/09/27/cffed0162ca80d2666fb86f701225288_2072313732751355232.jpg",
+      "banner_name": "杯に注がれた詩"
+    },
+    "ko": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/09/27/235ef7295c3235f93c55e26f6f367d3e_3416208851391655472.jpg",
+      "banner_name": "잔에 담긴 시"
+    },
+    "es": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/09/27/6e30676c538a37739365bf40e847f2e6_2797025962918369882.jpg",
+      "banner_name": "Oda del cáliz"
+    },
+    "fr": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/09/27/14ff3dc68f97d6661389cee7ace766a0_4893918080123239104.jpg",
+      "banner_name": "Ballade en pintes"
+    },
+    "ru": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/09/27/3bc81075c59039afc1bed79320d48c8d_4834603764201640270.jpg",
+      "banner_name": "Стихи из винного кубка"
+    },
+    "th": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/09/27/497863d8d71bb9c233463c9ecf82a007_1845584633195540643.jpg",
+      "banner_name": "ถ้วยแห่งบทกวี"
+    },
+    "vi": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/09/27/007e63e8879acfa0892294efa0c3e07d_832593101633842200.jpg",
+      "banner_name": "Bài Thơ Cốc Thánh"
+    },
+    "de": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/09/27/e9a2137304dd416feda218ce57795c45_6061428027100917341.jpg",
+      "banner_name": "Balladen in Bechern"
+    },
+    "id": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/09/27/cc002b40bd35f1df6b8ed0a362669c71_682743318800286127.jpg",
+      "banner_name": "Syair Dalam Piala"
+    },
+    "pt": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/09/27/ab0d0559f9e797fc35ff3d8142e9a25a_645841187277876684.jpg",
+      "banner_name": "Poemas em Taças"
+    },
+    "tr": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/09/27/b3f94a6587c387e6bbf1e28d7b419cf9_2142594258250625619.jpg",
+      "banner_name": "Kadehlerdeki Şiir"
+    },
+    "it": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/09/27/3d897e78b8d4bf1bf762e04153a6aec0_4449294912146859648.jpg",
+      "banner_name": "In alto i calici"
+    },
+    "five_star_item_1": 10000022,
+    "four_star_item_1": 10000036,
+    "four_star_item_2": 10000050,
+    "four_star_item_3": 10000068,
+    "four_star_item_4": 10000022,
+    "UIGF_pool_type": 400,
+    "start_time": "2023/10/17 18:00:00",
+    "end_time": "2023/11/07 14:59:59",
+    "version_number": "4.0",
+    "order_number": 2
+  },
+  "3810": {
+    "zh-cn": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/10/09/1e6715455e85f485a2dc7e388992e164_4922526309174715695.jpg",
+      "banner_name": "神铸赋形"
+    },
+    "en-us": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/10/09/3d5da2de0d3e2058bed2b0bc5e78713b_4035889719040182741.jpg",
+      "banner_name": "Epitome Invocation"
+    },
+    "zh-tw": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/10/09/1f0ecdcee4a2b487642aee5bcf0a211f_5083143741556156167.jpg",
+      "banner_name": "神鑄賦形"
+    },
+    "ja": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/10/09/377497f9088d2275db3652ac0037e4d7_8876611764153055149.jpg",
+      "banner_name": "神鋳賦形"
+    },
+    "ko": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/10/09/d5d9660e52263b451748690a5dc1c2ad_4899364084668575203.jpg",
+      "banner_name": "신의 주조"
+    },
+    "es": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/10/09/cfb62bafb169b8b185aedaa3e83f1f2c_793564059042506810.jpg",
+      "banner_name": "Encarnación divina"
+    },
+    "fr": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/10/09/7114ef37c13fe1586701d5a3aca345de_5014992636753561131.jpg",
+      "banner_name": "Incarnation divine"
+    },
+    "ru": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/10/09/e8e43dd70afc21b19459456a34099669_4726430653628234103.jpg",
+      "banner_name": "Воплощение божества"
+    },
+    "th": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/10/09/59f2682bbf69109dd971451db656bd49_3530586962868452763.jpg",
+      "banner_name": "สรรค์สร้างเซียน"
+    },
+    "vi": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/10/09/8c56a7537579e84715babee6a05f5e97_7315914429847845521.jpg",
+      "banner_name": "Thân Hình Thần Đúc"
+    },
+    "de": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/10/09/5ac5c1db2f5f21ed54296cf3d826b003_1449941314468022024.jpg",
+      "banner_name": "Göttliches Werk"
+    },
+    "id": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/10/09/9075a3a4569b65b4264614ba08bec975_2861792850020612005.jpg",
+      "banner_name": "Epitome Invocation"
+    },
+    "pt": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/10/09/99d81fd46e317e0198f35b4686a5e35e_3340581032430286632.jpg",
+      "banner_name": "de Encarnação Divina"
+    },
+    "tr": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/10/09/640e3552b8c7a09a85a401f427843120_8227908650549911740.jpg",
+      "banner_name": "İlahi Çağrı"
+    },
+    "it": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/10/09/2e2ced02d2478a8a26a01f1c7a6a33e7_1097056187321955135.jpg",
+      "banner_name": "Incarnazione divina"
+    },
+    "five_star_item_1": 14513,
+    "five_star_item_2": 15503,
+    "four_star_item_1": 13427,
+    "four_star_item_2": 15427,
+    "four_star_item_3": 11401,
+    "four_star_item_4": 12405,
+    "four_star_item_5": 14409,
+    "UIGF_pool_type": 302,
+    "start_time": "2023/10/17 18:00:00",
+    "end_time": "2023/11/07 14:59:59",
+    "version_number": "4.0",
+    "order_number": 2
+  },
   "3795": {
     "zh-cn": {
       "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/09/14/e04ee25a3d1e9b28a88ec4be2e4f934b_7663818284853067747.jpg",
