@@ -160,3 +160,5 @@ def create_banner():
             return_result = requests.post(url.format(locale=locale), json=banner)
             print("status_code: " + str(return_result.status_code))
             print("content: " + json.loads(return_result.content.decode("utf-8"))["message"])
+            print("Full content: " + str(return_result.content.decode("utf-8")))
+            print("=" * 20)

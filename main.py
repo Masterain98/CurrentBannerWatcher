@@ -63,6 +63,7 @@ def i18n_subtitle(subtitle: str):
     subtitle = subtitle.replace("»", "")
     # FR
     subtitle = subtitle.replace("Vœux « ", "")
+    subtitle = subtitle.replace("Vœux « ", "")
     subtitle = subtitle.replace(" »", "")
     subtitle = subtitle.replace(" ", "")
     # RU
@@ -220,7 +221,12 @@ def get_data(language: str):
                     this_result["version_number"] = version_number
                     this_result["order_number"] = 1
                 else:
+                    # 第二期卡池
                     this_result["order_number"] = 2
+                    for b in banner_data:
+                        if "版本更新说明" in b["subtitle"]:
+                            version_number = re.search(r"^(\d+\.\d+)", b["subtitle"]).group(0)
+                            this_result["version_number"] = version_number
             return_result.append(this_result)
         else:
             # Announcement not matched for wish event
@@ -268,7 +274,7 @@ if __name__ == "__main__":
                 try:
                     output[ann_id]["version_number"] = banner["version_number"]
                 except KeyError:
-                    output[ann_id]["version_number"] = "4.0"
+                    output[ann_id]["version_number"] = "99.99"
                 output[ann_id]["order_number"] = banner["order_number"]
             output[ann_id][lang]["banner_image"] = banner["banner_image"]
             output[ann_id][lang]["banner_name"] = banner["banner_name"]
