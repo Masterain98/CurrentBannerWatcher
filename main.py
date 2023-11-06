@@ -177,7 +177,7 @@ def get_data(language: str):
                 time_pattern = (r"(?:〓祈愿介绍〓祈愿时间概率提升(?:角色|武器)（5星）概率提升(?:角色|武器)（4星）"
                                 r"(<t class=\"(?:(t_lc)|(t_gl))\">)?)"
                                 r"(?P<start>(\d.\d版本更新后)|(20\d{2}/\d{2}/\d{2} \d{2}:\d{2}:\d{2}))"
-                                r"(?:(</t>)?( )?~ <t class=\"(?:(t_lc)|(t_gl))\">)"
+                                r"(?:(</t>)?( )?~( )?<t class=\"(?:(t_lc)|(t_gl))\">)"
                                 r"(?P<end>20\d{2}/\d{2}/\d{2} \d{2}:\d{2}:\d{2})")
                 try:
                     time_result = re.search(time_pattern, content_text)
