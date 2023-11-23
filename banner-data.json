@@ -1,4 +1,222 @@
 {
+  "3895": {
+    "zh-cn": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/62614d55becbc04a96a59d23da2d7f41_4777175190991655726.jpg",
+      "banner_name": "神铸赋形"
+    },
+    "en-us": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/c35a0439589b2ce657162c1879e1ebe9_628866124430593193.jpg",
+      "banner_name": "Epitome Invocation"
+    },
+    "zh-tw": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/29249dce7d5a08056bc43b1ccae2d23e_3552820544823977061.jpg",
+      "banner_name": "神鑄賦形"
+    },
+    "ja": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/5f91b1f95d5f54e8eee27f9e755da79e_7429834105582123024.jpg",
+      "banner_name": "神鋳賦形"
+    },
+    "ko": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/78de015267740edbfd7344c95f6fd5e8_8057009428460678117.jpg",
+      "banner_name": "신의 주조"
+    },
+    "es": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/82a13b3fbc098deaa8ec816e630f3486_7356265235602096699.jpg",
+      "banner_name": "Encarnación divina"
+    },
+    "fr": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/7413b5728044f74638185733708ea69f_2334062338296030952.jpg",
+      "banner_name": "Incarnation divine "
+    },
+    "ru": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/b5ed60fcf4fd999fa2c251b094d3be8b_6198114860979451408.jpg",
+      "banner_name": "Воплощение божества"
+    },
+    "th": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/262b5b373cab063b35d62d90729642b5_8845112609173445612.jpg",
+      "banner_name": "สรรค์สร้างเซียน"
+    },
+    "vi": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/d4a9b48a2c446a40e81b01b57410b75a_6209787758323689402.jpg",
+      "banner_name": "Thân Hình Thần Đúc"
+    },
+    "de": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/ab3dc9742606a3137ab582566be5281f_450048279249283541.jpg",
+      "banner_name": "Göttliches Werk"
+    },
+    "id": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/25b19b21f98727191d1a553d3188d546_1248806244298581766.jpg",
+      "banner_name": "Epitome Invocation"
+    },
+    "pt": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/60251f6b3f6041632688ba4fc5725055_1320585789746914356.jpg",
+      "banner_name": "de Encarnação Divina"
+    },
+    "tr": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/a99469eb204af302f69d98345159331b_1078179574342355830.jpg",
+      "banner_name": "İlahi Çağrı"
+    },
+    "it": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/c3ca665c2461db653bdc2e1468de6986_1491979297540576254.jpg",
+      "banner_name": "Incarnazione divina"
+    },
+    "five_star_item_1": 13511,
+    "five_star_item_2": 11510,
+    "four_star_item_1": 11405,
+    "four_star_item_2": 12401,
+    "four_star_item_3": 13407,
+    "four_star_item_4": 14402,
+    "four_star_item_5": 15401,
+    "UIGF_pool_type": 302,
+    "start_time": "2023/11/28 18:00:00",
+    "end_time": "2023/12/19 14:59:59",
+    "version_number": "4.2",
+    "order_number": 2
+  },
+  "3891": {
+    "zh-cn": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/a8f3fba81087abfa55550eb435e03b56_2400978744285817185.jpg",
+      "banner_name": "苍流踏花"
+    },
+    "en-us": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/8b8e54826f77acaf3ffed7891e04f3b4_2518180600329304572.jpg",
+      "banner_name": "Azure Excursion"
+    },
+    "zh-tw": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/10b8ba09204e12a14f6b2f5e102ba5e6_1259298781604688257.jpg",
+      "banner_name": "蒼流踏花"
+    },
+    "ja": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/e753abe5d4a75b9d9eaaf96af56ed618_1445918907267405538.jpg",
+      "banner_name": "花踏み歩む蒼流"
+    },
+    "ko": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/edd45da59d60f7637153f1917510234a_8237522505508866065.jpg",
+      "banner_name": "푸른 물결 속 가벼운 걸음"
+    },
+    "es": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/305a6bff5a6923b90eeaeb9818567675_2576890073954553888.jpg",
+      "banner_name": "Incursión cerúlea"
+    },
+    "fr": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/f577cdffb925789f88fb36c4b08446c2_6524068790401932392.jpg",
+      "banner_name": "Excursion azurée"
+    },
+    "ru": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/28c850f075fb2ec1f02d0bdf3bf3b9e1_3346779522328968973.jpg",
+      "banner_name": "Лазурный поход"
+    },
+    "th": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/c8f5431f15c366ded1811c604e2ecd2e_6927522148259264893.jpg",
+      "banner_name": "ย่ำบุปผาธาราคราม"
+    },
+    "vi": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/8c8b625c69b4e41fabcb8bd7fabbb7eb_2015388426859756425.jpg",
+      "banner_name": "Dạo Bước Bên Hoa"
+    },
+    "de": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/ea1ff94732456f0808778623d7ac562a_7774789136912931495.jpg",
+      "banner_name": "Fluss der blassen Blätter"
+    },
+    "id": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/07019415b5c1219eceb09f4803c67fc9_6243860294678075422.jpg",
+      "banner_name": "Ketenangan Riak Air"
+    },
+    "pt": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/7d7663ba03041cbc9ad9b95d7d35dd90_9004130022570231769.jpg",
+      "banner_name": "Correntes Florais"
+    },
+    "tr": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/14b40ceeae199a72ed53090520311451_8382665892275841764.jpg",
+      "banner_name": "Masmavi Yolculuk"
+    },
+    "it": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/d9e6dd10aea6d9a93b0703c5b3de26b8_1869910753605070687.jpg",
+      "banner_name": "Escursione cerulea"
+    },
+    "five_star_item_1": 10000066,
+    "four_star_item_1": 10000061,
+    "four_star_item_2": 10000065,
+    "four_star_item_3": 10000023,
+    "four_star_item_4": 10000066,
+    "UIGF_pool_type": 400,
+    "start_time": "2023/11/28 18:00:00",
+    "end_time": "2023/12/19 14:59:59",
+    "version_number": "4.2",
+    "order_number": 2
+  },
+  "3890": {
+    "zh-cn": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/dfd9189b699cb9f109bea403f2ff6383_7097064399080869786.jpg",
+      "banner_name": "雳裁冥昭"
+    },
+    "en-us": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/a975d307a1e22d514afcf57132306b5b_965541614052886317.jpg",
+      "banner_name": "Twilight Arbiter"
+    },
+    "zh-tw": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/6f7a6484500011377d92a7df8d83f979_8665136318276732957.jpg",
+      "banner_name": "靂裁冥昭"
+    },
+    "ja": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/1f6e2077c5867626bd714debf761424d_4803896026528532997.jpg",
+      "banner_name": "冥昼の裁定"
+    },
+    "ko": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/141a2185ca265480cf92735836baf654_5002043726101361995.jpg",
+      "banner_name": "황혼을 가르는 번개의 심판"
+    },
+    "es": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/80185564e71474120e5a03a762d6482b_4122749974936908173.jpg",
+      "banner_name": "Sentencia del crepúsculo"
+    },
+    "fr": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/9cf5dd85243079ebe50073c5052895e4_3523329557400058026.jpg",
+      "banner_name": "Arbitre du crépuscule"
+    },
+    "ru": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/b497feebf25dd6ab3142b6114ed0bd28_171136917178087725.jpg",
+      "banner_name": "Сумеречный вершитель"
+    },
+    "th": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/3abc382782328a8141cdb2b96a8b826d_5595818681925361931.jpg",
+      "banner_name": "ตุลาการสนธยา"
+    },
+    "vi": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/81319c3f4cc91a91dfb755798b30c029_2892930695708404266.jpg",
+      "banner_name": "Tà Dương Phán Quyết"
+    },
+    "de": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/ce561f96ed10607db8643a5d01c0a1ab_286207127618359047.jpg",
+      "banner_name": "Schiedsspruch der Dämmerung"
+    },
+    "id": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/62c7d3b4d58e06093519a78f7991fbea_6005867131165449675.jpg",
+      "banner_name": "Hakim Senja"
+    },
+    "pt": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/c2cb5d43df31b6b0b846f15cfd05eeb8_6790632052236815188.jpg",
+      "banner_name": "Árbitro do Crepúsculo"
+    },
+    "tr": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/113d5efd07da5e6c336553060d6ce3e4_7486464986775761599.jpg",
+      "banner_name": "Alacakaranlık Yargıcı"
+    },
+    "it": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/7e4b6c08d97c7ce6eb5127146d74c520_8987707705844654910.jpg",
+      "banner_name": "Giudice del crepuscolo"
+    },
+    "five_star_item_1": 10000071,
+    "four_star_item_1": 10000061,
+    "four_star_item_2": 10000065,
+    "four_star_item_3": 10000023,
+    "four_star_item_4": 10000071,
+    "UIGF_pool_type": 301,
+    "start_time": "2023/11/28 18:00:00",
+    "end_time": "2023/12/19 14:59:59",
+    "version_number": "4.2",
+    "order_number": 2
+  },
   "3880": {
     "zh-cn": {
       "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/6267a2ff573295fa29e88b9f114eb677_6145760690068671108.jpg",
