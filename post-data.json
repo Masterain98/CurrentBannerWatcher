@@ -62,69 +62,6 @@
           10000023
         ]
       }
-    ],
-    [
-      {
-        "Name": "众水的颂诗",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/6267a2ff573295fa29e88b9f114eb677_6145760690068671108.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/6267a2ff573295fa29e88b9f114eb677_6145760690068671108.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 301,
-        "UpOrangeList": [
-          10000089
-        ],
-        "UpPurpleList": [
-          10000088,
-          10000067,
-          10000024
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "心珠循琅",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/41e2a5ccd54bddff622ae01d579fd4f2_3476292685935505599.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/41e2a5ccd54bddff622ae01d579fd4f2_3476292685935505599.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 400,
-        "UpOrangeList": [
-          10000082
-        ],
-        "UpPurpleList": [
-          10000088,
-          10000067,
-          10000024
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "神铸赋形",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/163f7bcfa1a895afc72ddfadcb45400b_4889262031646396208.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/163f7bcfa1a895afc72ddfadcb45400b_4889262031646396208.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 302,
-        "UpOrangeList": [
-          11513,
-          14505
-        ],
-        "UpPurpleList": [
-          11403,
-          12402,
-          13401,
-          14403,
-          15402
-        ]
-      }
     ]
   ],
   "en-us": [
@@ -188,69 +125,6 @@
           10000061,
           10000065,
           10000023
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "Chanson of Many Waters",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/1a585895fafa20d3605465a4efc7da7f_6563600044243797507.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/1a585895fafa20d3605465a4efc7da7f_6563600044243797507.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 301,
-        "UpOrangeList": [
-          10000089
-        ],
-        "UpPurpleList": [
-          10000088,
-          10000067,
-          10000024
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "Immaculate Pulse",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/112b88ac5279f535d1bce17cb30d430c_3380329383259401885.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/112b88ac5279f535d1bce17cb30d430c_3380329383259401885.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 400,
-        "UpOrangeList": [
-          10000082
-        ],
-        "UpPurpleList": [
-          10000088,
-          10000067,
-          10000024
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "Epitome Invocation",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/de78eb305d95af30db1a624a669fe67f_6177955594845195312.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/de78eb305d95af30db1a624a669fe67f_6177955594845195312.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 302,
-        "UpOrangeList": [
-          11513,
-          14505
-        ],
-        "UpPurpleList": [
-          11403,
-          12402,
-          13401,
-          14403,
-          15402
         ]
       }
     ]
@@ -318,69 +192,6 @@
           10000023
         ]
       }
-    ],
-    [
-      {
-        "Name": "眾水的頌詩",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/800af598849496b822397d3f4ca18fb8_9097497877925458218.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/800af598849496b822397d3f4ca18fb8_9097497877925458218.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 301,
-        "UpOrangeList": [
-          10000089
-        ],
-        "UpPurpleList": [
-          10000088,
-          10000067,
-          10000024
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "心珠循琅",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/0e2372de8895daf860ff29f301b7644a_7991117334164795742.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/0e2372de8895daf860ff29f301b7644a_7991117334164795742.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 400,
-        "UpOrangeList": [
-          10000082
-        ],
-        "UpPurpleList": [
-          10000088,
-          10000067,
-          10000024
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "神鑄賦形",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/ccd8da60287316da2780eb56fa4abd1e_5494480704344823857.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/ccd8da60287316da2780eb56fa4abd1e_5494480704344823857.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 302,
-        "UpOrangeList": [
-          11513,
-          14505
-        ],
-        "UpPurpleList": [
-          11403,
-          12402,
-          13401,
-          14403,
-          15402
-        ]
-      }
     ]
   ],
   "ja": [
@@ -444,69 +255,6 @@
           10000061,
           10000065,
           10000023
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "衆の水の頌歌",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/1ae876ae2f4dac5688216f8c69d3aa5b_7441725438943576547.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/1ae876ae2f4dac5688216f8c69d3aa5b_7441725438943576547.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 301,
-        "UpOrangeList": [
-          10000089
-        ],
-        "UpPurpleList": [
-          10000088,
-          10000067,
-          10000024
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "心珠循琅",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/379a41718b4a8e3ca11a22e4c149f277_5075415356230730502.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/379a41718b4a8e3ca11a22e4c149f277_5075415356230730502.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 400,
-        "UpOrangeList": [
-          10000082
-        ],
-        "UpPurpleList": [
-          10000088,
-          10000067,
-          10000024
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "神鋳賦形",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/0386b65c66f9c42190fccc7a35d2ce61_8194711836780898178.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/0386b65c66f9c42190fccc7a35d2ce61_8194711836780898178.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 302,
-        "UpOrangeList": [
-          11513,
-          14505
-        ],
-        "UpPurpleList": [
-          11403,
-          12402,
-          13401,
-          14403,
-          15402
         ]
       }
     ]
@@ -574,69 +322,6 @@
           10000023
         ]
       }
-    ],
-    [
-      {
-        "Name": "물들의 찬송시",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/0c6c485c3563c605432af2b894923503_6834715550704553048.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/0c6c485c3563c605432af2b894923503_6834715550704553048.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 301,
-        "UpOrangeList": [
-          10000089
-        ],
-        "UpPurpleList": [
-          10000088,
-          10000067,
-          10000024
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "옥처럼 맑은 마음",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/08ac990952ab862606458467519ea1af_1443827954669701744.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/08ac990952ab862606458467519ea1af_1443827954669701744.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 400,
-        "UpOrangeList": [
-          10000082
-        ],
-        "UpPurpleList": [
-          10000088,
-          10000067,
-          10000024
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "신의 주조",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/75d2ad023a31970293b9abfe94aa34f4_2077358585231220354.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/75d2ad023a31970293b9abfe94aa34f4_2077358585231220354.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 302,
-        "UpOrangeList": [
-          11513,
-          14505
-        ],
-        "UpPurpleList": [
-          11403,
-          12402,
-          13401,
-          14403,
-          15402
-        ]
-      }
     ]
   ],
   "es": [
@@ -700,69 +385,6 @@
           10000061,
           10000065,
           10000023
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "Oda a todas las aguas",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/f91c99214012bb93e7f21ed2cbf9627f_2954842439590987097.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/f91c99214012bb93e7f21ed2cbf9627f_2954842439590987097.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 301,
-        "UpOrangeList": [
-          10000089
-        ],
-        "UpPurpleList": [
-          10000088,
-          10000067,
-          10000024
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "Latido inmaculado",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/eb8d7b945774680c910f4629c1435950_8618530591757303571.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/eb8d7b945774680c910f4629c1435950_8618530591757303571.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 400,
-        "UpOrangeList": [
-          10000082
-        ],
-        "UpPurpleList": [
-          10000088,
-          10000067,
-          10000024
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "Encarnación divina",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/77dfc03eaaf3e6c97c77efddc626003f_828088560075598064.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/77dfc03eaaf3e6c97c77efddc626003f_828088560075598064.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 302,
-        "UpOrangeList": [
-          11513,
-          14505
-        ],
-        "UpPurpleList": [
-          11403,
-          12402,
-          13401,
-          14403,
-          15402
         ]
       }
     ]
@@ -830,69 +452,6 @@
           10000023
         ]
       }
-    ],
-    [
-      {
-        "Name": "Chant de toutes les eaux",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/703d87586b52fa30021ee37247aff4f4_8820800494745009015.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/703d87586b52fa30021ee37247aff4f4_8820800494745009015.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 301,
-        "UpOrangeList": [
-          10000089
-        ],
-        "UpPurpleList": [
-          10000088,
-          10000067,
-          10000024
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "Pouls immaculé",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/86817672a79f187e39ae609b9dadd93c_3718961184472695433.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/86817672a79f187e39ae609b9dadd93c_3718961184472695433.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 400,
-        "UpOrangeList": [
-          10000082
-        ],
-        "UpPurpleList": [
-          10000088,
-          10000067,
-          10000024
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "Incarnation divine  ",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/5e5ebbdf33f6ca62c0a4cce13056fb63_8089259545879779046.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/5e5ebbdf33f6ca62c0a4cce13056fb63_8089259545879779046.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 302,
-        "UpOrangeList": [
-          11513,
-          14505
-        ],
-        "UpPurpleList": [
-          11403,
-          12402,
-          13401,
-          14403,
-          15402
-        ]
-      }
     ]
   ],
   "ru": [
@@ -956,69 +515,6 @@
           10000061,
           10000065,
           10000023
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "Песнь водам мира",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/977f8ff9a8e82913f14220bac1050e14_3239997493346397014.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/977f8ff9a8e82913f14220bac1050e14_3239997493346397014.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 301,
-        "UpOrangeList": [
-          10000089
-        ],
-        "UpPurpleList": [
-          10000088,
-          10000067,
-          10000024
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "Биение мудрого сердца",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/624ff1dea33b206d871cb3ba5bf9af19_2687343637812671076.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/624ff1dea33b206d871cb3ba5bf9af19_2687343637812671076.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 400,
-        "UpOrangeList": [
-          10000082
-        ],
-        "UpPurpleList": [
-          10000088,
-          10000067,
-          10000024
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "Воплощение божества",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/dbab07a5e00a5c80d587539c3f8ab7b9_8804819417272501058.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/dbab07a5e00a5c80d587539c3f8ab7b9_8804819417272501058.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 302,
-        "UpOrangeList": [
-          11513,
-          14505
-        ],
-        "UpPurpleList": [
-          11403,
-          12402,
-          13401,
-          14403,
-          15402
         ]
       }
     ]
@@ -1086,69 +582,6 @@
           10000023
         ]
       }
-    ],
-    [
-      {
-        "Name": "ขับขานลำเนาธาร",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/360e5f8ca4179e955ef98c238ca5024c_6633579576243140066.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/360e5f8ca4179e955ef98c238ca5024c_6633579576243140066.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 301,
-        "UpOrangeList": [
-          10000089
-        ],
-        "UpPurpleList": [
-          10000088,
-          10000067,
-          10000024
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "การุณย์บริสุทธิ์",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/8b342b75775b774699161629c0ae8807_4765841482322484297.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/8b342b75775b774699161629c0ae8807_4765841482322484297.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 400,
-        "UpOrangeList": [
-          10000082
-        ],
-        "UpPurpleList": [
-          10000088,
-          10000067,
-          10000024
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "สรรค์สร้างเซียน",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/a294ef20fffbee4833499b103e6e67e5_101881919022344597.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/a294ef20fffbee4833499b103e6e67e5_101881919022344597.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 302,
-        "UpOrangeList": [
-          11513,
-          14505
-        ],
-        "UpPurpleList": [
-          11403,
-          12402,
-          13401,
-          14403,
-          15402
-        ]
-      }
     ]
   ],
   "vi": [
@@ -1212,69 +645,6 @@
           10000061,
           10000065,
           10000023
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "Muôn Nước Ca Tụng",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/af0a64db1ce0343f8af127143da089c6_3656358215041645847.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/af0a64db1ce0343f8af127143da089c6_3656358215041645847.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 301,
-        "UpOrangeList": [
-          10000089
-        ],
-        "UpPurpleList": [
-          10000088,
-          10000067,
-          10000024
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "Tâm Sáng Tựa Ngọc",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/b3202469f962eb766f2c404033640024_3713613892271389705.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/b3202469f962eb766f2c404033640024_3713613892271389705.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 400,
-        "UpOrangeList": [
-          10000082
-        ],
-        "UpPurpleList": [
-          10000088,
-          10000067,
-          10000024
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "Thân Hình Thần Đúc",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/5cc4a720091e856efe79c02645802ea4_5888398977085510738.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/5cc4a720091e856efe79c02645802ea4_5888398977085510738.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 302,
-        "UpOrangeList": [
-          11513,
-          14505
-        ],
-        "UpPurpleList": [
-          11403,
-          12402,
-          13401,
-          14403,
-          15402
         ]
       }
     ]
@@ -1342,69 +712,6 @@
           10000023
         ]
       }
-    ],
-    [
-      {
-        "Name": "Chanson der Ströme",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/21c3355ee26d58fe0e2db2667e7a0bde_1992957170930863201.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/21c3355ee26d58fe0e2db2667e7a0bde_1992957170930863201.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 301,
-        "UpOrangeList": [
-          10000089
-        ],
-        "UpPurpleList": [
-          10000088,
-          10000067,
-          10000024
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "Pulsierendes Leben",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/6daea53e0daf3ae38697f68aeedc4cb3_3012373041723443674.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/6daea53e0daf3ae38697f68aeedc4cb3_3012373041723443674.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 400,
-        "UpOrangeList": [
-          10000082
-        ],
-        "UpPurpleList": [
-          10000088,
-          10000067,
-          10000024
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "Göttliches Werk",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/bbf85b749dc8241aaf81a9a63ee34ac1_1513675749881762228.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/bbf85b749dc8241aaf81a9a63ee34ac1_1513675749881762228.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 302,
-        "UpOrangeList": [
-          11513,
-          14505
-        ],
-        "UpPurpleList": [
-          11403,
-          12402,
-          13401,
-          14403,
-          15402
-        ]
-      }
     ]
   ],
   "id": [
@@ -1468,69 +775,6 @@
           10000061,
           10000065,
           10000023
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "Kidung Semesta Perairan",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/7079343907d5ee155ae4f3ff64557bd6_7702208277288573055.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/7079343907d5ee155ae4f3ff64557bd6_7702208277288573055.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 301,
-        "UpOrangeList": [
-          10000089
-        ],
-        "UpPurpleList": [
-          10000088,
-          10000067,
-          10000024
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "Hati Semurni Mutiara",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/bc3c7352886cd1df90c8d06b55411994_5537284430650224440.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/bc3c7352886cd1df90c8d06b55411994_5537284430650224440.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 400,
-        "UpOrangeList": [
-          10000082
-        ],
-        "UpPurpleList": [
-          10000088,
-          10000067,
-          10000024
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "Epitome Invocation",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/66c0003cd64f6961b6e608d3122cc1e7_1652430530979445003.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/66c0003cd64f6961b6e608d3122cc1e7_1652430530979445003.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 302,
-        "UpOrangeList": [
-          11513,
-          14505
-        ],
-        "UpPurpleList": [
-          11403,
-          12402,
-          13401,
-          14403,
-          15402
         ]
       }
     ]
@@ -1598,69 +842,6 @@
           10000023
         ]
       }
-    ],
-    [
-      {
-        "Name": "Ode às Águas",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/941957284ce0216214688df641bbb558_8638369928790435214.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/941957284ce0216214688df641bbb558_8638369928790435214.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 301,
-        "UpOrangeList": [
-          10000089
-        ],
-        "UpPurpleList": [
-          10000088,
-          10000067,
-          10000024
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "Coração Imaculado",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/bb440fab7a0d28753c2412222c598aa6_2454011807511236065.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/bb440fab7a0d28753c2412222c598aa6_2454011807511236065.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 400,
-        "UpOrangeList": [
-          10000082
-        ],
-        "UpPurpleList": [
-          10000088,
-          10000067,
-          10000024
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "Encarnação Divina",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/555045bd842d3663cde23a85c534fb0b_7877705192858040563.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/555045bd842d3663cde23a85c534fb0b_7877705192858040563.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 302,
-        "UpOrangeList": [
-          11513,
-          14505
-        ],
-        "UpPurpleList": [
-          11403,
-          12402,
-          13401,
-          14403,
-          15402
-        ]
-      }
     ]
   ],
   "tr": [
@@ -1726,69 +907,6 @@
           10000023
         ]
       }
-    ],
-    [
-      {
-        "Name": "Tüm Suların Şarkısı",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/7e7ab10e867c64423044416fd59449c7_6736049410094103672.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/7e7ab10e867c64423044416fd59449c7_6736049410094103672.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 301,
-        "UpOrangeList": [
-          10000089
-        ],
-        "UpPurpleList": [
-          10000088,
-          10000067,
-          10000024
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "Yaşamın Nabzı",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/cc5592ad54c4f7feadb3b34f69ad9583_9028414892712505000.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/cc5592ad54c4f7feadb3b34f69ad9583_9028414892712505000.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 400,
-        "UpOrangeList": [
-          10000082
-        ],
-        "UpPurpleList": [
-          10000088,
-          10000067,
-          10000024
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "İlahi Çağrı",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/ea628735092bafb7df28df11ed7ac862_2285439787208662054.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/ea628735092bafb7df28df11ed7ac862_2285439787208662054.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 302,
-        "UpOrangeList": [
-          11513,
-          14505
-        ],
-        "UpPurpleList": [
-          11403,
-          12402,
-          13401,
-          14403,
-          15402
-        ]
-      }
     ]
   ],
   "it": [
@@ -1852,69 +970,6 @@
           10000061,
           10000065,
           10000023
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "Ode alle Mille Acque",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/342154b99e9456b5d3d11673c74829a2_785058423469941508.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/342154b99e9456b5d3d11673c74829a2_785058423469941508.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 301,
-        "UpOrangeList": [
-          10000089
-        ],
-        "UpPurpleList": [
-          10000088,
-          10000067,
-          10000024
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "Battito immacolato",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/1454ce4e35aa2f9c7343c71eb856cba4_4378391285209502014.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/1454ce4e35aa2f9c7343c71eb856cba4_4378391285209502014.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 400,
-        "UpOrangeList": [
-          10000082
-        ],
-        "UpPurpleList": [
-          10000088,
-          10000067,
-          10000024
-        ]
-      }
-    ],
-    [
-      {
-        "Name": "Incarnazione divina",
-        "Version": "4.2",
-        "Order": 1,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/10/25/e04bab67198da31c74e306623a94a5d0_9057351339554227394.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/10/25/e04bab67198da31c74e306623a94a5d0_9057351339554227394.jpg",
-        "From": "2023-11-08T06:00:00",
-        "To": "2023-11-28T17:59:00",
-        "Type": 302,
-        "UpOrangeList": [
-          11513,
-          14505
-        ],
-        "UpPurpleList": [
-          11403,
-          12402,
-          13401,
-          14403,
-          15402
         ]
       }
     ]
