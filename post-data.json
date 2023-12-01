@@ -2,29 +2,6 @@
   "zh-cn": [
     [
       {
-        "Name": "神铸赋形",
-        "Version": "4.2",
-        "Order": 2,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/62614d55becbc04a96a59d23da2d7f41_4777175190991655726.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/11/09/62614d55becbc04a96a59d23da2d7f41_4777175190991655726.jpg",
-        "From": "2023-11-28T18:00:00",
-        "To": "2023-12-19T14:59:59",
-        "Type": 302,
-        "UpOrangeList": [
-          13511,
-          11510
-        ],
-        "UpPurpleList": [
-          11405,
-          12401,
-          13407,
-          14402,
-          15401
-        ]
-      }
-    ],
-    [
-      {
         "Name": "苍流踏花",
         "Version": "4.2",
         "Order": 2,
@@ -62,16 +39,14 @@
           10000023
         ]
       }
-    ]
-  ],
-  "en-us": [
+    ],
     [
       {
-        "Name": "Epitome Invocation",
+        "Name": "神铸赋形",
         "Version": "4.2",
         "Order": 2,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/c35a0439589b2ce657162c1879e1ebe9_628866124430593193.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/11/09/c35a0439589b2ce657162c1879e1ebe9_628866124430593193.jpg",
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/62614d55becbc04a96a59d23da2d7f41_4777175190991655726.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/11/09/62614d55becbc04a96a59d23da2d7f41_4777175190991655726.jpg",
         "From": "2023-11-28T18:00:00",
         "To": "2023-12-19T14:59:59",
         "Type": 302,
@@ -87,7 +62,9 @@
           15401
         ]
       }
-    ],
+    ]
+  ],
+  "en-us": [
     [
       {
         "Name": "Azure Excursion",
@@ -127,16 +104,14 @@
           10000023
         ]
       }
-    ]
-  ],
-  "zh-tw": [
+    ],
     [
       {
-        "Name": "神鑄賦形",
+        "Name": "Epitome Invocation",
         "Version": "4.2",
         "Order": 2,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/29249dce7d5a08056bc43b1ccae2d23e_3552820544823977061.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/11/09/29249dce7d5a08056bc43b1ccae2d23e_3552820544823977061.jpg",
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/c35a0439589b2ce657162c1879e1ebe9_628866124430593193.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/11/09/c35a0439589b2ce657162c1879e1ebe9_628866124430593193.jpg",
         "From": "2023-11-28T18:00:00",
         "To": "2023-12-19T14:59:59",
         "Type": 302,
@@ -152,7 +127,9 @@
           15401
         ]
       }
-    ],
+    ]
+  ],
+  "zh-tw": [
     [
       {
         "Name": "蒼流踏花",
@@ -192,16 +169,14 @@
           10000023
         ]
       }
-    ]
-  ],
-  "ja": [
+    ],
     [
       {
-        "Name": "神鋳賦形",
+        "Name": "神鑄賦形",
         "Version": "4.2",
         "Order": 2,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/5f91b1f95d5f54e8eee27f9e755da79e_7429834105582123024.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/11/09/5f91b1f95d5f54e8eee27f9e755da79e_7429834105582123024.jpg",
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/29249dce7d5a08056bc43b1ccae2d23e_3552820544823977061.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/11/09/29249dce7d5a08056bc43b1ccae2d23e_3552820544823977061.jpg",
         "From": "2023-11-28T18:00:00",
         "To": "2023-12-19T14:59:59",
         "Type": 302,
@@ -217,7 +192,9 @@
           15401
         ]
       }
-    ],
+    ]
+  ],
+  "ja": [
     [
       {
         "Name": "花踏み歩む蒼流",
@@ -257,16 +234,14 @@
           10000023
         ]
       }
-    ]
-  ],
-  "ko": [
+    ],
     [
       {
-        "Name": "신의 주조",
+        "Name": "神鋳賦形",
         "Version": "4.2",
         "Order": 2,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/78de015267740edbfd7344c95f6fd5e8_8057009428460678117.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/11/09/78de015267740edbfd7344c95f6fd5e8_8057009428460678117.jpg",
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/5f91b1f95d5f54e8eee27f9e755da79e_7429834105582123024.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/11/09/5f91b1f95d5f54e8eee27f9e755da79e_7429834105582123024.jpg",
         "From": "2023-11-28T18:00:00",
         "To": "2023-12-19T14:59:59",
         "Type": 302,
@@ -282,7 +257,9 @@
           15401
         ]
       }
-    ],
+    ]
+  ],
+  "ko": [
     [
       {
         "Name": "푸른 물결 속 가벼운 걸음",
@@ -322,16 +299,14 @@
           10000023
         ]
       }
-    ]
-  ],
-  "es": [
+    ],
     [
       {
-        "Name": "Encarnación divina",
+        "Name": "신의 주조",
         "Version": "4.2",
         "Order": 2,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/82a13b3fbc098deaa8ec816e630f3486_7356265235602096699.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/11/09/82a13b3fbc098deaa8ec816e630f3486_7356265235602096699.jpg",
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/78de015267740edbfd7344c95f6fd5e8_8057009428460678117.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/11/09/78de015267740edbfd7344c95f6fd5e8_8057009428460678117.jpg",
         "From": "2023-11-28T18:00:00",
         "To": "2023-12-19T14:59:59",
         "Type": 302,
@@ -347,7 +322,9 @@
           15401
         ]
       }
-    ],
+    ]
+  ],
+  "es": [
     [
       {
         "Name": "Incursión cerúlea",
@@ -387,16 +364,14 @@
           10000023
         ]
       }
-    ]
-  ],
-  "fr": [
+    ],
     [
       {
-        "Name": "Incarnation divine ",
+        "Name": "Encarnación divina",
         "Version": "4.2",
         "Order": 2,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/7413b5728044f74638185733708ea69f_2334062338296030952.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/11/09/7413b5728044f74638185733708ea69f_2334062338296030952.jpg",
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/82a13b3fbc098deaa8ec816e630f3486_7356265235602096699.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/11/09/82a13b3fbc098deaa8ec816e630f3486_7356265235602096699.jpg",
         "From": "2023-11-28T18:00:00",
         "To": "2023-12-19T14:59:59",
         "Type": 302,
@@ -412,7 +387,9 @@
           15401
         ]
       }
-    ],
+    ]
+  ],
+  "fr": [
     [
       {
         "Name": "Excursion azurée",
@@ -452,16 +429,14 @@
           10000023
         ]
       }
-    ]
-  ],
-  "ru": [
+    ],
     [
       {
-        "Name": "Воплощение божества",
+        "Name": "Incarnation divine ",
         "Version": "4.2",
         "Order": 2,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/b5ed60fcf4fd999fa2c251b094d3be8b_6198114860979451408.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/11/09/b5ed60fcf4fd999fa2c251b094d3be8b_6198114860979451408.jpg",
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/7413b5728044f74638185733708ea69f_2334062338296030952.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/11/09/7413b5728044f74638185733708ea69f_2334062338296030952.jpg",
         "From": "2023-11-28T18:00:00",
         "To": "2023-12-19T14:59:59",
         "Type": 302,
@@ -477,7 +452,9 @@
           15401
         ]
       }
-    ],
+    ]
+  ],
+  "ru": [
     [
       {
         "Name": "Лазурный поход",
@@ -517,16 +494,14 @@
           10000023
         ]
       }
-    ]
-  ],
-  "th": [
+    ],
     [
       {
-        "Name": "สรรค์สร้างเซียน",
+        "Name": "Воплощение божества",
         "Version": "4.2",
         "Order": 2,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/262b5b373cab063b35d62d90729642b5_8845112609173445612.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/11/09/262b5b373cab063b35d62d90729642b5_8845112609173445612.jpg",
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/b5ed60fcf4fd999fa2c251b094d3be8b_6198114860979451408.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/11/09/b5ed60fcf4fd999fa2c251b094d3be8b_6198114860979451408.jpg",
         "From": "2023-11-28T18:00:00",
         "To": "2023-12-19T14:59:59",
         "Type": 302,
@@ -542,7 +517,9 @@
           15401
         ]
       }
-    ],
+    ]
+  ],
+  "th": [
     [
       {
         "Name": "ย่ำบุปผาธาราคราม",
@@ -582,16 +559,14 @@
           10000023
         ]
       }
-    ]
-  ],
-  "vi": [
+    ],
     [
       {
-        "Name": "Thân Hình Thần Đúc",
+        "Name": "สรรค์สร้างเซียน",
         "Version": "4.2",
         "Order": 2,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/d4a9b48a2c446a40e81b01b57410b75a_6209787758323689402.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/11/09/d4a9b48a2c446a40e81b01b57410b75a_6209787758323689402.jpg",
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/262b5b373cab063b35d62d90729642b5_8845112609173445612.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/11/09/262b5b373cab063b35d62d90729642b5_8845112609173445612.jpg",
         "From": "2023-11-28T18:00:00",
         "To": "2023-12-19T14:59:59",
         "Type": 302,
@@ -607,7 +582,9 @@
           15401
         ]
       }
-    ],
+    ]
+  ],
+  "vi": [
     [
       {
         "Name": "Dạo Bước Bên Hoa",
@@ -647,16 +624,14 @@
           10000023
         ]
       }
-    ]
-  ],
-  "de": [
+    ],
     [
       {
-        "Name": "Göttliches Werk",
+        "Name": "Thân Hình Thần Đúc",
         "Version": "4.2",
         "Order": 2,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/ab3dc9742606a3137ab582566be5281f_450048279249283541.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/11/09/ab3dc9742606a3137ab582566be5281f_450048279249283541.jpg",
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/d4a9b48a2c446a40e81b01b57410b75a_6209787758323689402.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/11/09/d4a9b48a2c446a40e81b01b57410b75a_6209787758323689402.jpg",
         "From": "2023-11-28T18:00:00",
         "To": "2023-12-19T14:59:59",
         "Type": 302,
@@ -672,7 +647,9 @@
           15401
         ]
       }
-    ],
+    ]
+  ],
+  "de": [
     [
       {
         "Name": "Fluss der blassen Blätter",
@@ -712,16 +689,14 @@
           10000023
         ]
       }
-    ]
-  ],
-  "id": [
+    ],
     [
       {
-        "Name": "Epitome Invocation",
+        "Name": "Göttliches Werk",
         "Version": "4.2",
         "Order": 2,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/25b19b21f98727191d1a553d3188d546_1248806244298581766.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/11/09/25b19b21f98727191d1a553d3188d546_1248806244298581766.jpg",
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/ab3dc9742606a3137ab582566be5281f_450048279249283541.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/11/09/ab3dc9742606a3137ab582566be5281f_450048279249283541.jpg",
         "From": "2023-11-28T18:00:00",
         "To": "2023-12-19T14:59:59",
         "Type": 302,
@@ -737,7 +712,9 @@
           15401
         ]
       }
-    ],
+    ]
+  ],
+  "id": [
     [
       {
         "Name": "Ketenangan Riak Air",
@@ -777,16 +754,14 @@
           10000023
         ]
       }
-    ]
-  ],
-  "pt": [
+    ],
     [
       {
-        "Name": "de Encarnação Divina",
+        "Name": "Epitome Invocation",
         "Version": "4.2",
         "Order": 2,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/60251f6b3f6041632688ba4fc5725055_1320585789746914356.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/11/09/60251f6b3f6041632688ba4fc5725055_1320585789746914356.jpg",
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/25b19b21f98727191d1a553d3188d546_1248806244298581766.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/11/09/25b19b21f98727191d1a553d3188d546_1248806244298581766.jpg",
         "From": "2023-11-28T18:00:00",
         "To": "2023-12-19T14:59:59",
         "Type": 302,
@@ -802,7 +777,9 @@
           15401
         ]
       }
-    ],
+    ]
+  ],
+  "pt": [
     [
       {
         "Name": "Correntes Florais",
@@ -842,16 +819,14 @@
           10000023
         ]
       }
-    ]
-  ],
-  "tr": [
+    ],
     [
       {
-        "Name": "İlahi Çağrı",
+        "Name": "de Encarnação Divina",
         "Version": "4.2",
         "Order": 2,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/a99469eb204af302f69d98345159331b_1078179574342355830.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/11/09/a99469eb204af302f69d98345159331b_1078179574342355830.jpg",
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/60251f6b3f6041632688ba4fc5725055_1320585789746914356.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/11/09/60251f6b3f6041632688ba4fc5725055_1320585789746914356.jpg",
         "From": "2023-11-28T18:00:00",
         "To": "2023-12-19T14:59:59",
         "Type": 302,
@@ -867,7 +842,9 @@
           15401
         ]
       }
-    ],
+    ]
+  ],
+  "tr": [
     [
       {
         "Name": "Masmavi Yolculuk",
@@ -907,16 +884,14 @@
           10000023
         ]
       }
-    ]
-  ],
-  "it": [
+    ],
     [
       {
-        "Name": "Incarnazione divina",
+        "Name": "İlahi Çağrı",
         "Version": "4.2",
         "Order": 2,
-        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/c3ca665c2461db653bdc2e1468de6986_1491979297540576254.jpg",
-        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/11/09/c3ca665c2461db653bdc2e1468de6986_1491979297540576254.jpg",
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/a99469eb204af302f69d98345159331b_1078179574342355830.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/11/09/a99469eb204af302f69d98345159331b_1078179574342355830.jpg",
         "From": "2023-11-28T18:00:00",
         "To": "2023-12-19T14:59:59",
         "Type": 302,
@@ -932,7 +907,9 @@
           15401
         ]
       }
-    ],
+    ]
+  ],
+  "it": [
     [
       {
         "Name": "Escursione cerulea",
@@ -970,6 +947,29 @@
           10000061,
           10000065,
           10000023
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Incarnazione divina",
+        "Version": "4.2",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/c3ca665c2461db653bdc2e1468de6986_1491979297540576254.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/11/09/c3ca665c2461db653bdc2e1468de6986_1491979297540576254.jpg",
+        "From": "2023-11-28T18:00:00",
+        "To": "2023-12-19T14:59:59",
+        "Type": 302,
+        "UpOrangeList": [
+          13511,
+          11510
+        ],
+        "UpPurpleList": [
+          11405,
+          12401,
+          13407,
+          14402,
+          15401
         ]
       }
     ]

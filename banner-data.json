@@ -1,78 +1,4 @@
 {
-  "3895": {
-    "zh-cn": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/62614d55becbc04a96a59d23da2d7f41_4777175190991655726.jpg",
-      "banner_name": "神铸赋形"
-    },
-    "en-us": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/c35a0439589b2ce657162c1879e1ebe9_628866124430593193.jpg",
-      "banner_name": "Epitome Invocation"
-    },
-    "zh-tw": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/29249dce7d5a08056bc43b1ccae2d23e_3552820544823977061.jpg",
-      "banner_name": "神鑄賦形"
-    },
-    "ja": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/5f91b1f95d5f54e8eee27f9e755da79e_7429834105582123024.jpg",
-      "banner_name": "神鋳賦形"
-    },
-    "ko": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/78de015267740edbfd7344c95f6fd5e8_8057009428460678117.jpg",
-      "banner_name": "신의 주조"
-    },
-    "es": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/82a13b3fbc098deaa8ec816e630f3486_7356265235602096699.jpg",
-      "banner_name": "Encarnación divina"
-    },
-    "fr": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/7413b5728044f74638185733708ea69f_2334062338296030952.jpg",
-      "banner_name": "Incarnation divine "
-    },
-    "ru": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/b5ed60fcf4fd999fa2c251b094d3be8b_6198114860979451408.jpg",
-      "banner_name": "Воплощение божества"
-    },
-    "th": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/262b5b373cab063b35d62d90729642b5_8845112609173445612.jpg",
-      "banner_name": "สรรค์สร้างเซียน"
-    },
-    "vi": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/d4a9b48a2c446a40e81b01b57410b75a_6209787758323689402.jpg",
-      "banner_name": "Thân Hình Thần Đúc"
-    },
-    "de": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/ab3dc9742606a3137ab582566be5281f_450048279249283541.jpg",
-      "banner_name": "Göttliches Werk"
-    },
-    "id": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/25b19b21f98727191d1a553d3188d546_1248806244298581766.jpg",
-      "banner_name": "Epitome Invocation"
-    },
-    "pt": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/60251f6b3f6041632688ba4fc5725055_1320585789746914356.jpg",
-      "banner_name": "de Encarnação Divina"
-    },
-    "tr": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/a99469eb204af302f69d98345159331b_1078179574342355830.jpg",
-      "banner_name": "İlahi Çağrı"
-    },
-    "it": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/c3ca665c2461db653bdc2e1468de6986_1491979297540576254.jpg",
-      "banner_name": "Incarnazione divina"
-    },
-    "five_star_item_1": 13511,
-    "five_star_item_2": 11510,
-    "four_star_item_1": 11405,
-    "four_star_item_2": 12401,
-    "four_star_item_3": 13407,
-    "four_star_item_4": 14402,
-    "four_star_item_5": 15401,
-    "UIGF_pool_type": 302,
-    "start_time": "2023/11/28 18:00:00",
-    "end_time": "2023/12/19 14:59:59",
-    "version_number": "4.2",
-    "order_number": 2
-  },
   "3891": {
     "zh-cn": {
       "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/a8f3fba81087abfa55550eb435e03b56_2400978744285817185.jpg",
@@ -212,6 +138,80 @@
     "four_star_item_3": 10000023,
     "four_star_item_4": 10000071,
     "UIGF_pool_type": 301,
+    "start_time": "2023/11/28 18:00:00",
+    "end_time": "2023/12/19 14:59:59",
+    "version_number": "4.2",
+    "order_number": 2
+  },
+  "3895": {
+    "zh-cn": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/62614d55becbc04a96a59d23da2d7f41_4777175190991655726.jpg",
+      "banner_name": "神铸赋形"
+    },
+    "en-us": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/c35a0439589b2ce657162c1879e1ebe9_628866124430593193.jpg",
+      "banner_name": "Epitome Invocation"
+    },
+    "zh-tw": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/29249dce7d5a08056bc43b1ccae2d23e_3552820544823977061.jpg",
+      "banner_name": "神鑄賦形"
+    },
+    "ja": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/5f91b1f95d5f54e8eee27f9e755da79e_7429834105582123024.jpg",
+      "banner_name": "神鋳賦形"
+    },
+    "ko": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/78de015267740edbfd7344c95f6fd5e8_8057009428460678117.jpg",
+      "banner_name": "신의 주조"
+    },
+    "es": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/82a13b3fbc098deaa8ec816e630f3486_7356265235602096699.jpg",
+      "banner_name": "Encarnación divina"
+    },
+    "fr": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/7413b5728044f74638185733708ea69f_2334062338296030952.jpg",
+      "banner_name": "Incarnation divine "
+    },
+    "ru": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/b5ed60fcf4fd999fa2c251b094d3be8b_6198114860979451408.jpg",
+      "banner_name": "Воплощение божества"
+    },
+    "th": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/262b5b373cab063b35d62d90729642b5_8845112609173445612.jpg",
+      "banner_name": "สรรค์สร้างเซียน"
+    },
+    "vi": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/d4a9b48a2c446a40e81b01b57410b75a_6209787758323689402.jpg",
+      "banner_name": "Thân Hình Thần Đúc"
+    },
+    "de": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/ab3dc9742606a3137ab582566be5281f_450048279249283541.jpg",
+      "banner_name": "Göttliches Werk"
+    },
+    "id": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/25b19b21f98727191d1a553d3188d546_1248806244298581766.jpg",
+      "banner_name": "Epitome Invocation"
+    },
+    "pt": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/60251f6b3f6041632688ba4fc5725055_1320585789746914356.jpg",
+      "banner_name": "de Encarnação Divina"
+    },
+    "tr": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/a99469eb204af302f69d98345159331b_1078179574342355830.jpg",
+      "banner_name": "İlahi Çağrı"
+    },
+    "it": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/c3ca665c2461db653bdc2e1468de6986_1491979297540576254.jpg",
+      "banner_name": "Incarnazione divina"
+    },
+    "five_star_item_1": 13511,
+    "five_star_item_2": 11510,
+    "four_star_item_1": 11405,
+    "four_star_item_2": 12401,
+    "four_star_item_3": 13407,
+    "four_star_item_4": 14402,
+    "four_star_item_5": 15401,
+    "UIGF_pool_type": 302,
     "start_time": "2023/11/28 18:00:00",
     "end_time": "2023/12/19 14:59:59",
     "version_number": "4.2",
