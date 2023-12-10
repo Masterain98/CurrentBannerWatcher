@@ -10,6 +10,8 @@ def cache_banner_image():
     banner_list = list(data.values())
     for banner in banner_list:
         for v in banner.values():
+            if type(v) is not dict:
+                continue
             image_data = requests.get(v["banner_image"])
             os.makedirs(os.path.dirname(v["banner_image"].replace('https://sdk.hoyoverse.com/', "")), exist_ok=True)
             open(v["banner_image"].replace('https://sdk.hoyoverse.com/', ""), 'wb').write(image_data.content)
