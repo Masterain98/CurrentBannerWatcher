@@ -36,6 +36,8 @@ def get_item_id_by_name(name: str):
         "item_name": name
     }
     this_result = requests.post(url, json=body)
+    if debug:
+        print(f"UIGF API result: {this_result.json()}")
     try:
         return this_result.json().get("item_id")
     except KeyError:
@@ -282,4 +284,7 @@ if __name__ == "__main__":
     with open("banner-data.json", "w", encoding="utf-8") as outfile:
         json.dump(output, outfile, indent=2, ensure_ascii=False)
 
-    create_banner()
+    if run_mode == "production":
+        create_banner("production")
+    else:
+        create_banner("debug")

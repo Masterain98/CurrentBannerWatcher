@@ -65,7 +65,7 @@ def update_banner():
             open(data["banner_image"].replace('https://sdk.hoyoverse.com/', ""), 'wb').write(image_data.content)
 
 
-def create_banner():
+def create_banner(mode: str = "production"):
     new_data = {}
     url = os.getenv("CREATION_POST_ENDPOINT")
     if url is None:
@@ -115,6 +115,11 @@ def create_banner():
                 pass
             new_data[lang].append([this_post])
 
+            # Download Image
+            image_data = requests.get(this_post["Banner"])
+            os.makedirs(os.path.dirname(this_post["Banner"].replace('https://sdk.hoyoverse.com/', "")), exist_ok=True)
+            open(data["banner_image"].replace('https://sdk.hoyoverse.com/', ""), 'wb').write(image_data.content)
+
     # Start of Debug #
     print(new_data)
     with open("post-data.json", "w", encoding="utf-8") as outfile:
@@ -157,8 +162,9 @@ def create_banner():
                 break
         for banner in new_data[lang]:
             print("Sending data: " + str(banner))
-            return_result = requests.post(url.format(locale=locale), json=banner)
-            print("status_code: " + str(return_result.status_code))
-            print("content: " + json.loads(return_result.content.decode("utf-8"))["message"])
-            print("Full content: " + str(return_result.content.decode("utf-8")))
-            print("=" * 20)
+            if mode == "production":
+                return_result = requests.post(url.format(locale=locale), json=banner)
+                print("status_code: " + str(return_result.status_code))
+                print("content: " + json.loads(return_result.content.decode("utf-8"))["message"])
+                print("Full content: " + str(return_result.content.decode("utf-8")))
+                print("=" * 20)
