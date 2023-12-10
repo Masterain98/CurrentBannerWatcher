@@ -118,7 +118,7 @@ def create_banner(mode: str = "production"):
             # Download Image
             image_data = requests.get(this_post["Banner"])
             os.makedirs(os.path.dirname(this_post["Banner"].replace('https://sdk.hoyoverse.com/', "")), exist_ok=True)
-            open(data["banner_image"].replace('https://sdk.hoyoverse.com/', ""), 'wb').write(image_data.content)
+            open(this_post["Banner"].replace('https://sdk.hoyoverse.com/', ""), 'wb').write(image_data.content)
 
     # Start of Debug #
     print(new_data)
