@@ -1,220 +1,220 @@
 {
-  "3891": {
+  "20237": {
     "zh-cn": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/a8f3fba81087abfa55550eb435e03b56_2400978744285817185.jpg",
-      "banner_name": "苍流踏花"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/14/6cdbd020f5f2c7245f8931f0d218e284_4203054714246421327.png",
+      "banner_name": "刺玫的铭誓"
     },
     "en-us": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/8b8e54826f77acaf3ffed7891e04f3b4_2518180600329304572.jpg",
-      "banner_name": "Azure Excursion"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/14/f6729ee76facdd9b8353db77f2f03917_5204111025938517456.png",
+      "banner_name": "In the Name of the Rosula"
     },
     "zh-tw": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/10b8ba09204e12a14f6b2f5e102ba5e6_1259298781604688257.jpg",
-      "banner_name": "蒼流踏花"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/14/79267471fe11a74cac30af9ed590102d_7094079954345483016.png",
+      "banner_name": "刺玫的銘誓"
     },
     "ja": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/e753abe5d4a75b9d9eaaf96af56ed618_1445918907267405538.jpg",
-      "banner_name": "花踏み歩む蒼流"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/14/5ce45d4302331f47ebe6fe26472bc97b_5330915392963940810.png",
+      "banner_name": "棘薔薇の誓い"
     },
     "ko": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/edd45da59d60f7637153f1917510234a_8237522505508866065.jpg",
-      "banner_name": "푸른 물결 속 가벼운 걸음"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/14/6d0df9db90ce481bf0078ad7382737f4_8792883896848353958.png",
+      "banner_name": "가시 장미의 맹세"
     },
     "es": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/305a6bff5a6923b90eeaeb9818567675_2576890073954553888.jpg",
-      "banner_name": "Incursión cerúlea"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/14/148760d243b9586c00d5b0cab2aad571_2018432292246646155.png",
+      "banner_name": "Juramento de las rosas"
     },
     "fr": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/f577cdffb925789f88fb36c4b08446c2_6524068790401932392.jpg",
-      "banner_name": "Excursion azurée"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/14/9cbd2e0bf9f48f1fdbc3108a72d48d32_8316757924118243047.png",
+      "banner_name": "Au nom de la Rosula"
     },
     "ru": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/28c850f075fb2ec1f02d0bdf3bf3b9e1_3346779522328968973.jpg",
-      "banner_name": "Лазурный поход"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/14/a3a13271a21ffab658eb50e19994d57a_2500465306104936922.png",
+      "banner_name": "Во имя розы"
     },
     "th": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/c8f5431f15c366ded1811c604e2ecd2e_6927522148259264893.jpg",
-      "banner_name": "ย่ำบุปผาธาราคราม"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/14/d97d870f23ce437f44581f013e5d42fb_7978799120627398987.png",
+      "banner_name": "ปฏิญาณแห่งกุหลาบหนาม"
     },
     "vi": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/8c8b625c69b4e41fabcb8bd7fabbb7eb_2015388426859756425.jpg",
-      "banner_name": "Dạo Bước Bên Hoa"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/14/f68abafa11a0e67552b17c73c505971f_1053544167071633216.png",
+      "banner_name": "Nhân Danh Rosula"
     },
     "de": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/ea1ff94732456f0808778623d7ac562a_7774789136912931495.jpg",
-      "banner_name": "Fluss der blassen Blätter"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/14/d09e7442d8b23ba53fe702f40d1e222a_892161010687840482.png",
+      "banner_name": "Im Namen der Rosula"
     },
     "id": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/07019415b5c1219eceb09f4803c67fc9_6243860294678075422.jpg",
-      "banner_name": "Ketenangan Riak Air"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/14/358ec92a8ed1e4e208071a582a727f21_7677379838024592004.png",
+      "banner_name": "Ikrar Sekuntum Mawar"
     },
     "pt": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/7d7663ba03041cbc9ad9b95d7d35dd90_9004130022570231769.jpg",
-      "banner_name": "Correntes Florais"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/14/699f5ce921f44ffb92f445f6922ee1b5_2474079901795786700.png",
+      "banner_name": "Juramento Eterno da Rosa"
     },
     "tr": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/14b40ceeae199a72ed53090520311451_8382665892275841764.jpg",
-      "banner_name": "Masmavi Yolculuk"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/14/5916cf7bf5f53e4553af5e45bcfbcf82_7903553751576695022.png",
+      "banner_name": "Rosula Adına"
     },
     "it": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/d9e6dd10aea6d9a93b0703c5b3de26b8_1869910753605070687.jpg",
-      "banner_name": "Escursione cerulea"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/14/cd3d31f6ebd9397694ade89755a1bb4a_153035667356334558.png",
+      "banner_name": "Nel nome della Rosula"
     },
-    "five_star_item_1": 10000066,
-    "four_star_item_1": 10000061,
-    "four_star_item_2": 10000065,
-    "four_star_item_3": 10000023,
-    "four_star_item_4": 10000066,
-    "UIGF_pool_type": 400,
-    "start_time": "2023/11/28 18:00:00",
-    "end_time": "2023/12/19 14:59:59",
-    "version_number": "4.2",
-    "order_number": 2
-  },
-  "3890": {
-    "zh-cn": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/dfd9189b699cb9f109bea403f2ff6383_7097064399080869786.jpg",
-      "banner_name": "雳裁冥昭"
-    },
-    "en-us": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/a975d307a1e22d514afcf57132306b5b_965541614052886317.jpg",
-      "banner_name": "Twilight Arbiter"
-    },
-    "zh-tw": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/6f7a6484500011377d92a7df8d83f979_8665136318276732957.jpg",
-      "banner_name": "靂裁冥昭"
-    },
-    "ja": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/1f6e2077c5867626bd714debf761424d_4803896026528532997.jpg",
-      "banner_name": "冥昼の裁定"
-    },
-    "ko": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/141a2185ca265480cf92735836baf654_5002043726101361995.jpg",
-      "banner_name": "황혼을 가르는 번개의 심판"
-    },
-    "es": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/80185564e71474120e5a03a762d6482b_4122749974936908173.jpg",
-      "banner_name": "Sentencia del crepúsculo"
-    },
-    "fr": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/9cf5dd85243079ebe50073c5052895e4_3523329557400058026.jpg",
-      "banner_name": "Arbitre du crépuscule"
-    },
-    "ru": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/b497feebf25dd6ab3142b6114ed0bd28_171136917178087725.jpg",
-      "banner_name": "Сумеречный вершитель"
-    },
-    "th": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/3abc382782328a8141cdb2b96a8b826d_5595818681925361931.jpg",
-      "banner_name": "ตุลาการสนธยา"
-    },
-    "vi": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/81319c3f4cc91a91dfb755798b30c029_2892930695708404266.jpg",
-      "banner_name": "Tà Dương Phán Quyết"
-    },
-    "de": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/ce561f96ed10607db8643a5d01c0a1ab_286207127618359047.jpg",
-      "banner_name": "Schiedsspruch der Dämmerung"
-    },
-    "id": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/62c7d3b4d58e06093519a78f7991fbea_6005867131165449675.jpg",
-      "banner_name": "Hakim Senja"
-    },
-    "pt": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/c2cb5d43df31b6b0b846f15cfd05eeb8_6790632052236815188.jpg",
-      "banner_name": "Árbitro do Crepúsculo"
-    },
-    "tr": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/113d5efd07da5e6c336553060d6ce3e4_7486464986775761599.jpg",
-      "banner_name": "Alacakaranlık Yargıcı"
-    },
-    "it": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/7e4b6c08d97c7ce6eb5127146d74c520_8987707705844654910.jpg",
-      "banner_name": "Giudice del crepuscolo"
-    },
-    "five_star_item_1": 10000071,
-    "four_star_item_1": 10000061,
-    "four_star_item_2": 10000065,
-    "four_star_item_3": 10000023,
-    "four_star_item_4": 10000071,
+    "five_star_item_1": 10000091,
+    "four_star_item_1": 10000043,
+    "four_star_item_2": 10000045,
+    "four_star_item_3": 10000072,
+    "four_star_item_4": 10000091,
     "UIGF_pool_type": 301,
-    "start_time": "2023/11/28 18:00:00",
-    "end_time": "2023/12/19 14:59:59",
-    "version_number": "4.2",
-    "order_number": 2
+    "start_time": "2023/12/20 06:00:00",
+    "end_time": "2024/01/09 17:59:00",
+    "version_number": "4.3",
+    "order_number": 1
   },
-  "3895": {
+  "20238": {
     "zh-cn": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/62614d55becbc04a96a59d23da2d7f41_4777175190991655726.jpg",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/14/1ea48cd6875abe4994ba483d43ae69d4_3898808009083722263.png",
+      "banner_name": "白鹭之庭"
+    },
+    "en-us": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/14/42c7555482908952de3a86ec7625ce25_3277499613751273317.png",
+      "banner_name": "The Heron's Court"
+    },
+    "zh-tw": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/14/14a2e709d434b379b34c4489c52b2d7c_7899894186754019541.png",
+      "banner_name": "白鷺之庭"
+    },
+    "ja": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/14/4d1c3030fa0feec4257d3488629224c3_2661486833486861561.png",
+      "banner_name": "白鷺の庭"
+    },
+    "ko": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/14/50483c1b5419d5292d4ac03ba1bae011_5378710480665046665.png",
+      "banner_name": "백로의 정원"
+    },
+    "es": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/14/f5a39788864a212172a08440deea1f66_6552265816712920599.png",
+      "banner_name": "Elegancia de la garza"
+    },
+    "fr": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/14/db1bd2bd9d32478997fc4b246026bc73_4091065607014367325.png",
+      "banner_name": "Prestance du héron"
+    },
+    "ru": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/14/42de42d6cf467c496eb74bc801dd01d4_7029589677491076406.png",
+      "banner_name": "Сад белой цапли"
+    },
+    "th": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/14/409d4f9ad1c0786d58342fe31a97c092_9213068032143336865.png",
+      "banner_name": "ตำหนักกระเรียนขาว"
+    },
+    "vi": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/14/cbfc0cd4767546c87ab173234e4e8be3_260148400309249647.png",
+      "banner_name": "Bạch Hạc Đình"
+    },
+    "de": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/14/f5d5e1ad457749aca504e8bf13f3ede6_8569885851700779026.png",
+      "banner_name": "Kranichhof"
+    },
+    "id": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/14/e808e205b613a66682501468c9e26edf_2111492903327003110.png",
+      "banner_name": "Pelataran Bangau Putih"
+    },
+    "pt": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/14/cd39f05c05ff46138b539ee3a5e77a76_5422865498793325059.png",
+      "banner_name": "Jardim da Garça"
+    },
+    "tr": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/14/e5a893a6175c87ffbe4e5ea272020d69_6106117567648303797.png",
+      "banner_name": "Balıkçılın Alanı"
+    },
+    "it": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/14/a3a60a7ea73ddfcaa290013f25a75fc9_3473618851402681192.png",
+      "banner_name": "La corte dell'airone"
+    },
+    "five_star_item_1": 10000002,
+    "four_star_item_1": 10000043,
+    "four_star_item_2": 10000045,
+    "four_star_item_3": 10000072,
+    "four_star_item_4": 10000002,
+    "UIGF_pool_type": 400,
+    "start_time": "2023/12/20 06:00:00",
+    "end_time": "2024/01/09 17:59:00",
+    "version_number": "4.3",
+    "order_number": 1
+  },
+  "20175": {
+    "zh-cn": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/06/bc968d388bc0ab35706d744e1415db81_682638416651239483.png",
       "banner_name": "神铸赋形"
     },
     "en-us": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/c35a0439589b2ce657162c1879e1ebe9_628866124430593193.jpg",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/06/5650c4e04a233a5808cf7da687204acb_3689949435450712687.png",
       "banner_name": "Epitome Invocation"
     },
     "zh-tw": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/29249dce7d5a08056bc43b1ccae2d23e_3552820544823977061.jpg",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/06/ff2ba119f4b158b5b5568ac55738ad65_3755834503569390177.png",
       "banner_name": "神鑄賦形"
     },
     "ja": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/5f91b1f95d5f54e8eee27f9e755da79e_7429834105582123024.jpg",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/06/03e402c984bfd46e50b2236a4936597f_1715591044386282562.png",
       "banner_name": "神鋳賦形"
     },
     "ko": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/78de015267740edbfd7344c95f6fd5e8_8057009428460678117.jpg",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/06/dafcfbe1e5778b92197ec6b59daeb605_7843248851464893999.png",
       "banner_name": "신의 주조"
     },
     "es": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/82a13b3fbc098deaa8ec816e630f3486_7356265235602096699.jpg",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/06/aaf0e88cab0af4ce760fe104fe384970_1670671545489870002.png",
       "banner_name": "Encarnación divina"
     },
     "fr": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/7413b5728044f74638185733708ea69f_2334062338296030952.jpg",
-      "banner_name": "Incarnation divine "
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/06/17a34f825296469d04f2ac55594e44ff_4514274271826043437.png",
+      "banner_name": "Incarnation divine"
     },
     "ru": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/b5ed60fcf4fd999fa2c251b094d3be8b_6198114860979451408.jpg",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/06/d85e9342f341a7d4978243b980a2313f_2840257729651246502.png",
       "banner_name": "Воплощение божества"
     },
     "th": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/262b5b373cab063b35d62d90729642b5_8845112609173445612.jpg",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/06/5fa4cb25bdcacc5e876b390dc203a8ae_5984956281616876977.png",
       "banner_name": "สรรค์สร้างเซียน"
     },
     "vi": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/d4a9b48a2c446a40e81b01b57410b75a_6209787758323689402.jpg",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/06/7d3151440a08579e1ece38437f8d6441_7142909803778304429.png",
       "banner_name": "Thân Hình Thần Đúc"
     },
     "de": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/ab3dc9742606a3137ab582566be5281f_450048279249283541.jpg",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/06/610d021004028dd0fc0af86568c57155_7398035372312820165.png",
       "banner_name": "Göttliches Werk"
     },
     "id": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/25b19b21f98727191d1a553d3188d546_1248806244298581766.jpg",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/06/940c106e78fe056aa158ffab16495026_4030664959622899371.png",
       "banner_name": "Epitome Invocation"
     },
     "pt": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/60251f6b3f6041632688ba4fc5725055_1320585789746914356.jpg",
-      "banner_name": "de Encarnação Divina"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/06/e7bb65827c1ad4836762153b720f03df_4563995676362138392.png",
+      "banner_name": "Encarnação Divina"
     },
     "tr": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/a99469eb204af302f69d98345159331b_1078179574342355830.jpg",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/06/6da0716fdcf0c0d80d61b38a7a90b3e9_3194347922432771850.png",
       "banner_name": "İlahi Çağrı"
     },
     "it": {
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/11/09/c3ca665c2461db653bdc2e1468de6986_1491979297540576254.jpg",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/06/c13b286e14715ff4dce8c64148d1dbc6_1520931625421768744.png",
       "banner_name": "Incarnazione divina"
     },
-    "five_star_item_1": 13511,
-    "five_star_item_2": 11510,
-    "four_star_item_1": 11405,
-    "four_star_item_2": 12401,
-    "four_star_item_3": 13407,
-    "four_star_item_4": 14402,
-    "four_star_item_5": 15401,
+    "five_star_item_1": 12512,
+    "five_star_item_2": 11509,
+    "four_star_item_1": 12416,
+    "four_star_item_2": 15416,
+    "four_star_item_3": 11402,
+    "four_star_item_4": 13401,
+    "four_star_item_5": 14401,
     "UIGF_pool_type": 302,
-    "start_time": "2023/11/28 18:00:00",
-    "end_time": "2023/12/19 14:59:59",
-    "version_number": "4.2",
-    "order_number": 2
+    "start_time": "2023/12/20 06:00:00",
+    "end_time": "2024/01/09 17:59:00",
+    "version_number": "4.3",
+    "order_number": 1
   }
 }
