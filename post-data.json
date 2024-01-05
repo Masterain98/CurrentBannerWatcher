@@ -2,6 +2,69 @@
   "zh-cn": [
     [
       {
+        "Name": "影寂天下人",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/ef4e31ae9213f5e8a33f1389efd4c03d_5559840394685445282.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/ef4e31ae9213f5e8a33f1389efd4c03d_5559840394685445282.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 301,
+        "UpOrangeList": [
+          10000052
+        ],
+        "UpPurpleList": [
+          10000090,
+          10000056,
+          10000032
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "焰色天河",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/f4eaebb1f3dc40116373fcead78d0d90_4770102362344212987.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/f4eaebb1f3dc40116373fcead78d0d90_4770102362344212987.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 400,
+        "UpOrangeList": [
+          10000049
+        ],
+        "UpPurpleList": [
+          10000090,
+          10000056,
+          10000032
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "神铸赋形",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/0022e907aaf61ddc9c1b85f5ed00e271_1133258806367271698.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/0022e907aaf61ddc9c1b85f5ed00e271_1133258806367271698.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 302,
+        "UpOrangeList": [
+          13509,
+          15509
+        ],
+        "UpPurpleList": [
+          13416,
+          11401,
+          12405,
+          14409,
+          15405
+        ]
+      }
+    ],
+    [
+      {
         "Name": "刺玫的铭誓",
         "Version": "4.3",
         "Order": 1,
@@ -65,6 +128,69 @@
     ]
   ],
   "en-us": [
+    [
+      {
+        "Name": "Reign of Serenity",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/c46c028ac9be76d6b36f3a17ed8d96af_5548682959286961124.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/c46c028ac9be76d6b36f3a17ed8d96af_5548682959286961124.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 301,
+        "UpOrangeList": [
+          10000052
+        ],
+        "UpPurpleList": [
+          10000090,
+          10000056,
+          10000032
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Tapestry of Golden Flames",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/bd3c3fdd5a0f214a11f66b3757a24c2d_3813748996349287752.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/bd3c3fdd5a0f214a11f66b3757a24c2d_3813748996349287752.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 400,
+        "UpOrangeList": [
+          10000049
+        ],
+        "UpPurpleList": [
+          10000090,
+          10000056,
+          10000032
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Epitome Invocation",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/16e9cf7cfb7925015580d97d04d3616d_2925945064750276659.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/16e9cf7cfb7925015580d97d04d3616d_2925945064750276659.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 302,
+        "UpOrangeList": [
+          13509,
+          15509
+        ],
+        "UpPurpleList": [
+          13416,
+          11401,
+          12405,
+          14409,
+          15405
+        ]
+      }
+    ],
     [
       {
         "Name": "In the Name of the Rosula",
@@ -132,6 +258,69 @@
   "zh-tw": [
     [
       {
+        "Name": "影寂天下人",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/96e91ece09470196f11a79f6e8952f2d_8724649610064933384.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/96e91ece09470196f11a79f6e8952f2d_8724649610064933384.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 301,
+        "UpOrangeList": [
+          10000052
+        ],
+        "UpPurpleList": [
+          10000090,
+          10000056,
+          10000032
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "焰色天河",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/867035e6bed6d53e3b5e20009ccedf57_4792824605857024807.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/867035e6bed6d53e3b5e20009ccedf57_4792824605857024807.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 400,
+        "UpOrangeList": [
+          10000049
+        ],
+        "UpPurpleList": [
+          10000090,
+          10000056,
+          10000032
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "神鑄賦形",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/d945747016915176003179fd7f584b32_561755653999384037.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/d945747016915176003179fd7f584b32_561755653999384037.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 302,
+        "UpOrangeList": [
+          13509,
+          15509
+        ],
+        "UpPurpleList": [
+          13416,
+          11401,
+          12405,
+          14409,
+          15405
+        ]
+      }
+    ],
+    [
+      {
         "Name": "刺玫的銘誓",
         "Version": "4.3",
         "Order": 1,
@@ -195,6 +384,69 @@
     ]
   ],
   "ja": [
+    [
+      {
+        "Name": "影寂の天下人",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/cf9167d34795545d5a3bc9e961837ee4_2007182079952993846.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/cf9167d34795545d5a3bc9e961837ee4_2007182079952993846.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 301,
+        "UpOrangeList": [
+          10000052
+        ],
+        "UpPurpleList": [
+          10000090,
+          10000056,
+          10000032
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "天の川に咲きし大輪",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/f6a594fe1d801fe06be284e735a3fe28_4858158992026605308.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/f6a594fe1d801fe06be284e735a3fe28_4858158992026605308.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 400,
+        "UpOrangeList": [
+          10000049
+        ],
+        "UpPurpleList": [
+          10000090,
+          10000056,
+          10000032
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "神鋳賦形",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/3555fdc446211055724b395953271137_1620117927037650997.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/3555fdc446211055724b395953271137_1620117927037650997.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 302,
+        "UpOrangeList": [
+          13509,
+          15509
+        ],
+        "UpPurpleList": [
+          13416,
+          11401,
+          12405,
+          14409,
+          15405
+        ]
+      }
+    ],
     [
       {
         "Name": "棘薔薇の誓い",
@@ -262,6 +514,69 @@
   "ko": [
     [
       {
+        "Name": "정토 좇는 천하인",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/06b867c94628241313de5f358955af9d_4468007925344377647.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/06b867c94628241313de5f358955af9d_4468007925344377647.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 301,
+        "UpOrangeList": [
+          10000052
+        ],
+        "UpPurpleList": [
+          10000090,
+          10000056,
+          10000032
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "은하수를 물들인 불꽃",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/dff679e9e31e62f01c70b70e4169762c_6230866593566078786.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/dff679e9e31e62f01c70b70e4169762c_6230866593566078786.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 400,
+        "UpOrangeList": [
+          10000049
+        ],
+        "UpPurpleList": [
+          10000090,
+          10000056,
+          10000032
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "신의 주조",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/4e2bbf2a546c66c5435531450d196350_3086233192685140075.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/4e2bbf2a546c66c5435531450d196350_3086233192685140075.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 302,
+        "UpOrangeList": [
+          13509,
+          15509
+        ],
+        "UpPurpleList": [
+          13416,
+          11401,
+          12405,
+          14409,
+          15405
+        ]
+      }
+    ],
+    [
+      {
         "Name": "가시 장미의 맹세",
         "Version": "4.3",
         "Order": 1,
@@ -325,6 +640,69 @@
     ]
   ],
   "es": [
+    [
+      {
+        "Name": "Reino de la serenidad",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/3a18a5faa6c6defc3cddc067ed4508f9_2861194301029693762.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/3a18a5faa6c6defc3cddc067ed4508f9_2861194301029693762.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 301,
+        "UpOrangeList": [
+          10000052
+        ],
+        "UpPurpleList": [
+          10000090,
+          10000056,
+          10000032
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Tapiz del fuego áureo",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/f4e69baa708d249a3f867897e256fd79_3188047209439728857.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/f4e69baa708d249a3f867897e256fd79_3188047209439728857.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 400,
+        "UpOrangeList": [
+          10000049
+        ],
+        "UpPurpleList": [
+          10000090,
+          10000056,
+          10000032
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Encarnación divina",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/466df12eb2e625ec8de66e378eda711a_6591161200100573008.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/466df12eb2e625ec8de66e378eda711a_6591161200100573008.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 302,
+        "UpOrangeList": [
+          13509,
+          15509
+        ],
+        "UpPurpleList": [
+          13416,
+          11401,
+          12405,
+          14409,
+          15405
+        ]
+      }
+    ],
     [
       {
         "Name": "Juramento de las rosas",
@@ -392,6 +770,69 @@
   "fr": [
     [
       {
+        "Name": "Règne de sérénité",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/4634dddf892f90ad07251c677c93b749_5022903608730530468.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/4634dddf892f90ad07251c677c93b749_5022903608730530468.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 301,
+        "UpOrangeList": [
+          10000052
+        ],
+        "UpPurpleList": [
+          10000090,
+          10000056,
+          10000032
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Draperie d'étincelles dorées",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/fbea5e862bafa397bf0059b2419cad9a_3871573346231172630.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/fbea5e862bafa397bf0059b2419cad9a_3871573346231172630.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 400,
+        "UpOrangeList": [
+          10000049
+        ],
+        "UpPurpleList": [
+          10000090,
+          10000056,
+          10000032
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Incarnation divine",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/fa17a3f4c11fb98b5d5dfb7c8f2b5e09_7280839582568580489.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/fa17a3f4c11fb98b5d5dfb7c8f2b5e09_7280839582568580489.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 302,
+        "UpOrangeList": [
+          13509,
+          15509
+        ],
+        "UpPurpleList": [
+          13416,
+          11401,
+          12405,
+          14409,
+          15405
+        ]
+      }
+    ],
+    [
+      {
         "Name": "Au nom de la Rosula",
         "Version": "4.3",
         "Order": 1,
@@ -455,6 +896,69 @@
     ]
   ],
   "ru": [
+    [
+      {
+        "Name": "Господство безмятежности",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/95185cdaf85b5b9cc3524d7f11f7ff42_3984485356222973359.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/95185cdaf85b5b9cc3524d7f11f7ff42_3984485356222973359.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 301,
+        "UpOrangeList": [
+          10000052
+        ],
+        "UpPurpleList": [
+          10000090,
+          10000056,
+          10000032
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Гобелен золотого пламени",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/2fe3c45314011328072f6b77ad454a66_1764679812722126814.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/2fe3c45314011328072f6b77ad454a66_1764679812722126814.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 400,
+        "UpOrangeList": [
+          10000049
+        ],
+        "UpPurpleList": [
+          10000090,
+          10000056,
+          10000032
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Воплощение божества",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/2fd6ab09970b4572ed52b5c80964f9b2_6336575679513360020.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/2fd6ab09970b4572ed52b5c80964f9b2_6336575679513360020.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 302,
+        "UpOrangeList": [
+          13509,
+          15509
+        ],
+        "UpPurpleList": [
+          13416,
+          11401,
+          12405,
+          14409,
+          15405
+        ]
+      }
+    ],
     [
       {
         "Name": "Во имя розы",
@@ -522,6 +1026,69 @@
   "th": [
     [
       {
+        "Name": "บัลลังก์แห่งนิรันดร์",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/6db7bdea8456c47fdda38fa0b88b5ab7_2837012087717151815.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/6db7bdea8456c47fdda38fa0b88b5ab7_2837012087717151815.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 301,
+        "UpOrangeList": [
+          10000052
+        ],
+        "UpPurpleList": [
+          10000090,
+          10000056,
+          10000032
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "ทะเลดาวแห่งเปลวเพลิง",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/a7bd26364a7f18021e4b8f32827d8fea_472942802860384593.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/a7bd26364a7f18021e4b8f32827d8fea_472942802860384593.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 400,
+        "UpOrangeList": [
+          10000049
+        ],
+        "UpPurpleList": [
+          10000090,
+          10000056,
+          10000032
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "สรรค์สร้างเซียน",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/98c852201ad2b58879911e6359e60bff_53673148808425082.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/98c852201ad2b58879911e6359e60bff_53673148808425082.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 302,
+        "UpOrangeList": [
+          13509,
+          15509
+        ],
+        "UpPurpleList": [
+          13416,
+          11401,
+          12405,
+          14409,
+          15405
+        ]
+      }
+    ],
+    [
+      {
         "Name": "ปฏิญาณแห่งกุหลาบหนาม",
         "Version": "4.3",
         "Order": 1,
@@ -585,6 +1152,69 @@
     ]
   ],
   "vi": [
+    [
+      {
+        "Name": "Cô Độc Giữa Nhân Gian",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/98ff2af39a36007d8144fd278924a661_3892131032806103871.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/98ff2af39a36007d8144fd278924a661_3892131032806103871.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 301,
+        "UpOrangeList": [
+          10000052
+        ],
+        "UpPurpleList": [
+          10000090,
+          10000056,
+          10000032
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Thiên Hà Rực Lửa",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/e8c4e510c90d56f3527097203d2dabd7_456179704540924430.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/e8c4e510c90d56f3527097203d2dabd7_456179704540924430.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 400,
+        "UpOrangeList": [
+          10000049
+        ],
+        "UpPurpleList": [
+          10000090,
+          10000056,
+          10000032
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Thân Hình Thần Đúc",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/9c72dd51544623cbdca7129aee2724b2_5479685692379697424.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/9c72dd51544623cbdca7129aee2724b2_5479685692379697424.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 302,
+        "UpOrangeList": [
+          13509,
+          15509
+        ],
+        "UpPurpleList": [
+          13416,
+          11401,
+          12405,
+          14409,
+          15405
+        ]
+      }
+    ],
     [
       {
         "Name": "Nhân Danh Rosula",
@@ -652,6 +1282,69 @@
   "de": [
     [
       {
+        "Name": "Im Schatten der Welt",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/7ba69e2e18d67e84658e5a6149643370_8923186453612428110.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/7ba69e2e18d67e84658e5a6149643370_8923186453612428110.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 301,
+        "UpOrangeList": [
+          10000052
+        ],
+        "UpPurpleList": [
+          10000090,
+          10000056,
+          10000032
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Flammengalaxie",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/cce120bba72ac0104084bc8a605d2599_5576085854304304126.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/cce120bba72ac0104084bc8a605d2599_5576085854304304126.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 400,
+        "UpOrangeList": [
+          10000049
+        ],
+        "UpPurpleList": [
+          10000090,
+          10000056,
+          10000032
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Göttliches Werk",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/e4c046491b9018f9af840defa0f948ad_680753582170127429.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/e4c046491b9018f9af840defa0f948ad_680753582170127429.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 302,
+        "UpOrangeList": [
+          13509,
+          15509
+        ],
+        "UpPurpleList": [
+          13416,
+          11401,
+          12405,
+          14409,
+          15405
+        ]
+      }
+    ],
+    [
+      {
         "Name": "Im Namen der Rosula",
         "Version": "4.3",
         "Order": 1,
@@ -715,6 +1408,69 @@
     ]
   ],
   "id": [
+    [
+      {
+        "Name": "Sang Penguasa Tunggal",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/e73ab57729d281f5cf9fe2b6d615a39e_4620507180285696761.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/e73ab57729d281f5cf9fe2b6d615a39e_4620507180285696761.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 301,
+        "UpOrangeList": [
+          10000052
+        ],
+        "UpPurpleList": [
+          10000090,
+          10000056,
+          10000032
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Pijar Api di Angkasa",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/22ff52b024244bbcc8423fc805d72bd0_3720510319766212234.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/22ff52b024244bbcc8423fc805d72bd0_3720510319766212234.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 400,
+        "UpOrangeList": [
+          10000049
+        ],
+        "UpPurpleList": [
+          10000090,
+          10000056,
+          10000032
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Epitome Invocation",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/eca3011738eb235ef56531ed3ad8bd91_5065091376300002271.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/eca3011738eb235ef56531ed3ad8bd91_5065091376300002271.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 302,
+        "UpOrangeList": [
+          13509,
+          15509
+        ],
+        "UpPurpleList": [
+          13416,
+          11401,
+          12405,
+          14409,
+          15405
+        ]
+      }
+    ],
     [
       {
         "Name": "Ikrar Sekuntum Mawar",
@@ -782,6 +1538,69 @@
   "pt": [
     [
       {
+        "Name": "Reino da Serenidade",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/828e029aca399715adb50650b13fc1ef_3612887644297560250.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/828e029aca399715adb50650b13fc1ef_3612887644297560250.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 301,
+        "UpOrangeList": [
+          10000052
+        ],
+        "UpPurpleList": [
+          10000090,
+          10000056,
+          10000032
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Chama da Via Láctea",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/1e8f1b19e8a702cc44b167a56a64d75f_2391393069181551829.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/1e8f1b19e8a702cc44b167a56a64d75f_2391393069181551829.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 400,
+        "UpOrangeList": [
+          10000049
+        ],
+        "UpPurpleList": [
+          10000090,
+          10000056,
+          10000032
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Encarnação Divina",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/debe9921e9d036a0e1a0d317315d09b1_7405310839080545748.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/debe9921e9d036a0e1a0d317315d09b1_7405310839080545748.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 302,
+        "UpOrangeList": [
+          13509,
+          15509
+        ],
+        "UpPurpleList": [
+          13416,
+          11401,
+          12405,
+          14409,
+          15405
+        ]
+      }
+    ],
+    [
+      {
         "Name": "Juramento Eterno da Rosa",
         "Version": "4.3",
         "Order": 1,
@@ -847,6 +1666,69 @@
   "tr": [
     [
       {
+        "Name": "Huzur Saltanatı",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/d21dff47935898ef4a943d994567f4ac_117592127498930039.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/d21dff47935898ef4a943d994567f4ac_117592127498930039.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 301,
+        "UpOrangeList": [
+          10000052
+        ],
+        "UpPurpleList": [
+          10000090,
+          10000056,
+          10000032
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Altın Alevlerin Örgüsü",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/1222bd2c13ff81c2b469aaa3e744d619_6584601516583128434.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/1222bd2c13ff81c2b469aaa3e744d619_6584601516583128434.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 400,
+        "UpOrangeList": [
+          10000049
+        ],
+        "UpPurpleList": [
+          10000090,
+          10000056,
+          10000032
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "İlahi Çağrı",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/ec9d2f924e8d836133578d11c1a9efdf_6844671660542197087.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/ec9d2f924e8d836133578d11c1a9efdf_6844671660542197087.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 302,
+        "UpOrangeList": [
+          13509,
+          15509
+        ],
+        "UpPurpleList": [
+          13416,
+          11401,
+          12405,
+          14409,
+          15405
+        ]
+      }
+    ],
+    [
+      {
         "Name": "Rosula Adına",
         "Version": "4.3",
         "Order": 1,
@@ -910,6 +1792,69 @@
     ]
   ],
   "it": [
+    [
+      {
+        "Name": "Regno della serenità",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/c8c2f0afd62c4159e068a1b20baedf22_3018197621460825954.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/c8c2f0afd62c4159e068a1b20baedf22_3018197621460825954.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 301,
+        "UpOrangeList": [
+          10000052
+        ],
+        "UpPurpleList": [
+          10000090,
+          10000056,
+          10000032
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Drappi di fiamme dorate",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/f2caf25ade7295a9484cf90f736cffd4_548403451090451927.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/f2caf25ade7295a9484cf90f736cffd4_548403451090451927.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 400,
+        "UpOrangeList": [
+          10000049
+        ],
+        "UpPurpleList": [
+          10000090,
+          10000056,
+          10000032
+        ]
+      }
+    ],
+    [
+      {
+        "Name": "Incarnazione divina",
+        "Version": "4.3",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/f5db50db93e521265f33f8661b3aef0b_7173192141204441512.png",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2023/12/19/f5db50db93e521265f33f8661b3aef0b_7173192141204441512.png",
+        "From": "2024-01-09T18:00:00",
+        "To": "2024-01-30T14:59:00",
+        "Type": 302,
+        "UpOrangeList": [
+          13509,
+          15509
+        ],
+        "UpPurpleList": [
+          13416,
+          11401,
+          12405,
+          14409,
+          15405
+        ]
+      }
+    ],
     [
       {
         "Name": "Nel nome della Rosula",
