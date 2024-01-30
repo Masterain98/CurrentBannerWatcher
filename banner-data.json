@@ -1,4 +1,222 @@
 {
+  "20268": {
+    "zh-cn": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/f9dfa0a19638ad739e446eff55b3fe7b_6494394313209745209.jpg",
+      "banner_name": "云府鹤行"
+    },
+    "en-us": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/8a42705ce459e44aaae3f345ff624a53_5120958252254257516.png",
+      "banner_name": "The Crane Soars Skyward"
+    },
+    "zh-tw": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/7bcd7f60bdc4df3e6d3bf41bef64b7a1_5522780183598054640.png",
+      "banner_name": "雲府鶴行"
+    },
+    "ja": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/6e851e93b38a5d19b66b6abf7781026e_7787062334840019369.png",
+      "banner_name": "雲府飛鶴"
+    },
+    "ko": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/916769dbcc4f3f181fa23605ed5823ff_6128827970533131268.png",
+      "banner_name": "구름을 거니는 학"
+    },
+    "es": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/dfeac59ff1ae96e516496905b4220d09_3062719764386028510.png",
+      "banner_name": "Nimbomorada de la grulla"
+    },
+    "fr": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/4ce1ff3f5382d20754a2781d55093c8a_6577334180410333307.png",
+      "banner_name": "La grue s'envole vers les cieux"
+    },
+    "ru": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/66c725b4dd235119d0e17a42f72e687c_3232032864212825703.png",
+      "banner_name": "Журавль взлетает в небеса"
+    },
+    "th": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/0bb29928e5a145e969d6bd5b9fd8669c_2961135789709733908.png",
+      "banner_name": "กระเรียนท่องล่องเมฆา"
+    },
+    "vi": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/71fd3178f15f89489fb8b3de430c379f_3575442973721118070.png",
+      "banner_name": "Vân Phủ Hạc Hành"
+    },
+    "de": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/58ead68af0a0bf0eab30c096c6a67a35_7009315503138445816.png",
+      "banner_name": "Kranichsilhouette inmitten der Wolken"
+    },
+    "id": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/0760dc0dff834dc494e1b3a711ff1f74_5582861468458198728.png",
+      "banner_name": "Bangau Terbang di Awan"
+    },
+    "pt": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/5e7e59a58607c4f74c2df47e9850959d_654834214408375665.png",
+      "banner_name": "Moradia Etérea da Garça"
+    },
+    "tr": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/9234df705a3d1853b607379bcfbe2081_8945356240564469136.png",
+      "banner_name": "Etkinlik Dileği - Turnalar Arşa Uçar"
+    },
+    "it": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/ace4c2f88b204fbdd3c8b358b0feb73f_3798727411534358064.png",
+      "banner_name": "La gru solca i cieli"
+    },
+    "five_star_item_1": 10000093,
+    "four_star_item_1": 10000092,
+    "four_star_item_2": 10000076,
+    "four_star_item_3": 10000034,
+    "four_star_item_4": 10000093,
+    "UIGF_pool_type": 301,
+    "start_time": "2024/01/31 06:00:00",
+    "end_time": "2024/02/20 17:59:00",
+    "version_number": "4.4",
+    "order_number": 1
+  },
+  "20269": {
+    "zh-cn": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/ed0af17e251c1a1307eb00534b9d8d40_6648353993044816588.png",
+      "banner_name": "月草的赐慧"
+    },
+    "en-us": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/d02d3cde6b1944a0ef375c0662655f2a_556478261796841791.png",
+      "banner_name": "The Moongrass' Enlightenment"
+    },
+    "zh-tw": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/0c954428ac56b5bc6786ab30a3d53930_1194952738250787851.png",
+      "banner_name": "月草的賜慧"
+    },
+    "ja": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/441a81a5b5548a6e8af5129de425b6a9_8738236879416751651.png",
+      "banner_name": "叡智を恵む月見草"
+    },
+    "ko": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/171760fd6992a5fc746ba7ca442f686a_12799528293990950.png",
+      "banner_name": "달빛 풀이 내린 지혜"
+    },
+    "es": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/103ad0f82f8c7d598de4dd2de04c0ba4_5904888758261374458.png",
+      "banner_name": "Iluminación verdeluna"
+    },
+    "fr": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/dfb422e287a64c29b9d9c9595e1e2583_3336588181857502351.png",
+      "banner_name": "Dessillement de l'herbe lunaire"
+    },
+    "ru": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/4c72942c2f8208c817172570ba466a65_2922776435414794155.png",
+      "banner_name": "Озарение лунной травы"
+    },
+    "th": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/51df1061dde156df0e8587f863fabddc_2470278747299697045.png",
+      "banner_name": "หญ้าแสงจันทร์ประทานปัญญา"
+    },
+    "vi": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/92566e58303de657a6a11ba2f29cac87_2802607696318367954.png",
+      "banner_name": "Giác Ngộ Nguyệt Thảo"
+    },
+    "de": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/8bb531989257f9b8d6795dc5d94f2590_6847307278274792470.png",
+      "banner_name": "Erleuchtung des Mondgrases"
+    },
+    "id": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/babbc88be14d3e97ba474d8be4f34a99_5241051643664663409.png",
+      "banner_name": "Anugerah Kebijaksanaan Rumput Rembulan"
+    },
+    "pt": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/5767481f807fc8dd2a63576798714f71_3386674363120615139.png",
+      "banner_name": "A Sabedoria da Erva da Lua"
+    },
+    "tr": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/d3853888ddc6a3be4b48f42a4a2d43fe_5465972072556969762.png",
+      "banner_name": "Ay Otunun Bilgeliği"
+    },
+    "it": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/72451a30e854527ed35297a98c576ed7_570012467655486728.png",
+      "banner_name": "L'illuminazione dell'Erba lunare"
+    },
+    "five_star_item_1": 10000073,
+    "four_star_item_1": 10000092,
+    "four_star_item_2": 10000076,
+    "four_star_item_3": 10000034,
+    "four_star_item_4": 10000073,
+    "UIGF_pool_type": 400,
+    "start_time": "2024/01/31 06:00:00",
+    "end_time": "2024/02/20 17:59:00",
+    "version_number": "4.4",
+    "order_number": 1
+  },
+  "20270": {
+    "zh-cn": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/d21682fafbdf6864d298b238d6ee7d56_8019567298654207138.png",
+      "banner_name": "神铸赋形"
+    },
+    "en-us": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/f1b276f8df146b46e85efb9f3b595dd4_8718989072003631333.png",
+      "banner_name": "Epitome Invocation"
+    },
+    "zh-tw": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/99f9827f18d9dbd85aea2636596fbee0_3671525528494079398.png",
+      "banner_name": "神鑄賦形"
+    },
+    "ja": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/7fb6565094ed8012f6e5651da5479f63_4695639498311753105.png",
+      "banner_name": "神鋳賦形"
+    },
+    "ko": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/f7686e503310711471f5a1a69d2a64a7_2776508023128058693.png",
+      "banner_name": "신의 주조"
+    },
+    "es": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/a169855ebd1daa11889c2ef5fdfad9d3_7890708741322011946.png",
+      "banner_name": "Encarnación divina"
+    },
+    "fr": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/ef849619e05554bf255434bfcc0d9581_3003634843010364470.png",
+      "banner_name": "Incarnation divine"
+    },
+    "ru": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/b0628505d36c423ed2f1fa15325c903f_1375915874164120385.png",
+      "banner_name": "Воплощение божества"
+    },
+    "th": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/d7107e259fbce0e9272d2f151bf6c513_2162815424715916410.png",
+      "banner_name": "สรรค์สร้างเซียน"
+    },
+    "vi": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/b716ad2a994300095e4196edd8a60428_6833945961505300101.png",
+      "banner_name": "Thân Hình Thần Đúc"
+    },
+    "de": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/2a2c1e383252f48254c90349bdb72b46_5123884312863909943.png",
+      "banner_name": "Göttliches Werk"
+    },
+    "id": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/f61a982f6a6e4162d9748fa439938b0a_2067289857275370671.png",
+      "banner_name": "Epitome Invocation"
+    },
+    "pt": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/68ddc5b387a0f8496cf35ef37df9350d_2836994310610412876.png",
+      "banner_name": "Encarnação Divina"
+    },
+    "tr": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/c18f29b298469f982d4c2dbcd8056406_2801532871635814963.png",
+      "banner_name": "İlahi Çağrı"
+    },
+    "it": {
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/01/18/99db338baa164f20b17707f5f12d4ea9_5355688131891647930.png",
+      "banner_name": "Incarnazione divina"
+    },
+    "five_star_item_1": 14515,
+    "five_star_item_2": 14511,
+    "four_star_item_1": 13406,
+    "four_star_item_2": 11403,
+    "four_star_item_3": 12403,
+    "four_star_item_4": 14403,
+    "four_star_item_5": 15403,
+    "UIGF_pool_type": 302,
+    "start_time": "2024/01/31 06:00:00",
+    "end_time": "2024/02/20 17:59:00",
+    "version_number": "4.4",
+    "order_number": 1
+  },
   "20184": {
     "zh-cn": {
       "banner_image": "https://sdk.hoyoverse.com/upload/ann/2023/12/19/ef4e31ae9213f5e8a33f1389efd4c03d_5559840394685445282.png",
