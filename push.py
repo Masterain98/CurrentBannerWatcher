@@ -67,9 +67,6 @@ def update_banner():
 
 def create_banner(mode: str = "production"):
     new_data = {}
-    url = os.getenv("CREATION_POST_ENDPOINT")
-    if url is None:
-        raise AttributeError("CREATION_POST_ENDPOINT env is not set.")
     with open("banner-data.json", "r", encoding="utf-8") as f:
         data = json.loads(f.read())
     for lang in list(item for item in list(data.values())[0].keys() if len(item) <= 5):
@@ -163,8 +160,18 @@ def create_banner(mode: str = "production"):
         for banner in new_data[lang]:
             print("Sending data: " + str(banner))
             if mode == "production":
-                return_result = requests.post(url.format(locale=locale), json=banner)
+                url = os.getenv("CREATION_POST_ENDPOINT")
+                if url is None:
+                    raise AttributeError("CREATION_POST_ENDPOINT env is not set.")
+                url = url.format(locale=locale)
+                print("URL: " + url)
+                return_result = requests.post(url, json=banner)
                 print("status_code: " + str(return_result.status_code))
                 print("content: " + json.loads(return_result.content.decode("utf-8"))["message"])
                 print("Full content: " + str(return_result.content.decode("utf-8")))
                 print("=" * 20)
+
+
+if __name__ == "__main__":
+    create_banner(os.getenv("run_mode"))
+    # update_banner()
