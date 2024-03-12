@@ -86,30 +86,6 @@ def create_banner(mode: str = "production"):
             this_post["From"] = this_post.pop("start_time").replace("/", "-").replace(" ", "T")
             this_post["To"] = this_post.pop("end_time").replace("/", "-").replace(" ", "T")
             this_post["Type"] = this_post.pop("UIGF_pool_type")
-            try:
-                this_post["UpOrangeList"] = [this_post["five_star_item_1"], this_post["five_star_item_2"]]
-            except KeyError:
-                this_post["UpOrangeList"] = [this_post["five_star_item_1"]]
-            try:
-                this_post["UpPurpleList"] = [this_post["four_star_item_1"], this_post["four_star_item_2"],
-                                             this_post["four_star_item_3"], this_post["four_star_item_4"],
-                                             this_post["four_star_item_5"]]
-            except KeyError:
-                this_post["UpPurpleList"] = [this_post["four_star_item_1"], this_post["four_star_item_2"],
-                                             this_post["four_star_item_3"]]
-            this_post.pop("five_star_item_1")
-            try:
-                this_post.pop("five_star_item_2")
-            except KeyError:
-                pass
-            this_post.pop("four_star_item_1")
-            this_post.pop("four_star_item_2")
-            this_post.pop("four_star_item_3")
-            this_post.pop("four_star_item_4")
-            try:
-                this_post.pop("four_star_item_5")
-            except KeyError:
-                pass
             new_data[lang].append([this_post])
 
             # Download Image
