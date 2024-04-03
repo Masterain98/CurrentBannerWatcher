@@ -1,7 +1,7 @@
 {
   "20369": {
     "UpOrangeList": [
-      null
+      10000087
     ],
     "UpPurpleList": [
       10000014,
@@ -151,15 +151,15 @@
   },
   "20371": {
     "UpOrangeList": [
-      null,
-      null
+      14514,
+      11503
     ],
     "UpPurpleList": [
-      null,
-      null,
-      null,
-      null,
-      null
+      14410,
+      15412,
+      11402,
+      12401,
+      13407
     ],
     "UIGF_pool_type": 302,
     "start_time": "2024/04/02 18:00:00",
