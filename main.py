@@ -322,3 +322,4 @@ def refresh_all_banner_data():
 
 if __name__ == "__main__":
     refresh_all_banner_data()
+    create_banner()
