@@ -1,4 +1,232 @@
 {
+  "20580": {
+    "UpOrangeList": [
+      10000095
+    ],
+    "UpPurpleList": [
+      10000034,
+      10000092,
+      10000045
+    ],
+    "UIGF_pool_type": 301,
+    "start_time": "2024/06/25 18:00:00",
+    "end_time": "2024/07/16 14:59:00",
+    "version_number": "4.7",
+    "order_number": 2,
+    "zh-cn": {
+      "banner_name": "柔柔海露心",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/18/d589068799f76e59c8e81b7006caf61e_2808706754693310584.png"
+    },
+    "en-us": {
+      "banner_name": "Romaritime Meluserenity",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/18/b709bd081249b54b1fcbd962eaf75d97_6956633587623974368.png"
+    },
+    "zh-tw": {
+      "banner_name": "柔柔海露心",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/18/43ed2223b3e9c3e70384e24a159e49ca_2528330442271998745.png"
+    },
+    "ja": {
+      "banner_name": "ロマリタイムハート",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/18/8ea4f99345e1f782a6380993f993f99d_6398344354373467607.png"
+    },
+    "ko": {
+      "banner_name": "보들보들 바다이슬 하트",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/18/7afed57ad7ee8eaf193e69e1704d14c1_8576838562019097449.png"
+    },
+    "es": {
+      "banner_name": "Corazón rociomarino",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/18/a9d0f545faa2410752e7379ba969589a_9127156713425317651.png"
+    },
+    "fr": {
+      "banner_name": "Mélusinité romaritime",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/18/353dfe887ce812a028509668d75310dc_3994037974795968315.png"
+    },
+    "ru": {
+      "banner_name": "Ромаринская безмятежность",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/18/ee99b9b8f0aee3e57b3b3a6e19913b1f_5568200848397610356.png"
+    },
+    "th": {
+      "banner_name": "ดวงใจสมุทรผู้อารี",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/18/36b537cc54f55eb75b2aeb8c271c75ea_4665371630878581230.png"
+    },
+    "vi": {
+      "banner_name": "Romaritime Dịu Dàng",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/18/ab7eb9244314869e605a38929cb2d172_1306476798892510564.png"
+    },
+    "de": {
+      "banner_name": "Sanfte Meluseele",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/18/54d1497083e9277a2a49796e32f4a01c_3458708818868971448.png"
+    },
+    "id": {
+      "banner_name": "Romaritime Rahayu",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/18/3a1f54371737af6809e7c86ef553a9c2_1840058851044932002.png"
+    },
+    "pt": {
+      "banner_name": "Coração Rociomarinho",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/18/c2558386ea44c4fb8e2cb267432626cf_6192782561135323511.png"
+    },
+    "tr": {
+      "banner_name": "Romaritime Dinginliği Etkinlik Dileği",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/18/2d4815a8922995a33fe15c700b0e3608_2813847019069700982.png"
+    },
+    "it": {
+      "banner_name": "Meluserenità di Romaritime",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/18/663f3b634f9cf5d71b2f97d8e661e23f_7023719589467445528.png"
+    }
+  },
+  "20581": {
+    "UpOrangeList": [
+      10000089
+    ],
+    "UpPurpleList": [
+      10000034,
+      10000092,
+      10000045
+    ],
+    "UIGF_pool_type": 400,
+    "start_time": "2024/06/25 18:00:00",
+    "end_time": "2024/07/16 14:59:00",
+    "version_number": "4.7",
+    "order_number": 2,
+    "zh-cn": {
+      "banner_name": "众水的颂诗",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/18/e0a749bf339b735888d429816c223eaf_5030155230795872738.png"
+    },
+    "en-us": {
+      "banner_name": "Chanson of Many Waters",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/18/6d7607ab469749c5b6a214665c121eef_4171939298846664325.png"
+    },
+    "zh-tw": {
+      "banner_name": "眾水的頌詩",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/18/f1bf2521f2c0fdabcc82ef7db0dd37e2_9072633052685082540.png"
+    },
+    "ja": {
+      "banner_name": "衆の水の頌歌",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/18/51dc2e2639b41f4648777309aa762afb_5685473821308498077.png"
+    },
+    "ko": {
+      "banner_name": "물들의 찬송시",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/18/29fdbc1223881b8fd613aac8d2349393_7675590158679874941.png"
+    },
+    "es": {
+      "banner_name": "Oda a todas las aguas",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/18/0b4727892f9be7a778e7f621ffa253ab_2396700104272232446.png"
+    },
+    "fr": {
+      "banner_name": "Chant de toutes les eaux",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/18/28cd0eb8367d6565c37514fd85f7368c_371811417491572387.png"
+    },
+    "ru": {
+      "banner_name": "Песнь водам мира",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/18/ab685f86ae17e8558583a06f7e0c138b_6547666376613957934.png"
+    },
+    "th": {
+      "banner_name": "ขับขานลำเนาธาร",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/18/d851900688738b6abac70f5db0a9989e_3907104114325123707.png"
+    },
+    "vi": {
+      "banner_name": "Muôn Nước Ca Tụng",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/18/80c9aa0d67f5bd1dd78d2f2b1543cb9c_7538859708938700068.png"
+    },
+    "de": {
+      "banner_name": "Chanson der Ströme",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/18/2e97f64d15ae82c92f2b3da761eddfff_6971772788853570726.png"
+    },
+    "id": {
+      "banner_name": "Kidung Semesta Perairan",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/18/349719a1a38aa7ac65f552cb9185b114_4561972861102958675.png"
+    },
+    "pt": {
+      "banner_name": "Ode às Águas",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/18/713789f2342e047adfc76e05139cf56f_7392394359142234159.png"
+    },
+    "tr": {
+      "banner_name": "Tüm Suların Şarkısı Etkinlik Dileği",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/18/63a93db3329fe3a943953ab277690586_6333375589443127846.png"
+    },
+    "it": {
+      "banner_name": "Ode alle Mille Acque",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/18/d379281c5f9a48291ebbebb83eeb368e_8921055172603346803.png"
+    }
+  },
+  "20514": {
+    "UpOrangeList": [
+      15513,
+      11513
+    ],
+    "UpPurpleList": [
+      12410,
+      11405,
+      13407,
+      14401,
+      15403
+    ],
+    "UIGF_pool_type": 302,
+    "start_time": "2024/06/25 18:00:00",
+    "end_time": "2024/07/16 14:59:00",
+    "version_number": "4.7",
+    "order_number": 2,
+    "zh-cn": {
+      "banner_name": "神铸赋形",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/06/b62d8cd192489a04a746d3a5820c54dc_6623811134291012902.png"
+    },
+    "en-us": {
+      "banner_name": "Epitome Invocation",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/06/3fcc76d4127127c4a8983f9f96664bca_2245322852914816710.png"
+    },
+    "zh-tw": {
+      "banner_name": "神鑄賦形",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/06/0c54587e316b683c20092df3327e8bbd_1076023545753265618.png"
+    },
+    "ja": {
+      "banner_name": "神鋳賦形",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/06/fa31e3eaa4f48f339f072d628a31c7e0_2030755851932273142.png"
+    },
+    "ko": {
+      "banner_name": "신의 주조",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/06/039165021fe58159c85ab0970da68502_8236238831301019339.png"
+    },
+    "es": {
+      "banner_name": "Encarnación divina",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/06/443864fb67d0e86add2cba0c84a72b92_2296118528824117708.png"
+    },
+    "fr": {
+      "banner_name": "Incarnation divine",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/06/9beea4ccb0573d47f11ddd779d100d8c_5885540788687483134.png"
+    },
+    "ru": {
+      "banner_name": "Воплощение божества",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/06/92621d702786cae1d6a997b963f04684_3838254841566528941.png"
+    },
+    "th": {
+      "banner_name": "สรรค์สร้างเซียน",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/06/57cfc95e2987f584da898815c6e5edf9_3480504054625298919.png"
+    },
+    "vi": {
+      "banner_name": "Thân Hình Thần Đúc",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/06/208b6af5b553f95ec84cb4ca7a10c4a5_3593778166361417383.png"
+    },
+    "de": {
+      "banner_name": "Göttliches Werk",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/06/ef2f5f880367c2e51f229a22858ae8e4_9034147766726103562.png"
+    },
+    "id": {
+      "banner_name": "Epitome Invocation",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/06/5385efe595300e1e6cce5ffacf0625fb_7056690549229455813.png"
+    },
+    "pt": {
+      "banner_name": "Encarnação Divina",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/06/c6a5d5389f5193f2e8fe46a02a40ebfb_2061370390585802017.png"
+    },
+    "tr": {
+      "banner_name": "İlahi Çağrı Etkinlik Dileği",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/06/db07c460ce86290b732ed98872d149f5_5593487662493469542.png"
+    },
+    "it": {
+      "banner_name": "Incarnazione divina",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/06/06/65016b72193dcf9532d145cc2034e2d5_2109151839637092216.png"
+    }
+  },
   "20502": {
     "UpOrangeList": [
       10000098
@@ -225,234 +453,6 @@
     "it": {
       "banner_name": "Incarnazione divina",
       "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/05/22/68be10ac755c08c4731981ca24b6d824_3314803098710579139.png"
-    }
-  },
-  "20429": {
-    "UpOrangeList": [
-      10000075
-    ],
-    "UpPurpleList": [
-      10000074,
-      10000076,
-      10000024
-    ],
-    "UIGF_pool_type": 301,
-    "start_time": "2024/05/14 18:00:00",
-    "end_time": "2024/06/04 14:59:00",
-    "version_number": "4.6",
-    "order_number": 2,
-    "zh-cn": {
-      "banner_name": "余火变相",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/04/22/988273ce11ef88b5044493a1774b7f61_1055843383728233882.jpg"
-    },
-    "en-us": {
-      "banner_name": "From Ashes Reborn",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/04/22/1712bf03202a4b44fd2b812a7dd55050_3545841110454694820.jpg"
-    },
-    "zh-tw": {
-      "banner_name": "餘火變相",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/04/22/3d0f124b6d120d818bf8847b066c9c6d_6656164474684847649.jpg"
-    },
-    "ja": {
-      "banner_name": "残火変相",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/04/22/2b2d3ce5b05bf9b654b2fbb9434eb93d_6318430185021660347.jpg"
-    },
-    "ko": {
-      "banner_name": "잿불 속 탈태",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/04/22/2efcb755ad61780c5ed734b9943336ae_6212522838233282985.jpg"
-    },
-    "es": {
-      "banner_name": "Renacido de las ascuas",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/04/22/1fa45597dcf09f4acadf9b71db53fc24_2363553756311127040.jpg"
-    },
-    "fr": {
-      "banner_name": "Renaissant des cendres",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/04/22/8a684c1aa1b5b198dbfb8637eb2ed977_5746990987837303048.jpg"
-    },
-    "ru": {
-      "banner_name": "Прах перерождённый",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/04/22/f1d638082d876cf8754d48f4b8669d20_8470650025916399819.jpg"
-    },
-    "th": {
-      "banner_name": "ไฟกัลป์ผลาญมลทิน",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/04/22/dc3143df463fec0015a3587730b39f91_4520360921859608285.jpg"
-    },
-    "vi": {
-      "banner_name": "Tro Tàn Tái Sinh",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/04/22/5ba30af9fd52c2a7d0b0bc9f71011af1_3488071150616713857.jpg"
-    },
-    "de": {
-      "banner_name": "Aus der Glut wiedergeboren",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/04/22/f83c9853fa1e51ac94f76e41a93a66db_748235443218360211.jpg"
-    },
-    "id": {
-      "banner_name": "Inkarnasi Sisa Bara Api",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/04/22/697719a6684382a1f0364d764fb2fd68_6918705250064388735.jpg"
-    },
-    "pt": {
-      "banner_name": "Fogo Oculto",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/04/22/73982266dd76a31b432c0368510dccd7_3802701530133261613.jpg"
-    },
-    "tr": {
-      "banner_name": "Küllerinden Doğan",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/04/22/0e119d12c33ac7eff63bd38c6b099035_4782396480030339932.jpg"
-    },
-    "it": {
-      "banner_name": "Rinato dalle ceneri",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/04/22/0ea6b1dfc8fc3efee1ce1daa7f3c389e_1095671707002591711.jpg"
-    }
-  },
-  "20430": {
-    "UpOrangeList": [
-      10000082
-    ],
-    "UpPurpleList": [
-      10000074,
-      10000076,
-      10000024
-    ],
-    "UIGF_pool_type": 400,
-    "start_time": "2024/05/14 18:00:00",
-    "end_time": "2024/06/04 14:59:00",
-    "version_number": "4.6",
-    "order_number": 2,
-    "zh-cn": {
-      "banner_name": "心珠循琅",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/04/22/396b2bc6036d253ad6d5c36a5f3b44f7_1473365374221325400.jpg"
-    },
-    "en-us": {
-      "banner_name": "Immaculate Pulse",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/04/22/2de2345fd1e105efbc2a4ad63972ba7d_4701183401149625898.jpg"
-    },
-    "zh-tw": {
-      "banner_name": "心珠循琅",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/04/22/52a3de5a0481d2f5662e1f78e5a92da9_5157532965178088672.jpg"
-    },
-    "ja": {
-      "banner_name": "心珠循琅",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/04/22/53e103b9fa47fc6f58bf14c4f011c815_8494141947487941320.jpg"
-    },
-    "ko": {
-      "banner_name": "옥처럼 맑은 마음",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/04/22/a328c77ec3104e7c94b8f483655892db_5362670590846382212.jpg"
-    },
-    "es": {
-      "banner_name": "Latido inmaculado",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/04/22/5f341429e7764846a51937215fbc83fe_7395427409870557963.jpg"
-    },
-    "fr": {
-      "banner_name": "Pouls immaculé",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/04/22/b0a628b993278781fb02381fcf8a57ea_2506586909794318800.jpg"
-    },
-    "ru": {
-      "banner_name": "Биение мудрого сердца",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/04/22/1c93e649016f0e858d2fbaca7bd5111d_7758044706924105959.jpg"
-    },
-    "th": {
-      "banner_name": "การุณย์บริสุทธิ์",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/04/22/005d50e834de5c2c91728222e360f523_7284907440182977006.jpg"
-    },
-    "vi": {
-      "banner_name": "Tâm Sáng Tựa Ngọc",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/04/22/bf32a38316334d3c0a168953da3597b1_6069246626627378438.jpg"
-    },
-    "de": {
-      "banner_name": "Pulsierendes Leben",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/04/22/0f4275b89d5c9a3b12f9fd24f8f6badb_176077451856356992.jpg"
-    },
-    "id": {
-      "banner_name": "Hati Semurni Mutiara",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/04/22/96d2d3d587f5f67e6deddc3cdbddee00_7213584410069818659.jpg"
-    },
-    "pt": {
-      "banner_name": "Coração Imaculado",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/04/22/97f6a7a0b0ae44348216d16b8f5919ad_4526613514550359064.jpg"
-    },
-    "tr": {
-      "banner_name": "Yaşamın Nabzı",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/04/22/3e7e0e5e0bc1756c9197d3679043c103_2935387385751626453.jpg"
-    },
-    "it": {
-      "banner_name": "Battito immacolato",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/04/22/0f9b0520954da9a53b2ecf51e501eeb8_3854049139738628258.jpg"
-    }
-  },
-  "20431": {
-    "UpOrangeList": [
-      14512,
-      14505
-    ],
-    "UpPurpleList": [
-      13427,
-      15427,
-      11401,
-      12405,
-      14403
-    ],
-    "UIGF_pool_type": 302,
-    "start_time": "2024/05/14 18:00:00",
-    "end_time": "2024/06/04 14:59:00",
-    "version_number": "4.6",
-    "order_number": 2,
-    "zh-cn": {
-      "banner_name": "神铸赋形",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/05/08/ee886f8f9e7d7e9e1ea0e7751a3e35b5_4389003824670400935.png"
-    },
-    "en-us": {
-      "banner_name": "Epitome Invocation",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/05/08/223ae54bda0378853bc1b15880441cc7_1998462538106226619.png"
-    },
-    "zh-tw": {
-      "banner_name": "神鑄賦形",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/05/08/547f8dc82fa74525c0821a63e4363966_5163136725968262197.png"
-    },
-    "ja": {
-      "banner_name": "神鋳賦形",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/05/08/f5c8168d58ad2671f4be8bcae9d04328_8349455099013781982.png"
-    },
-    "ko": {
-      "banner_name": "신의 주조",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/05/08/35581485c9598ec25e89348bb58b6f41_3303434043459986027.png"
-    },
-    "es": {
-      "banner_name": "Encarnación divina",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/05/08/807dee27d5088675bf88428a6b95c43f_5137000763878466809.png"
-    },
-    "fr": {
-      "banner_name": "Incarnation divine",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/05/08/cdb3f3bfa29d3b237b5d4acba1198c1f_3016210791193151085.png"
-    },
-    "ru": {
-      "banner_name": "Воплощение божества",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/05/08/b5656ddf0d83a7c5aa3b718beeef021e_1840311845588550824.png"
-    },
-    "th": {
-      "banner_name": "สรรค์สร้างเซียน",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/05/08/0e7af8006b7d8503a118e57f79784e36_8256229315447975220.png"
-    },
-    "vi": {
-      "banner_name": "Thân Hình Thần Đúc",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/05/08/927ed24f71a90d3c46ec977482ba6fe0_3990504311518282118.png"
-    },
-    "de": {
-      "banner_name": "Göttliches Werk",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/05/08/52e72d1ba792bdc8ab7ca8f08eab8580_2379662038061046481.png"
-    },
-    "id": {
-      "banner_name": "Epitome Invocation",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/05/08/b88fe11e37a638d05c8b518fb84f8cc5_3810641299735292561.png"
-    },
-    "pt": {
-      "banner_name": "Encarnação Divina",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/05/08/b323363f2baa30a4cac720637836071d_2696098470540821212.png"
-    },
-    "tr": {
-      "banner_name": "İlahi Çağrı",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/05/08/fec92a0a1d006aff36a871d2e0802df2_4071393583241091342.png"
-    },
-    "it": {
-      "banner_name": "Incarnazione divina",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2024/05/08/e474b2ba635c0d6f78c8b56222cee7ae_1499591904866198635.png"
     }
   }
 }
