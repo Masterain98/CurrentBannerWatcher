@@ -178,6 +178,7 @@ def announcement_to_banner_meta(chs_ann: dict, all_announcements: list) -> list[
                             r"(?:(</t>)?( )?~( )?<t class=\"(?:(t_lc)|(t_gl))\">)"
                             r"(?P<end>20\d{2}/\d{2}/\d{2} \d{2}:\d{2}:\d{2})")
         try:
+            content_text = content_text.replace(' contenteditable="false"', "")
             time_result = re.search(time_pattern, content_text)
             start_time = time_result.group("start")
             end_time = time_result.group("end")
