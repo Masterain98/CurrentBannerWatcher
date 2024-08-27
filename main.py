@@ -170,13 +170,13 @@ def announcement_to_banner_meta(chs_ann: dict, all_announcements: list) -> list[
                             r"(<t class=\"(?:(t_lc)|(t_gl))\">)?)"
                             r"(?P<start>(\d.\d版本更新后)|(20\d{2}/\d{2}/\d{2} \d{2}:\d{2}:\d{2}))"
                             r"(?:(</t>)?( )?~( )?<t class=\"(?:(t_lc)|(t_gl))\">)"
-                            r"(?P<end>20\d{2}/\d{2}/\d{2} \d{2}:\d{2}:\d{2})")
+                            r"(?P<end>20\d{2}/\d{2}/\d{2} \d{2}:\d{2}(:\d{2})?)")
         else:
             time_pattern = (r"(?:〓祈愿介绍〓祈愿时间可定轨5星角色可定轨5星武器"
                             r"(<t class=\"(?:(t_lc)|(t_gl))\">)?)"
                             r"(?P<start>(\d.\d版本更新后)|(20\d{2}/\d{2}/\d{2} \d{2}:\d{2}:\d{2}))"
                             r"(?:(</t>)?( )?~( )?<t class=\"(?:(t_lc)|(t_gl))\">)"
-                            r"(?P<end>20\d{2}/\d{2}/\d{2} \d{2}:\d{2}:\d{2})")
+                            r"(?P<end>20\d{2}/\d{2}/\d{2} \d{2}:\d{2}(:\d{2})?)")
         try:
             content_text = content_text.replace(' contenteditable="false"', "")
             time_result = re.search(time_pattern, content_text)
@@ -203,7 +203,8 @@ def announcement_to_banner_meta(chs_ann: dict, all_announcements: list) -> list[
                     # 更新预告
                     patch_note = BeautifulSoup([b for b in all_announcements if b["subtitle"] == version +
                                                 "版本更新维护预告"][0]["content"], "html.parser").text
-                    patch_time_pattern = (r"(?:预计将于<t class=\"t_(gl|lc)\">)"
+                    print(f"Patch note: {patch_note}")
+                    patch_time_pattern = (r"(?:预计将于<t class=\"t_(gl|lc)\"( contenteditable=\"false\")>)"
                                           r"(?P<start>20\d{2}/\d{2}/\d{2} \d{2}:\d{2}:\d{2})"
                                           r"(?:</t>进行版本更新维护)")
                 except IndexError:
