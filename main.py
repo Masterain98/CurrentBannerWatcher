@@ -138,13 +138,13 @@ def announcement_to_banner_meta(chs_ann: dict, all_announcements: list) -> list[
     elif "本祈愿属于「集录祈愿」" in content_text:
         uigf_pool_type = 500
         content_text_no_space = content_text.replace(" ", "")
-        orange_characters_re_list = re.search(r"5星角色：(?P<r>[^5星武器：]+)", content_text_no_space).group("r").split("/")
+        orange_characters_re_list = re.search(r"5星角色：(?P<r>.*?)5星武器：", content_text_no_space).group("r").split("/")
         print(f"Orange characters re list: {orange_characters_re_list}")
-        purple_characters_re_list = re.search(r"4星角色：(?P<r>[^4星武器：]+)", content_text_no_space).group("r").split("/")
+        purple_characters_re_list = re.search(r"4星角色：(?P<r>.*?)(?=4星武器：)", content_text_no_space).group("r").split("/")
         print(f"Purple characters re list: {purple_characters_re_list}")
-        orange_weapons_re_list = re.search(r"5星武器：(?P<r>[^4星角色：]+)", content_text_no_space).group("r").split("/")
+        orange_weapons_re_list = re.search(r"5星武器：(?P<r>.*?)4星角色：", content_text_no_space).group("r").split("/")
         print(f"Orange weapons re list: {orange_weapons_re_list}")
-        purple_weapons_re_list = re.search(r"4星武器：(?P<r>[^※]+)", content_text_no_space).group("r").split("/")
+        purple_weapons_re_list = re.search(r"4星武器：(?P<r>.*?)(?=※)", content_text_no_space).group("r").split("/")
         print(f"Purple weapons re list: {purple_weapons_re_list}")
         # Remove duplicates and keep order
         orange_list = []
@@ -160,6 +160,8 @@ def announcement_to_banner_meta(chs_ann: dict, all_announcements: list) -> list[
         print(f"Purple list: {purple_list}")
         print(f"Orange ID list: {orange_id_list}")
         print(f"Purple ID list: {purple_id_list}")
+        print(f"Total count of Orange: {len(orange_id_list)}")
+        print(f"Total count of Purple: {len(purple_id_list)}")
     else:
         return None
 
