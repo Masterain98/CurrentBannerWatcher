@@ -3,6 +3,69 @@
     [
       {
         "UpOrangeList": [
+          10000109
+        ],
+        "UpPurpleList": [
+          10000055,
+          10000053,
+          10000023
+        ],
+        "Name": "浮枕朝颜",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/3767b19394d8107dd3b22518ad4383b9_5665607688511263762.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/3767b19394d8107dd3b22518ad4383b9_5665607688511263762.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 301
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          10000095
+        ],
+        "UpPurpleList": [
+          10000055,
+          10000053,
+          10000023
+        ],
+        "Name": "柔柔海露心",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/b19aab83e10ab0ec2012ad0db2857f98_3011528135086310178.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/b19aab83e10ab0ec2012ad0db2857f98_3011528135086310178.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 400
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          14518,
+          15513
+        ],
+        "UpPurpleList": [
+          12416,
+          13416,
+          15416,
+          11402,
+          14409
+        ],
+        "Name": "神铸赋形",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/2fbdd28e5da3828bcefb134efdbd0308_7635320279968503743.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/2fbdd28e5da3828bcefb134efdbd0308_7635320279968503743.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 302
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
           10000096
         ],
         "UpPurpleList": [
@@ -127,6 +190,69 @@
     ]
   ],
   "en-us": [
+    [
+      {
+        "UpOrangeList": [
+          10000109
+        ],
+        "UpPurpleList": [
+          10000055,
+          10000053,
+          10000023
+        ],
+        "Name": "Dawn's Drifting Reverie",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/848e5f941eb73d5397b69f88fd30f26f_1826312517045285958.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/848e5f941eb73d5397b69f88fd30f26f_1826312517045285958.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 301
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          10000095
+        ],
+        "UpPurpleList": [
+          10000055,
+          10000053,
+          10000023
+        ],
+        "Name": "Romaritime Meluserenity",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/7ba5c66e1f1ac71c52a5cdad933398ff_196878705987745816.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/7ba5c66e1f1ac71c52a5cdad933398ff_196878705987745816.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 400
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          14518,
+          15513
+        ],
+        "UpPurpleList": [
+          12416,
+          13416,
+          15416,
+          11402,
+          14409
+        ],
+        "Name": "Epitome Invocation",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/ae0da4d8f320fa66a5d8e539d9b4a527_9135524560409497776.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/ae0da4d8f320fa66a5d8e539d9b4a527_9135524560409497776.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 302
+      }
+    ],
     [
       {
         "UpOrangeList": [
@@ -257,6 +383,69 @@
     [
       {
         "UpOrangeList": [
+          10000109
+        ],
+        "UpPurpleList": [
+          10000055,
+          10000053,
+          10000023
+        ],
+        "Name": "浮枕朝顏",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/fa5cd042d8d0f7ba7601c22ee77bb067_8452704166677172874.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/fa5cd042d8d0f7ba7601c22ee77bb067_8452704166677172874.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 301
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          10000095
+        ],
+        "UpPurpleList": [
+          10000055,
+          10000053,
+          10000023
+        ],
+        "Name": "柔柔海露心",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/f20e267462297db6a3b794e736dd30fd_3723138140749100786.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/f20e267462297db6a3b794e736dd30fd_3723138140749100786.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 400
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          14518,
+          15513
+        ],
+        "UpPurpleList": [
+          12416,
+          13416,
+          15416,
+          11402,
+          14409
+        ],
+        "Name": "神鑄賦形",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/82573902dc21d86e723336678e6fd7a2_2445024515766752051.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/82573902dc21d86e723336678e6fd7a2_2445024515766752051.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 302
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
           10000096
         ],
         "UpPurpleList": [
@@ -381,6 +570,69 @@
     ]
   ],
   "ja": [
+    [
+      {
+        "UpOrangeList": [
+          10000109
+        ],
+        "UpPurpleList": [
+          10000055,
+          10000053,
+          10000023
+        ],
+        "Name": "枕に夢む朝顔",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/9c2cd03a191ddfb6a11366dbc406479f_4686776255484427890.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/9c2cd03a191ddfb6a11366dbc406479f_4686776255484427890.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 301
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          10000095
+        ],
+        "UpPurpleList": [
+          10000055,
+          10000053,
+          10000023
+        ],
+        "Name": "ロマリタイムハート",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/2f292baca9a473cb1dfe04e5e2a9fbd4_8565828856607847213.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/2f292baca9a473cb1dfe04e5e2a9fbd4_8565828856607847213.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 400
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          14518,
+          15513
+        ],
+        "UpPurpleList": [
+          12416,
+          13416,
+          15416,
+          11402,
+          14409
+        ],
+        "Name": "神鋳賦形",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/9b9c2da0250f75dcff7545d636157463_7983968956828035653.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/9b9c2da0250f75dcff7545d636157463_7983968956828035653.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 302
+      }
+    ],
     [
       {
         "UpOrangeList": [
@@ -511,6 +763,69 @@
     [
       {
         "UpOrangeList": [
+          10000109
+        ],
+        "UpPurpleList": [
+          10000055,
+          10000053,
+          10000023
+        ],
+        "Name": "새벽에 피는 꿈",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/5cd9af44dc9c24b8f2b3cc025492d010_7541125046042387191.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/5cd9af44dc9c24b8f2b3cc025492d010_7541125046042387191.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 301
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          10000095
+        ],
+        "UpPurpleList": [
+          10000055,
+          10000053,
+          10000023
+        ],
+        "Name": "보들보들 바다이슬 하트",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/38b9f9235f8dd1c80606394f500b65d1_7281080712123776103.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/38b9f9235f8dd1c80606394f500b65d1_7281080712123776103.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 400
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          14518,
+          15513
+        ],
+        "UpPurpleList": [
+          12416,
+          13416,
+          15416,
+          11402,
+          14409
+        ],
+        "Name": "신의 주조",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/5638a5f1ad4fe8e4a5f5d68786c01e51_2368980209996891366.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/5638a5f1ad4fe8e4a5f5d68786c01e51_2368980209996891366.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 302
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
           10000096
         ],
         "UpPurpleList": [
@@ -635,6 +950,69 @@
     ]
   ],
   "es": [
+    [
+      {
+        "UpOrangeList": [
+          10000109
+        ],
+        "UpPurpleList": [
+          10000055,
+          10000053,
+          10000023
+        ],
+        "Name": "Letargo del amanecer",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/ba044e767655529829b5e888608bfedd_7571220313157231382.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/ba044e767655529829b5e888608bfedd_7571220313157231382.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 301
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          10000095
+        ],
+        "UpPurpleList": [
+          10000055,
+          10000053,
+          10000023
+        ],
+        "Name": "Corazón rociomarino",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/b60d51a90d696f0169cd43bf5ee79b76_5135916971913239485.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/b60d51a90d696f0169cd43bf5ee79b76_5135916971913239485.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 400
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          14518,
+          15513
+        ],
+        "UpPurpleList": [
+          12416,
+          13416,
+          15416,
+          11402,
+          14409
+        ],
+        "Name": "Encarnación divina",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/00a92756e9a8c4d998cfe5c7c2d7715d_6504362521793637125.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/00a92756e9a8c4d998cfe5c7c2d7715d_6504362521793637125.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 302
+      }
+    ],
     [
       {
         "UpOrangeList": [
@@ -765,6 +1143,69 @@
     [
       {
         "UpOrangeList": [
+          10000109
+        ],
+        "UpPurpleList": [
+          10000055,
+          10000053,
+          10000023
+        ],
+        "Name": "Rêverie dérivant à l'aube",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/ed94263e10459288c4ebd8e6eb1f53ef_4607583439155683666.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/ed94263e10459288c4ebd8e6eb1f53ef_4607583439155683666.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 301
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          10000095
+        ],
+        "UpPurpleList": [
+          10000055,
+          10000053,
+          10000023
+        ],
+        "Name": "Mélusinité romaritime",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/384bc8a195357ac2f0a8458bd5aeb5ac_2323761975637247189.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/384bc8a195357ac2f0a8458bd5aeb5ac_2323761975637247189.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 400
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          14518,
+          15513
+        ],
+        "UpPurpleList": [
+          12416,
+          13416,
+          15416,
+          11402,
+          14409
+        ],
+        "Name": "Incarnation divine",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/5c4b5f0112a619b3e19594e8dbb23545_924822008677128629.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/5c4b5f0112a619b3e19594e8dbb23545_924822008677128629.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 302
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
           10000096
         ],
         "UpPurpleList": [
@@ -889,6 +1330,69 @@
     ]
   ],
   "ru": [
+    [
+      {
+        "UpOrangeList": [
+          10000109
+        ],
+        "UpPurpleList": [
+          10000055,
+          10000053,
+          10000023
+        ],
+        "Name": "Витающие грёзы на рассвете",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/0ff6c25a277182a90782ea7b22c66929_1149655912086311698.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/0ff6c25a277182a90782ea7b22c66929_1149655912086311698.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 301
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          10000095
+        ],
+        "UpPurpleList": [
+          10000055,
+          10000053,
+          10000023
+        ],
+        "Name": "Ромаринская безмятежность",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/642302292eeb7ea7265113c144d9d9c6_3535259315385202769.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/642302292eeb7ea7265113c144d9d9c6_3535259315385202769.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 400
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          14518,
+          15513
+        ],
+        "UpPurpleList": [
+          12416,
+          13416,
+          15416,
+          11402,
+          14409
+        ],
+        "Name": "Воплощение божества",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/410089c4cda85dcaf065365ddbeebdb9_4797670581864377605.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/410089c4cda85dcaf065365ddbeebdb9_4797670581864377605.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 302
+      }
+    ],
     [
       {
         "UpOrangeList": [
@@ -1019,6 +1523,69 @@
     [
       {
         "UpOrangeList": [
+          10000109
+        ],
+        "UpPurpleList": [
+          10000055,
+          10000053,
+          10000023
+        ],
+        "Name": "เคียงฝันยามตะวันฉาย",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/7c55740489c72a1a6a6eb2defdfa81e7_7285319643303554566.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/7c55740489c72a1a6a6eb2defdfa81e7_7285319643303554566.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 301
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          10000095
+        ],
+        "UpPurpleList": [
+          10000055,
+          10000053,
+          10000023
+        ],
+        "Name": "ดวงใจสมุทรผู้อารี",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/f5749450a58f09286101baf13ff02da1_6271366373670017297.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/f5749450a58f09286101baf13ff02da1_6271366373670017297.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 400
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          14518,
+          15513
+        ],
+        "UpPurpleList": [
+          12416,
+          13416,
+          15416,
+          11402,
+          14409
+        ],
+        "Name": "สรรค์สร้างเซียน",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/de53a4af30a935d0593e2bffb98cf9f4_4822706858677132624.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/de53a4af30a935d0593e2bffb98cf9f4_4822706858677132624.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 302
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
           10000096
         ],
         "UpPurpleList": [
@@ -1143,6 +1710,69 @@
     ]
   ],
   "vi": [
+    [
+      {
+        "UpOrangeList": [
+          10000109
+        ],
+        "UpPurpleList": [
+          10000055,
+          10000053,
+          10000023
+        ],
+        "Name": "Bình Minh Mơ Màng",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/d39b1f65ffcd38db4f83a8e9c5fd2808_3874243166742438701.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/d39b1f65ffcd38db4f83a8e9c5fd2808_3874243166742438701.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 301
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          10000095
+        ],
+        "UpPurpleList": [
+          10000055,
+          10000053,
+          10000023
+        ],
+        "Name": "Romaritime Dịu Dàng",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/9310fe1d12d3af235762bcfb65801032_2234638159339268781.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/9310fe1d12d3af235762bcfb65801032_2234638159339268781.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 400
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          14518,
+          15513
+        ],
+        "UpPurpleList": [
+          12416,
+          13416,
+          15416,
+          11402,
+          14409
+        ],
+        "Name": "Thân Hình Thần Đúc",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/892f1ce66b8f723e72447cc00055a6a3_7960204841388343668.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/892f1ce66b8f723e72447cc00055a6a3_7960204841388343668.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 302
+      }
+    ],
     [
       {
         "UpOrangeList": [
@@ -1273,6 +1903,69 @@
     [
       {
         "UpOrangeList": [
+          10000109
+        ],
+        "UpPurpleList": [
+          10000055,
+          10000053,
+          10000023
+        ],
+        "Name": "Träumerei zur Morgenstund",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/0a5d267a61bf9123b5ecfb2f8b817396_4797670977631055969.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/0a5d267a61bf9123b5ecfb2f8b817396_4797670977631055969.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 301
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          10000095
+        ],
+        "UpPurpleList": [
+          10000055,
+          10000053,
+          10000023
+        ],
+        "Name": "Sanfte Meluseele",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/09136df9faba7baba034b3b8f1da4126_6084566326472584371.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/09136df9faba7baba034b3b8f1da4126_6084566326472584371.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 400
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          14518,
+          15513
+        ],
+        "UpPurpleList": [
+          12416,
+          13416,
+          15416,
+          11402,
+          14409
+        ],
+        "Name": "Göttliches Werk",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/084c03914c1ec5c2d84cccd54a94b286_2925023272369957550.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/084c03914c1ec5c2d84cccd54a94b286_2925023272369957550.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 302
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
           10000096
         ],
         "UpPurpleList": [
@@ -1397,6 +2090,69 @@
     ]
   ],
   "id": [
+    [
+      {
+        "UpOrangeList": [
+          10000109
+        ],
+        "UpPurpleList": [
+          10000055,
+          10000053,
+          10000023
+        ],
+        "Name": "Lamunan Fajar Mimpi",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/b263f790e5661d49c2438e0ab4da3108_3583304125734650022.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/b263f790e5661d49c2438e0ab4da3108_3583304125734650022.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 301
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          10000095
+        ],
+        "UpPurpleList": [
+          10000055,
+          10000053,
+          10000023
+        ],
+        "Name": "Romaritime Rahayu",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/01d1a22ddaea7510945d3c297a3e8f71_4838856434266907240.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/01d1a22ddaea7510945d3c297a3e8f71_4838856434266907240.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 400
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          14518,
+          15513
+        ],
+        "UpPurpleList": [
+          12416,
+          13416,
+          15416,
+          11402,
+          14409
+        ],
+        "Name": "Epitome Invocation",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/bb10e30fa6019ad5dcd700bab413e73c_7635766239798930268.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/bb10e30fa6019ad5dcd700bab413e73c_7635766239798930268.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 302
+      }
+    ],
     [
       {
         "UpOrangeList": [
@@ -1527,6 +2283,69 @@
     [
       {
         "UpOrangeList": [
+          10000109
+        ],
+        "UpPurpleList": [
+          10000055,
+          10000053,
+          10000023
+        ],
+        "Name": "Sonho Doce com Ipomeias",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/852e55bbbcbfc76801706acde11a858e_8848938020670414588.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/852e55bbbcbfc76801706acde11a858e_8848938020670414588.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 301
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          10000095
+        ],
+        "UpPurpleList": [
+          10000055,
+          10000053,
+          10000023
+        ],
+        "Name": "Coração Rociomarinho",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/1ca1f3482b162fcd1db1b2d806e7c300_1793616450979753590.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/1ca1f3482b162fcd1db1b2d806e7c300_1793616450979753590.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 400
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          14518,
+          15513
+        ],
+        "UpPurpleList": [
+          12416,
+          13416,
+          15416,
+          11402,
+          14409
+        ],
+        "Name": "Encarnação Divina",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/88d4e960ceb66d960a9912cf9e428c59_3863991945671858550.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/88d4e960ceb66d960a9912cf9e428c59_3863991945671858550.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 302
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
           10000096
         ],
         "UpPurpleList": [
@@ -1654,6 +2473,69 @@
     [
       {
         "UpOrangeList": [
+          10000109
+        ],
+        "UpPurpleList": [
+          10000055,
+          10000053,
+          10000023
+        ],
+        "Name": "Şafakta Süzülen Düşler",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/a3fbd9b25fa806fa4172d32c66c17340_438605760319310708.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/a3fbd9b25fa806fa4172d32c66c17340_438605760319310708.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 301
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          10000095
+        ],
+        "UpPurpleList": [
+          10000055,
+          10000053,
+          10000023
+        ],
+        "Name": "Romaritime Dinginliği Etkinlik Dileği",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/24f1d6ac9d195cc296c57c88561f7509_569655021689218325.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/24f1d6ac9d195cc296c57c88561f7509_569655021689218325.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 400
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          14518,
+          15513
+        ],
+        "UpPurpleList": [
+          12416,
+          13416,
+          15416,
+          11402,
+          14409
+        ],
+        "Name": "İlahi Çağrı",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/0239ee0955695321844f260f3873613a_5166890502630924460.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/0239ee0955695321844f260f3873613a_5166890502630924460.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 302
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
           10000096
         ],
         "UpPurpleList": [
@@ -1778,6 +2660,69 @@
     ]
   ],
   "it": [
+    [
+      {
+        "UpOrangeList": [
+          10000109
+        ],
+        "UpPurpleList": [
+          10000055,
+          10000053,
+          10000023
+        ],
+        "Name": "Sogno fuggevole dell'alba",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/837dc92c49f480ba8f7bdd1c3c6c670b_76114289263529916.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/837dc92c49f480ba8f7bdd1c3c6c670b_76114289263529916.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 301
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          10000095
+        ],
+        "UpPurpleList": [
+          10000055,
+          10000053,
+          10000023
+        ],
+        "Name": "Meluserenità di Romaritime",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/8b1cfbc920b78c4a50edb835a29b55da_3028167806701647143.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/8b1cfbc920b78c4a50edb835a29b55da_3028167806701647143.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 400
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          14518,
+          15513
+        ],
+        "UpPurpleList": [
+          12416,
+          13416,
+          15416,
+          11402,
+          14409
+        ],
+        "Name": "Incarnazione divina",
+        "Version": "5.4",
+        "Order": 1,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2025/01/21/e3bcde4ec7d7cee775cbe058f7e30ca9_8989316008354101886.jpg",
+        "Banner2": "https://jihulab.com/DGP-Studio/CurrentBannerWatcher/-/raw/main/upload/ann/2025/01/21/e3bcde4ec7d7cee775cbe058f7e30ca9_8989316008354101886.jpg",
+        "From": "2025-02-12T06:00",
+        "To": "2025-03-04T17:59",
+        "Type": 302
+      }
+    ],
     [
       {
         "UpOrangeList": [
