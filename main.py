@@ -13,7 +13,7 @@ DEBUG = True if RUN_MODE == "debug" else False
 def get_item_id_by_name(name: str) -> int:
     url = "https://api.uigf.org/translate/"
     body = {
-        "lang": "chs",
+        "lang": "zh-cn",
         "type": "normal",
         "game": "genshin",
         "item_name": name
