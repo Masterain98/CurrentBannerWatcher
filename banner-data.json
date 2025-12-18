@@ -1,4 +1,232 @@
 {
+  "21440": {
+    "UpOrangeList": [
+      10000111
+    ],
+    "UpPurpleList": [
+      10000110,
+      10000090,
+      10000092
+    ],
+    "UIGF_pool_type": 301,
+    "start_time": "2025/12/23 18:00",
+    "end_time": "2026/01/13 14:59",
+    "version_number": "6.2",
+    "order_number": 2,
+    "zh-cn": {
+      "banner_name": "饫宴角戏",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/6204e5bbef0c15cc42fc0719ebe5a73a_21634477180572852_transformed.jpg"
+    },
+    "en-us": {
+      "banner_name": "Cornucopia of Contention",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/cf32fdcc89d300c2c6ed2ab47c334f0c_7334456046442733511_transformed.jpg"
+    },
+    "zh-tw": {
+      "banner_name": "飫宴角戲",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/6167f7f6bca8e40385b1c98eb6fd5e0e_4733526216547411206_transformed.jpg"
+    },
+    "ja": {
+      "banner_name": "競争と饗宴",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/c80a92fd6641cffb31af0fbd25087274_7985819575983164188_transformed.jpg"
+    },
+    "ko": {
+      "banner_name": "연회의 투사",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/30a0e9dea54b1b2d999fc5780f55e547_4159780733463960244_transformed.jpg"
+    },
+    "es": {
+      "banner_name": "Cornucopia de la contienda",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/24be5a8ace9b14ed5c17227f5ef81ad3_5065043152549154624_transformed.jpg"
+    },
+    "fr": {
+      "banner_name": "Cornucopia de la discorde",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/752b7ba61ab99bdba40b80ed8fdeea8b_4328203279465899776_transformed.jpg"
+    },
+    "ru": {
+      "banner_name": "Пиршество зрелищ",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/51de71c421d461d78b83e6f56cd00798_2268722638977303929_transformed.jpg"
+    },
+    "th": {
+      "banner_name": "เขาแกร่งแห่งงานรื่นเริง",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/059614b110ec144418a3b2491bcb861a_7404770784246399604_transformed.jpg"
+    },
+    "vi": {
+      "banner_name": "Cặp Sừng Giác Đấu",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/6277466b71e8df2889a61444cbf6a80f_4022864490559131361_transformed.jpg"
+    },
+    "de": {
+      "banner_name": "Füllhorn des Wettstreits",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/bfbc8ff38b481c15bfdd9331a7904f37_7045229701208016651_transformed.jpg"
+    },
+    "id": {
+      "banner_name": "Perjamuan Tanduk Beradu",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/226e939556033104972c86ac85bf3438_1865565698511343528_transformed.jpg"
+    },
+    "pt": {
+      "banner_name": "Banquete dos Chifres Travados",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/84a884db3628e33b5b194bd485df7cb6_7550591826898333411_transformed.jpg"
+    },
+    "tr": {
+      "banner_name": "Müsabaka Şöleni Etkinlik Dileği",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/d3693f943ed346eaf3cd86a87969d101_2114942992731771934_transformed.jpg"
+    },
+    "it": {
+      "banner_name": "Cornucopia della contesa",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/333d5a632a252be68b2a7589baf5ef0f_8662768123642571932_transformed.jpg"
+    }
+  },
+  "21441": {
+    "UpOrangeList": [
+      10000103
+    ],
+    "UpPurpleList": [
+      10000110,
+      10000090,
+      10000092
+    ],
+    "UIGF_pool_type": 400,
+    "start_time": "2025/12/23 18:00",
+    "end_time": "2026/01/13 14:59",
+    "version_number": "6.2",
+    "order_number": 2,
+    "zh-cn": {
+      "banner_name": "煅火的祝赐",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/a99468bd6aeb63e168f6cdf24ddac4d5_6068882650937578288_transformed.jpg"
+    },
+    "en-us": {
+      "banner_name": "Forgefire's Blessing",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/c633cbbd01c85af490ab0d699baef879_3650560533522462798_transformed.jpg"
+    },
+    "zh-tw": {
+      "banner_name": "煅火的祝賜",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/c754150c8e544dde71136de1880b9ab1_8397503373962380439_transformed.jpg"
+    },
+    "ja": {
+      "banner_name": "鍛火の祝福",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/92f24a8175bfeaf16bfdbf2e2c2662eb_62270575620140291_transformed.jpg"
+    },
+    "ko": {
+      "banner_name": "불로 벼린 축복",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/2821f0b35c6dd00fa15382baa20bdbda_8827435677461404519_transformed.jpg"
+    },
+    "es": {
+      "banner_name": "Gracia forjallamas",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/315c3e990042402f488e1305dfa6e851_8946313945139917350_transformed.jpg"
+    },
+    "fr": {
+      "banner_name": "Faveur du feu forgé",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/57542b3528ac75597f0f33215ab058b4_7112860673486367568_transformed.jpg"
+    },
+    "ru": {
+      "banner_name": "Благословение пламени",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/7afa4e1fe80cd90916054f8c03c2294f_3924951764039002037_transformed.jpg"
+    },
+    "th": {
+      "banner_name": "เพลิงหลอมประทานพร",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/fe2c8bfe9c1c3d5a23d1abd85e4c19bd_7265402894005370174_transformed.jpg"
+    },
+    "vi": {
+      "banner_name": "Chúc Phúc Lửa Rèn",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/e2d0a13637133d3d7644a7981908464f_3751078320540979720_transformed.jpg"
+    },
+    "de": {
+      "banner_name": "Segen des Schmiedefeuers",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/a245963cf5ab50f7f99989d5f7fcbb4c_8671011514838758720_transformed.jpg"
+    },
+    "id": {
+      "banner_name": "Karunia Api Penempa",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/f9d97449459f4a9332df9417006c32d4_2024226689455171195_transformed.jpg"
+    },
+    "pt": {
+      "banner_name": "Bênção do Fogo da Forja",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/4ce2af2bd56db25fdac93a6877321499_6983300404132174085_transformed.jpg"
+    },
+    "tr": {
+      "banner_name": "Ocağın Kutsal Ateşi",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/0d53886359650d64fb929765e3dbc6c1_7045673672442086125_transformed.jpg"
+    },
+    "it": {
+      "banner_name": "Benedizione delle fiamme",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/79f8ea97569719721311da705d1082d5_1489937610224223355_transformed.jpg"
+    }
+  },
+  "21442": {
+    "UpOrangeList": [
+      14519,
+      11516
+    ],
+    "UpPurpleList": [
+      12430,
+      15410,
+      11401,
+      13407,
+      14402
+    ],
+    "UIGF_pool_type": 302,
+    "start_time": "2025/12/23 18:00",
+    "end_time": "2026/01/13 14:59",
+    "version_number": "6.2",
+    "order_number": 2,
+    "zh-cn": {
+      "banner_name": "神铸赋形",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/9526db584785e3d4432fe4dec8e5d292_6231559174467090783_transformed.jpg"
+    },
+    "en-us": {
+      "banner_name": "Epitome Invocation",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/e666111463c6d1056d7642b773f099a0_1688162303306110041_transformed.jpg"
+    },
+    "zh-tw": {
+      "banner_name": "神鑄賦形",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/0650e4cdc5fac7529683ea7f6781e470_665901498712819402_transformed.jpg"
+    },
+    "ja": {
+      "banner_name": "神鋳賦形",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/5a3173d89c03cea13e756f17cd9bbc9e_3451401157468991045_transformed.jpg"
+    },
+    "ko": {
+      "banner_name": "신의 주조",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/02687d818c7dbfc25e5ade4ce650611a_1516905764021858122_transformed.jpg"
+    },
+    "es": {
+      "banner_name": "Encarnación divina",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/c0bfb98ccfc106454e69186d666ac46c_6342057939042472666_transformed.jpg"
+    },
+    "fr": {
+      "banner_name": "Incarnation divine",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/e1c21de4c6771963afb1787f3f4ac7d3_758542621756066415_transformed.jpg"
+    },
+    "ru": {
+      "banner_name": "Воплощение божества",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/0dd444f9a86a8917259007c57dd4c4dd_9157517047200412718_transformed.jpg"
+    },
+    "th": {
+      "banner_name": "สรรค์สร้างเซียน",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/1c29b1b0880b8019d121b87457a52ce8_617209444536582340_transformed.jpg"
+    },
+    "vi": {
+      "banner_name": "Thân Hình Thần Đúc",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/1493bf5dab5c7c94636012fc20ef014c_77186592191777514_transformed.jpg"
+    },
+    "de": {
+      "banner_name": "Göttliches Werk",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/15807cab148d54fc05535c1d8fe0ff02_8249595916789138077_transformed.jpg"
+    },
+    "id": {
+      "banner_name": "Epitome Invocation",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/df36c614529ca8af6febd0121b41e7ee_7564611822376623131_transformed.jpg"
+    },
+    "pt": {
+      "banner_name": "Encarnação Divina",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/b6a72bce8c4e7864f18a80f4efa3a920_8418744690062589158_transformed.jpg"
+    },
+    "tr": {
+      "banner_name": "İlahi Çağrı Etkinlik Dileği",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/243a0353eb35403cc84fb3dca3f50a52_5890820475920225080_transformed.jpg"
+    },
+    "it": {
+      "banner_name": "Incarnazione divina",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/86d52c4ad1aa24c2fba6e81bb809c908_2017919031231097778_transformed.jpg"
+    }
+  },
   "21430": {
     "UpOrangeList": [
       10000123
@@ -27,7 +255,7 @@
     },
     "ja": {
       "banner_name": "白より生まれ出づる赤",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/11/19/ccf91dce65f4dbda66a157075d25aaa8_7491013178877421981_transformed.jpg"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/08/959d2c8a0dcbef3b255c0235d66eaab6_7490810221625554723_transformed.jpg"
     },
     "ko": {
       "banner_name": "붉게 물든 백석",
