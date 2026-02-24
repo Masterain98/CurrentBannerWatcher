@@ -1,230 +1,352 @@
 {
-  "21513": {
+  "21576": {
     "UpOrangeList": [
-      10000126
+      10000128
     ],
     "UpPurpleList": [
-      10000127,
-      10000121,
-      10000055
+      10000032,
+      10000023,
+      10000043
     ],
     "UIGF_pool_type": 301,
-    "start_time": "2026/02/03 18:00",
-    "end_time": "2026/02/24 14:59",
-    "version_number": "6.3",
-    "order_number": 2,
+    "start_time": "2026/01/14 06:00",
+    "end_time": "2026/03/17 17:59",
+    "version_number": "6.4",
+    "order_number": 1,
     "zh-cn": {
-      "banner_name": "华黍由仪",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/01/05/2fd5f6e6f977f72be9e24457bc521652_2193071980009451938_transformed.jpg"
+      "banner_name": "北风的凯旋歌",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/06/3cf0d8632b1e8bd99187f92b494ce7b4_3565951662403057210_transformed.jpg"
     },
     "en-us": {
-      "banner_name": "Event Wish Harmonious Abundance",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/01/05/a1d3d7f3746a6f73d6794ec3e19839c2_8270946235259825469_transformed.jpg"
+      "banner_name": "Event Wish The Northerly Wind's Song of Triumph",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/06/b43efc5dc431deedf16516c933503aae_3145084250866232251_transformed.jpg"
     },
     "zh-tw": {
-      "banner_name": "華黍由儀",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/01/05/8a873fbc2fd860f62536e33c9f3f3287_7832254766490914787_transformed.jpg"
+      "banner_name": "北風的凱旋歌",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/06/285566514b0408ad728f4906d7e9212e_5583459840604798130_transformed.jpg"
     },
     "ja": {
-      "banner_name": "豊穣の要",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/01/05/6c7d0e01e85240ac8a2c174c589e2614_3156494348970149397_transformed.jpg"
+      "banner_name": "北風の凱旋歌",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/06/4a25496dc4a5cb79e26739650897eb91_2685257201226278160_transformed.jpg"
     },
     "ko": {
-      "banner_name": "사직 의례",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/01/05/279f37e598d75cfc115a901a7b1991e0_5432522582820069014_transformed.jpg"
+      "banner_name": "북풍의 승전가",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/06/6185ea102d7b30f9e1c93f6352f6b585_6767771278772325963_transformed.jpg"
     },
     "es": {
-      "banner_name": "Abundancia armoniosa",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/01/05/73e90350b0ef9fe3b529abd5690678f0_1076852769750308221_transformed.jpg"
+      "banner_name": "Canción triunfal del Viento del Norte",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/06/eeb824bdbb6002517356d9ed2d3297ca_3152470537051856041_transformed.jpg"
     },
     "fr": {
-      "banner_name": "Abondance harmonieuse",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/01/05/fdf74b73b7f381cc60e5f5da252ee863_228707478481659355_transformed.jpg"
+      "banner_name": "Chant triomphal du vent du nord",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/06/d20bf8d221ef3b66ee53917884fc003f_8177183006934145336_transformed.jpg"
     },
     "ru": {
-      "banner_name": "Гармония изобилия",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/01/05/23e29bb56551fda22a18667c1d358b33_7959093440984713344_transformed.jpg"
+      "banner_name": "Триумфальная песнь северного ветра",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/06/ce23a787073ada436079bab711790109_7122230749770400718_transformed.jpg"
     },
     "th": {
-      "banner_name": "ธัญงามบวงพิธี",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/01/05/4b230e19e6f68de350a17b6364dbcfc8_1159411314450925366_transformed.jpg"
+      "banner_name": "บทเพลงแห่งชัยชนะของลมเหนือ",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/11/9a08d8d92f4db22e18f7dea8aaf77ecc_5446757862878820710_transformed.jpg"
     },
     "vi": {
-      "banner_name": "Sung Túc Hài Hòa",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/01/05/07475c885b1e1522be79911ce2f2e5df_3820793059946173553_transformed.jpg"
+      "banner_name": "Gió Bắc Khải Hoàn",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/06/dc7f8f3d79941185fb324181c03b8641_7762446862041422557_transformed.jpg"
     },
     "de": {
-      "banner_name": "Aurora des Überflusses",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/01/05/6da90245a7d11c4dc7b5604865ef81a7_58214109526094405_transformed.jpg"
+      "banner_name": "Triumphlied des Nordwinds",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/06/700d4298296ae330f40c5b706666ddca_5731478883821226798_transformed.jpg"
     },
     "id": {
-      "banner_name": "Harmoni Kelimpahan",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/01/05/0546671fcdae108c93b84b5d3512e5d7_1844838912505613180_transformed.jpg"
+      "banner_name": "Seruan Kemenangan Angin Utara",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/06/9c03910d5e2a0a0eeea6dca1df9c38b6_5172225475775692769_transformed.jpg"
     },
     "pt": {
-      "banner_name": "Aurora da Abundância",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/01/05/24cd56f43a2effe66506d4b5b8ee5b33_4269809774474542725_transformed.jpg"
+      "banner_name": "A Canção de Triunfo do Vento Norte",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/06/0e53f54d25dd34309face8674a93b202_8774555171806484464_transformed.jpg"
     },
     "tr": {
-      "banner_name": "Bereketin Ahengi Etkinlik Dileği",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/01/05/206768ad3bd42552048a7a03e4de856a_1242862317231737283_transformed.jpg"
+      "banner_name": "Kuzey Rüzgarının Zafer Şarkısı",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/06/bac7c1c125f1cb962e49e65524c6aa06_157536924430558906_transformed.jpg"
     },
     "it": {
-      "banner_name": "Abbondanza armoniosa",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/01/06/ae073e63844988895e5696c93ce8e4d6_10242598257053537_transformed.jpg"
+      "banner_name": "Inno trionfale del Vento del Nord",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/06/73be568652f275332ccff7a16ce1249f_2440432719329591315_transformed.jpg"
     }
   },
-  "21514": {
+  "21578": {
     "UpOrangeList": [
-      10000087
+      10000120
     ],
     "UpPurpleList": [
-      10000127,
-      10000121,
-      10000055
+      10000032,
+      10000023,
+      10000043
     ],
     "UIGF_pool_type": 400,
-    "start_time": "2026/02/03 18:00",
-    "end_time": "2026/02/24 14:59",
-    "version_number": "6.3",
-    "order_number": 2,
+    "start_time": "2026/01/14 06:00",
+    "end_time": "2026/03/17 17:59",
+    "version_number": "6.4",
+    "order_number": 1,
     "zh-cn": {
-      "banner_name": "渊海界令",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/01/05/ba74e6f0a33d943220b1e481420b95dc_474816230471761045_transformed.jpg"
+      "banner_name": "孤灯夜访",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/05/263d658cd4060d92beeb95b6f6ff9989_8443063075730167090_transformed.jpg"
     },
     "en-us": {
-      "banner_name": "Decree of the Deeps",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/01/05/05c949c9277556636313e7c15c1fa556_1514197719254044596_transformed.jpg"
+      "banner_name": "Event Wish The Lone Light Knocks at Night",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/05/590e74cdf3cdc716a93f804205f3ca1c_3615431462163325960_transformed.jpg"
     },
     "zh-tw": {
-      "banner_name": "淵海界令",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/01/05/342cb618a43197b5fc3983e76f2c24e6_8030353015538310449_transformed.jpg"
+      "banner_name": "孤燈夜訪",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/05/f07a46b2abee7c28324dfdf39be28955_6202180020230527169_transformed.jpg"
     },
     "ja": {
-      "banner_name": "淵海に令する者",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/01/05/b8ddf96f43170dd963ee0c70afab4252_905737266366017540_transformed.jpg"
+      "banner_name": "夜に訪う孤灯",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/05/ba29ad214f13fab32806967d0167b872_6157942502313196757_transformed.jpg"
     },
     "ko": {
-      "banner_name": "심해를 가르는 법령",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/01/05/b10aa52566df9330fe1372f1ee940fe7_5599948107755165728_transformed.jpg"
+      "banner_name": "고독한 밤의 등불",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/05/591610a38e782d593af3c62c92bef811_2544186212384383500_transformed.jpg"
     },
     "es": {
-      "banner_name": "Edicto abisal",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/01/05/ae0825137c2345cc93d24ed57914934e_1519910405120873615_transformed.jpg"
+      "banner_name": "Noche de la lámpara solitaria",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/05/ad71faa6ffe92b63caf5d73ad563b039_5610603035146852605_transformed.jpg"
     },
     "fr": {
-      "banner_name": "Décret des profondeurs",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/01/05/c9b534dff5a82da8208f359d8ef835d3_8344363105733387953_transformed.jpg"
+      "banner_name": "Lumière solitaire en visite nocturne ",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/05/f0fc5165adf7dcb7d6e2c4c50eed6671_7391390870408705399_transformed.jpg"
     },
     "ru": {
-      "banner_name": "Завет глубин",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/01/05/da1f060dea61d71802403a5d551addce_9056764712818458692_transformed.jpg"
+      "banner_name": "Одинокий свет в ночи",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/05/32e4ac0ce397ad9997fa5f586794210b_5575018126885216718_transformed.jpg"
     },
     "th": {
-      "banner_name": "บัญชาแห่งห้วงสมุทร",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/01/05/2d236e79d03cb301f52ef906021fdb88_1024411435945614281_transformed.jpg"
+      "banner_name": "ตะเกียงเดียวดายย่ำราตรี",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/05/f445181001bcb0475780993c48d1fa0c_3141615166752272339_transformed.jpg"
     },
     "vi": {
-      "banner_name": "Pháp Lệnh Biển Sâu",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/01/05/817d3210558d93d6d669b0004cfe4823_623579223489291961_transformed.jpg"
+      "banner_name": "Ánh Đèn Đêm Đen",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/05/d383c1e92e80ba6a3ff91d4ee43344ae_8069788300518083890_transformed.jpg"
     },
     "de": {
-      "banner_name": "Gebot über die Meerestiefen",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/01/05/9e87fd9076beaf8473bd30d32c91c7ea_3216055247192042369_transformed.jpg"
+      "banner_name": "Nachtbesuch des einsamen Lichts",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/05/94ea7413f1bfbb403d449231b0ef801b_2497788883670695741_transformed.jpg"
     },
     "id": {
-      "banner_name": "Titah di Kedalaman Lautan",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/01/05/792cbcab9249949ef6be6466b6549cbd_3134844590966748025_transformed.jpg"
+      "banner_name": "Cahaya Temaram Mengetuk di Kala Malam",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/05/1957147bb7b0d1d240adbc75fda3d729_8393557624507096352_transformed.jpg"
     },
     "pt": {
-      "banner_name": "A Ordem das Profundezas",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/01/05/23584873e50161c4f98b72cbc698fa5e_2851707763640868722_transformed.jpg"
+      "banner_name": "Visita Iluminada da Solidão Noturna",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/05/850b25b3855539d7494b869d2f6be34d_6967072537094702879_transformed.jpg"
     },
     "tr": {
-      "banner_name": "Derinliklerin Fermanı Etkinlik Dileği",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/01/05/f08040a7f1358a7a04ed7a6b335a03b9_1159590037931397959_transformed.jpg"
+      "banner_name": "Yalnız Işığın Gece Ziyareti",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/05/125f3ac915facd785d628424df72fec4_3064992957867007669_transformed.jpg"
     },
     "it": {
-      "banner_name": "Decreto delle profondità",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/01/05/da4fa611010547252e14e80369abb904_6148364175351074981_transformed.jpg"
+      "banner_name": "Luce solinga che bussa alla notte",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/05/07ca5859a4fd339095c5a3c5e4e6f003_7938277086133606476_transformed.jpg"
     }
   },
-  "21516": {
+  "21581": {
     "UpOrangeList": [
-      11519,
-      14514
+      12515,
+      13516
     ],
     "UpPurpleList": [
-      11418,
+      13434,
+      11401,
       12401,
-      13401,
-      14409,
-      15401
+      14403,
+      15403
     ],
     "UIGF_pool_type": 302,
-    "start_time": "2026/02/03 18:00",
-    "end_time": "2026/02/24 14:59",
-    "version_number": "6.3",
-    "order_number": 2,
+    "start_time": "2026/01/14 06:00",
+    "end_time": "2026/03/17 17:59",
+    "version_number": "6.4",
+    "order_number": 1,
     "zh-cn": {
       "banner_name": "神铸赋形",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/30/2b6f07e83de6658c313107f4f2b9c5e0_2971205701042370776_transformed.jpg"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/05/e4eba4b005bf2ef99ec6b070aeab722a_6625645337377856534_transformed.jpg"
     },
     "en-us": {
       "banner_name": "Epitome Invocation",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/30/895f37fb0e8739937b8d788f1640241f_9186143978409111714_transformed.jpg"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/05/cade7abd771a5007af2a2ce5d15db2a3_8044200641316346610_transformed.jpg"
     },
     "zh-tw": {
       "banner_name": "神鑄賦形",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/30/fca31c931999a453b8eb113b3db6e6db_4065845648939320041_transformed.jpg"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/05/0e1393f5b564e9fa2d559bc2dd813469_1907644867769712770_transformed.jpg"
     },
     "ja": {
       "banner_name": "神鋳賦形",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/01/05/0633124358a4577b2b271b275a3cec5e_3214947703124316820_transformed.jpg"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/05/d7465f079069fc1d0694d995b0d4939a_4574849203379349087_transformed.jpg"
     },
     "ko": {
       "banner_name": "신의 주조",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/30/f220568619bfa599ed75d44a51347c47_4215817313112285714_transformed.jpg"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/05/8d7354b7ee972397b9c012ff697142a0_1739594127467550158_transformed.jpg"
     },
     "es": {
       "banner_name": "Encarnación divina",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/30/0dbaa310a119428bff0458fed9c00339_570383932809718133_transformed.jpg"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/05/633b63b81f7d3c4697d4a09b0f4f2d0b_6498106880079297247_transformed.jpg"
     },
     "fr": {
       "banner_name": "Incarnation divine",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/30/0f5be9917aced5c21788d6bba46fcd56_2643653267631459108_transformed.jpg"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/05/addfef0d1326797c6d81e586db2f6eba_2592575148679481452_transformed.jpg"
     },
     "ru": {
       "banner_name": "Воплощение божества",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/30/853804d0aa4804e268610e0f65307eb8_83374751131450120_transformed.jpg"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/05/56e55f016f2d79ff487bf4bd29f1c310_2647784316034089718_transformed.jpg"
     },
     "th": {
       "banner_name": "สรรค์สร้างเซียน",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/30/dba4074b743e67567710e7d26428f9c3_3594739420784267099_transformed.jpg"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/11/87e6d9b7daacbf9c5e8e702c6fbd0d7d_3709391453435480302_transformed.jpg"
     },
     "vi": {
       "banner_name": "Thân Hình Thần Đúc",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/30/3d8a66cac7faa77730615b2f97e89eb8_7646563147859792491_transformed.jpg"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/05/c44316411882e1718569636c2d0f849d_7484327670301471334_transformed.jpg"
     },
     "de": {
       "banner_name": "Göttliches Werk",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/30/7c7a1bcefe5b59a607cdd61dee5fe88a_8864191882165420890_transformed.jpg"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/05/eec0586007f7d178656255e07da9bc2f_108031353829798803_transformed.jpg"
     },
     "id": {
       "banner_name": "Epitome Invocation",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/30/50ea289020892775c0d966dda2639071_8360999757027882652_transformed.jpg"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/05/7d6d58daadeb5e1a706f22903d7306bb_3314069007386158086_transformed.jpg"
     },
     "pt": {
       "banner_name": "Encarnação Divina",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/30/e3fa378a624ba189b46bb64c46393142_538726945226089270_transformed.jpg"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/05/95767bac11a90557242a7cc2513dca29_8925044726125262349_transformed.jpg"
     },
     "tr": {
       "banner_name": "İlahi Çağrı Etkinlik Dileği",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/30/0d6dbb646d5e610042f50f78b7e924ad_2112401890873557036_transformed.jpg"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/05/be5668bcea2f53f4e4f7fe4d00b53c7a_2751417079706169303_transformed.jpg"
     },
     "it": {
       "banner_name": "Incarnazione divina",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2025/12/30/96c1ceba05f9bde3a56fb9627b0387b0_2253132563588428616_transformed.jpg"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/05/e8e4c3500e83ed8d5406ec25977040dd_6182014124328880527_transformed.jpg"
+    }
+  },
+  "21613": {
+    "UpOrangeList": [
+      10000051,
+      10000041,
+      10000038,
+      10000029,
+      10000016,
+      10000003,
+      11502,
+      11501,
+      12503,
+      12502,
+      12501,
+      13502,
+      14502,
+      14501,
+      15503,
+      15501
+    ],
+    "UpPurpleList": [
+      10000115,
+      10000080,
+      10000045,
+      10000043,
+      10000039,
+      10000034,
+      10000032,
+      10000031,
+      10000021,
+      10000020,
+      10000015,
+      10000014,
+      10000006,
+      11410,
+      11405,
+      11403,
+      11402,
+      11401,
+      12405,
+      12403,
+      12402,
+      12401,
+      13407,
+      13401,
+      14410,
+      14409,
+      14403,
+      14402,
+      14401,
+      15412,
+      15410,
+      15405,
+      15403,
+      15402,
+      15401
+    ],
+    "UIGF_pool_type": 500,
+    "start_time": "2026/01/14 06:00",
+    "end_time": "2026/03/17 17:59",
+    "version_number": "6.4",
+    "order_number": 1,
+    "zh-cn": {
+      "banner_name": "晨风之诗",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/12/2c745148b962d2a176eb29c3e1ce7d84_2822287436141928729_transformed.jpg"
+    },
+    "en-us": {
+      "banner_name": "Event Wish Ode to the Dawn Breeze",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/12/fa615846fcca2d8877a5cdade31c3214_8927704578565856173_transformed.jpg"
+    },
+    "zh-tw": {
+      "banner_name": "晨風之詩",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/12/4ef78c13f294a33d4af7ede32021dbcd_7379273650525848783_transformed.jpg"
+    },
+    "ja": {
+      "banner_name": "暁風の詩",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/12/9ce60f6209291a15274cdeaabb14a45c_8531892913806154851_transformed.jpg"
+    },
+    "ko": {
+      "banner_name": "아침 바람의 시",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/12/dd4554aa7df76e4aad921856f135d867_6301419819287269255_transformed.jpg"
+    },
+    "es": {
+      "banner_name": "Balada de la brisa matinal",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/12/56dcd38cd1d505f8f9eb8d2e21e992b3_7455764700491669498_transformed.jpg"
+    },
+    "fr": {
+      "banner_name": "Ode à la brise matinale",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/12/1a6f6e82403bbe85a4576418d51f2db3_2939170938454152700_transformed.jpg"
+    },
+    "ru": {
+      "banner_name": "Стихи утреннего ветра",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/12/0e9f63f521e68e0c1d2ea417e543af12_6494583234618354213_transformed.jpg"
+    },
+    "th": {
+      "banner_name": "บทกวีแห่งสายลมรุ่งอรุณ",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/12/fcbc9b4cea500aade5de2e13765007f1_6743596885200774631_transformed.jpg"
+    },
+    "vi": {
+      "banner_name": "Áng Thơ Gió Sớm",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/12/97be3c41ee6ebfba7cb13e22e06a1d2f_3218547972769959510_transformed.jpg"
+    },
+    "de": {
+      "banner_name": "Ballade der Morgenbrise",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/12/87be7309bdb29f40a3fe0dd62e365a85_4679708252933272559_transformed.jpg"
+    },
+    "id": {
+      "banner_name": "Balada Angin Fajar",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/12/7b15596724ca9f6b4436be1af2d6da83_5642870278860760957_transformed.jpg"
+    },
+    "pt": {
+      "banner_name": "Poesia da Manhã",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/12/cfe1b95974c9e1af0df362bf4bf16a4d_2128005612257477996_transformed.jpg"
+    },
+    "tr": {
+      "banner_name": "Şafak Meltemi Kasidesi",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/12/ee4624070f2578ecde0add52358af805_515175602066844996_transformed.jpg"
+    },
+    "it": {
+      "banner_name": "Poesia del vento mattutino",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/02/12/3411b0bed378f00dcebe6fe7ca3b416c_179821358278136130_transformed.jpg"
     }
   }
 }
