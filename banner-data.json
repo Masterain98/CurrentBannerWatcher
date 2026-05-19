@@ -1,565 +1,230 @@
 {
-  "21641": {
+  "21691": {
     "UpOrangeList": [
-      10000119
+      10000131
     ],
     "UpPurpleList": [
-      10000025,
-      10000061,
-      10000124
+      10000132,
+      10000020,
+      10000031
     ],
     "UIGF_pool_type": 301,
-    "start_time": "2026/04/28 18:00",
-    "end_time": "2026/05/19 14:59",
-    "version_number": "6.5",
-    "order_number": 2,
+    "start_time": "2026/04/08 06:00",
+    "end_time": "2026/06/09 17:59",
+    "version_number": "6.6",
+    "order_number": 1,
     "zh-cn": {
-      "banner_name": "苍林月祷",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/8034d25eb3f8c453ca387fdc40fcdff5_8256411566276241077_transformed.jpg"
+      "banner_name": "炽天的默想曲",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/11e4cb4743f8aba6dd8347d236bf3a62_2258743129541424028_transformed.jpg"
     },
     "en-us": {
-      "banner_name": "Event Wish Moonsong of the Groves",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/f3a37aa2d3479a183bf61c239deaf969_21525370984196430_transformed.jpg"
+      "banner_name": "Event Wish Angel's Reverie",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/d826e28b27cd6ea16e5f8714e1870123_3914705796723814179_transformed.jpg"
     },
     "zh-tw": {
-      "banner_name": "蒼林月禱",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/05ffe276bdbb49d5bcf2101f846c1882_1050786431662798895_transformed.jpg"
+      "banner_name": "熾天的默想曲",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/4197de8d403b72ee659951364f7997ed_6215408202030150751_transformed.jpg"
     },
     "ja": {
-      "banner_name": "月に祈る蒼樹",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/72557f0a56a80b4ed3710dc5bc6c322d_1928707692719653516_transformed.jpg"
+      "banner_name": "さざめく熾天の黙想曲",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/62fe4463d16d19e58784167aff3439a4_3792074759812803657_transformed.jpg"
     },
     "ko": {
-      "banner_name": "푸른 숲의 기도",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/d5779b145b4402b089396cc8a013235a_2053444828665998802_transformed.jpg"
+      "banner_name": "천사의 묵상곡",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/fd30b176eb0feed2b1ed567b5f1fd8a0_2104877341090360164_transformed.jpg"
     },
     "es": {
-      "banner_name": "Plegaria lunar de la arboleda",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/e0c67ab06803163ef530c589c190b2c8_2432602464831747289_transformed.jpg"
+      "banner_name": "Ensoñación angelical",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/2cd52c1e532abb547dc7028f3910ac98_4910346066045937776_transformed.jpg"
     },
     "fr": {
-      "banner_name": "Chant lunaire des bosquets",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/54d138dcba889aa581b3f371efa56a39_8088104906496552303_transformed.jpg"
+      "banner_name": "Rêverie de l'ange",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/616ddaf5b2e069a073b25b23b7eff80c_5317262137302109407_transformed.jpg"
     },
     "ru": {
-      "banner_name": "Лунная песнь чащи",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/c812a7ef8bea54e5eaffe8591cb55cc8_9151927366686334292_transformed.jpg"
+      "banner_name": "Грёзы ангела",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/8b068582f6dd874631491c4d797df862_3741325464019369580_transformed.jpg"
     },
     "th": {
-      "banner_name": "บทจันทราขับขานพงไพร",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/6468d844fe23bed2dd7a97af2307338a_520426250336006409_transformed.jpg"
+      "banner_name": "เพลงภาวนาใต้นภาเพลิง",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/250cbef3228f0e6c317f15b4098e2e9f_6261806771237384484_transformed.jpg"
     },
     "vi": {
-      "banner_name": "Khúc Trăng Rừng Sương",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/9b8aff744afbd35c6aa98ebaf6908a85_5189048908570313740_transformed.jpg"
+      "banner_name": "Khúc Mặc Tưởng Rực Trời",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/9599470cbec0b1504292ef451bd77bad_1230706316008501739_transformed.jpg"
     },
     "de": {
-      "banner_name": "Mondgesang der Wälder",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/5d531399c0446c4ec548562f7cdaecf7_6529076823250212009_transformed.jpg"
+      "banner_name": "Des Engels Tagträumerei",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/5beeb896b690010487e1be51d8098a67_7006632260864141533_transformed.jpg"
     },
     "id": {
-      "banner_name": "Tembang Purnama Jenggala",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/f9c7aaf51c5667620fd0e33e5b9aad3d_7330488094345614306_transformed.jpg"
+      "banner_name": "Lamunan Mimpi Malaikat",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/e2d8e639ed32581e08ef2f62b856e299_6792534634959942066_transformed.jpg"
     },
     "pt": {
-      "banner_name": "Canção Lunar da Floresta",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/1a885cdb4897c47ca360ff6c17f8aca4_7314653784565985103_transformed.jpg"
+      "banner_name": "Sonata da Contemplação do Dia Flamejante",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/53ed3485a75b24bc86df1783690f302f_7371395247530286386_transformed.jpg"
     },
     "tr": {
-      "banner_name": "Koruların Ay Şarkısı",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/b260839c3a5bb5724695e851ac12a19d_4635208757051686659_transformed.jpg"
+      "banner_name": "Meleğin Rüyası",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/53ddba76fb00ebd9b0e52d3673ed0727_7663648276586702218_transformed.jpg"
     },
     "it": {
-      "banner_name": "Canto lunare della foresta",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/5458f6e0752eac09e823aa5ced5e8585_3949611677071624867_transformed.jpg"
+      "banner_name": "Sogno dell'angelo",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/1624d8ff262cc10ac7e412b0eda31548_8762425205877153007_transformed.jpg"
     }
   },
-  "21642": {
+  "21692": {
     "UpOrangeList": [
-      10000122
+      10000123
     ],
     "UpPurpleList": [
-      10000025,
-      10000061,
-      10000124
+      10000132,
+      10000020,
+      10000031
     ],
     "UIGF_pool_type": 400,
-    "start_time": "2026/04/28 18:00",
-    "end_time": "2026/05/19 14:59",
-    "version_number": "6.5",
-    "order_number": 2,
+    "start_time": "2026/04/08 06:00",
+    "end_time": "2026/06/09 17:59",
+    "version_number": "6.6",
+    "order_number": 1,
     "zh-cn": {
-      "banner_name": "赤砂的诱言",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/c0d3328713d93757155c0e79e2dfc585_2935894208369955747_transformed.jpg"
+      "banner_name": "白礜赤成",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/4a160cd3816dbeeeead7354416bb1be5_7165421999479070950_transformed.jpg"
     },
     "en-us": {
-      "banner_name": "Event Wish Temptation of the Crimson Sands",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/3e229775a4f9e74dc62e149509a19412_2243546387186807907_transformed.jpg"
+      "banner_name": "Event Wish Rubedo, of White Stone Born",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/576dde3b5a96767debf4bd528ef6e342_2584758192042099288_transformed.jpg"
     },
     "zh-tw": {
-      "banner_name": "赤砂的誘言",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/e858c1c86e294a94913bc721b21ea61c_6980848131292414282_transformed.jpg"
+      "banner_name": "白礜赤成",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/9f4ce8c5842139709bc85722d8c48a7c_10321006606233174_transformed.jpg"
     },
     "ja": {
-      "banner_name": "赤砂の誘惑",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/39443a0a9d835cc4f094dc6a390c8e05_1658126915488243267_transformed.jpg"
+      "banner_name": "白より生まれ出づる赤",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/3aa62070777a8344e121e74777ef6030_668392776525911993_transformed.jpg"
     },
     "ko": {
-      "banner_name": "적색 사막의 유혹",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/0a1efbcb9c7adf4cb6bfd7ebf1e96873_1469886031522180027_transformed.jpg"
+      "banner_name": "붉게 물든 백석",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/d4675d55a6bedd62d78ac95306e78d29_5613515428118054375_transformed.jpg"
     },
     "es": {
-      "banner_name": "Tentación de las arenas escarlatas",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/4ebe3f07a4550e3547970d22a8e07bc9_7218526590530936356_transformed.jpg"
+      "banner_name": "Rubedo, nacido de la roca blanca",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/68f159efb96b4c955da1f58dacf4464b_4774324459768427235_transformed.jpg"
     },
     "fr": {
-      "banner_name": "Tentation des sables écarlates",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/b27fccccfec8c0584f0f8ccdbfe19cfe_4741603935222838780_transformed.jpg"
+      "banner_name": "Rubedo, né de pierre blanche",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/c9cafdc3d974c523c16033078de5f792_2828894636557785581_transformed.jpg"
     },
     "ru": {
-      "banner_name": "Искушение красных песков",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/1f1912cdcc399977f0dbbc601bfd842f_2629778171808348632_transformed.jpg"
+      "banner_name": "Рубедо, воплощённый белым камнем",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/a882e667e2256e5ce0f054aedf88985e_4622226071470560962_transformed.jpg"
     },
     "th": {
-      "banner_name": "เล่ห์วาจาแห่งทรายสีชาด",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/cff575812df6ab7c44f11ef3812da1dc_986529877434245216_transformed.jpg"
+      "banner_name": "แร่ขาวแปรสีชาด",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/0bc8464747a998d3ca71cb9baf139def_5960505975289486231_transformed.jpg"
     },
     "vi": {
-      "banner_name": "Cát Đỏ Mê Hoặc",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/f4738cff0336bc8f7a502bc84b11dd02_1661580317021935280_transformed.jpg"
+      "banner_name": "Đá Trắng Hóa Đỏ",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/83143f68b371cf3f9144ec9bf8644dd3_8691222302062571792_transformed.jpg"
     },
     "de": {
-      "banner_name": "Verführung der roten Sande",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/8c1750d72b44b9b997aac27bfc9293db_3288146548009247216_transformed.jpg"
+      "banner_name": "Rubedo, aus weißem Stein geboren",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/766f812cb825f487c01ead5106209989_3175332069371949743_transformed.jpg"
     },
     "id": {
-      "banner_name": "Pencobaan di Padang Merah",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/5923e6d46e6cd11490d9733abf49223d_7838400557636291237_transformed.jpg"
+      "banner_name": "Rubedo, yang Terlahir dari Batu Putih",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/4a008539b4a1705f0bf8deb00610251a_8990482746085634919_transformed.jpg"
     },
     "pt": {
-      "banner_name": "Tentação das Areias Escarlates",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/838c386ca9a7b63ebf7a4b94c195fdb3_5525938606151953572_transformed.jpg"
+      "banner_name": "Albita Rubedo",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/e6b67020ca9fbb5ff9cd67f180a75b9f_8294562939312212790_transformed.jpg"
     },
     "tr": {
-      "banner_name": "Kızıl Kumların Cazibesi",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/49e0277108a5e68ed06d3258eb54f45a_5560707046315344686_transformed.jpg"
+      "banner_name": "Beyazlıktan Doğan Kızıllık",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/ee4ab68d4c7628fabc0ac93067b03f60_133813758047742344_transformed.jpg"
     },
     "it": {
-      "banner_name": "Tentazione della Sabbia Rossa",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/e91209aad402d6428f9258bb851c327e_5811013040932394776_transformed.jpg"
+      "banner_name": "Rubedo, nato dalla pietra bianca",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/f6412661782b1564e6b3f88f16c21f79_8984232795330861597_transformed.jpg"
     }
   },
-  "21643": {
+  "21693": {
     "UpOrangeList": [
-      14520,
-      14521
+      14523,
+      11518
     ],
     "UpPurpleList": [
-      14434,
-      11403,
-      12405,
-      13407,
-      15401
-    ],
-    "UIGF_pool_type": 302,
-    "start_time": "2026/04/28 18:00",
-    "end_time": "2026/05/19 14:59",
-    "version_number": "6.5",
-    "order_number": 2,
-    "zh-cn": {
-      "banner_name": "神铸赋形",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/686858c8f1d35c1df9d3bbfff2bf9786_8480989340843877689_transformed.jpg"
-    },
-    "en-us": {
-      "banner_name": "Epitome Invocation",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/eb193e24f66421c42fd91e7f87ca7bbb_3298897667912661934_transformed.jpg"
-    },
-    "zh-tw": {
-      "banner_name": "神鑄賦形",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/69f0b0f60844dc05dff0a49c86e996c2_7146591984757431990_transformed.jpg"
-    },
-    "ja": {
-      "banner_name": "神鋳賦形",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/510c95d1d6ec97378d1d7b52cff6ebec_6609269952859865964_transformed.jpg"
-    },
-    "ko": {
-      "banner_name": "신의 주조",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/92bf561905d5f6f0f230bf106ee0eb17_6295460159594314015_transformed.jpg"
-    },
-    "es": {
-      "banner_name": "Encarnación divina",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/0c0763c5ac40a52dc7477b2c5f19eb34_9145825028045284156_transformed.jpg"
-    },
-    "fr": {
-      "banner_name": "Incarnation divine",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/61a7c27d4cdcfcb377ddad012a66c98e_1609394206347727260_transformed.jpg"
-    },
-    "ru": {
-      "banner_name": "Воплощение божества",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/d16e57e7735ec47e0e0eb2279da0be46_8076827836844873359_transformed.jpg"
-    },
-    "th": {
-      "banner_name": "สรรค์สร้างเซียน",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/531cdde7b0f3ac75ac47e93a6caa5ae1_994744696619920961_transformed.jpg"
-    },
-    "vi": {
-      "banner_name": "Thân Hình Thần Đúc",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/83991d6c9a6ea4b72b7e125094204ec5_2968115842324361944_transformed.jpg"
-    },
-    "de": {
-      "banner_name": "Göttliches Werk",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/10f757d681089d6e03ce37e27e937ce1_5899866267381222856_transformed.jpg"
-    },
-    "id": {
-      "banner_name": "Epitome Invocation",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/5e135a9e73f0408526cdc587274fe74c_3493611408350954976_transformed.jpg"
-    },
-    "pt": {
-      "banner_name": "Encarnação Divina",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/6bc0966afd653683dac129816e317a9a_7738682929646514546_transformed.jpg"
-    },
-    "tr": {
-      "banner_name": "İlahi Çağrı",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/f7ec433cf1758ca2aa101dabce011e33_6441010204992095200_transformed.jpg"
-    },
-    "it": {
-      "banner_name": "Incarnazione divina",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/f109be38130b5ddda073a802125910ae_8697072139795022550_transformed.jpg"
-    }
-  },
-  "21644": {
-    "UpOrangeList": [
-      10000099,
-      10000098,
-      10000095,
-      10000091,
-      10000084,
-      11515,
-      12512,
-      13513,
-      15513,
-      15512
-    ],
-    "UpPurpleList": [
-      10000090,
-      10000088,
-      10000085,
-      10000083,
-      11427,
-      11405,
-      11403,
-      11402,
-      11401,
-      12427,
-      12405,
-      12403,
+      11434,
+      15412,
       12402,
-      12401,
-      13427,
-      13407,
       13401,
-      14409,
-      14403,
-      14402,
-      14401,
-      15427,
-      15405,
-      15403,
-      15402,
-      15401
-    ],
-    "UIGF_pool_type": 500,
-    "start_time": "2026/04/28 18:00",
-    "end_time": "2026/05/19 14:59",
-    "version_number": "6.5",
-    "order_number": 2,
-    "zh-cn": {
-      "banner_name": "露景涓然",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/906dd725a134f1848a6ce6365976f2b2_1011682847059388272_transformed.jpg"
-    },
-    "en-us": {
-      "banner_name": "Event Wish Dewlit Tranquility",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/855422e3ba733fb2668d0ae88fcaa005_259523509283567194_transformed.jpg"
-    },
-    "zh-tw": {
-      "banner_name": "露景涓然",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/8afb4ecda116a42d2a451c14aa5ad417_2974797507084512962_transformed.jpg"
-    },
-    "ja": {
-      "banner_name": "ルキナのせせらぎ",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/8de73a28f130660b26281c6c49e69ca1_4358834944372350077_transformed.jpg"
-    },
-    "ko": {
-      "banner_name": "루키나의 눈물",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/4f6a03d9eb7d43b2c9ebabe0ac29a6ed_6557558184344868662_transformed.jpg"
-    },
-    "es": {
-      "banner_name": "Afluentes de Lucine",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/08506abdbc30af9e3528f9e5e8966408_5927337706117786252_transformed.jpg"
-    },
-    "fr": {
-      "banner_name": "Quiétude sous la rosée",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/7dc6d00d0cbc99d7e48189ff86a46910_8032198041987545960_transformed.jpg"
-    },
-    "ru": {
-      "banner_name": "Безмятежность росы",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/17/3c50a1d8d3469f6da4d0541e43d11484_531501441013728498_transformed.jpg"
-    },
-    "th": {
-      "banner_name": "น้ำค้างพราวสันติ",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/7b0e97b1168abda72b064656e31693f3_3573069243141954479_transformed.jpg"
-    },
-    "vi": {
-      "banner_name": "Sương Đêm Êm Dịu",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/f0f09e9196a56c49b711e9f654e65e54_6704309755203447714_transformed.jpg"
-    },
-    "de": {
-      "banner_name": "Quelle des Taus",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/c759431deee345c8311d6bffae32a9bd_280288437754014691_transformed.jpg"
-    },
-    "id": {
-      "banner_name": "Ketenangan Cahaya Embun",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/3a1ba2c87cd0423693f144306baa85f9_3585201717805739988_transformed.jpg"
-    },
-    "pt": {
-      "banner_name": "Tranquilidade do Orvalho",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/6f37fdee23b3b95e798340514ae409fa_2228757415252466036_transformed.jpg"
-    },
-    "tr": {
-      "banner_name": "Çiy Işığı Sükuneti",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/3b29da4c6caf32c228dbb339085cffbf_9155522546357517753_transformed.jpg"
-    },
-    "it": {
-      "banner_name": "Placidità della rugiada",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/04/14/f35ee2a5f085fe2cf0e5e118b6a1de95_6738257750445348539_transformed.jpg"
-    }
-  },
-  "21632": {
-    "UpOrangeList": [
-      10000130
-    ],
-    "UpPurpleList": [
-      10000127,
-      10000121,
-      10000034
-    ],
-    "UIGF_pool_type": 301,
-    "start_time": "2026/04/08 06:00",
-    "end_time": "2026/04/28 17:59",
-    "version_number": "6.5",
-    "order_number": 1,
-    "zh-cn": {
-      "banner_name": "呀吼吼博物志",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/91d7dec054f9b125fd8fe3422c616200_1096131082577307525_transformed.jpg"
-    },
-    "en-us": {
-      "banner_name": "Ya-hoho! Compendium",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/dedbc6e9ac1001f40ad19d3041e1f292_1032846630611093680_transformed.jpg"
-    },
-    "zh-tw": {
-      "banner_name": "呀吼吼博物誌",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/9a8d9313b55b0cf9e6ae15413f36741e_8023999245625700397_transformed.jpg"
-    },
-    "ja": {
-      "banner_name": "やっふー博物誌",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/5f0a7c7cb592e9296dd10ca2dfd3edcd_339207515698905882_transformed.jpg"
-    },
-    "ko": {
-      "banner_name": "야호 박물지",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/c1ce1f5aa77251d185038ae2f5e3c8ab_755523409697922129_transformed.jpg"
-    },
-    "es": {
-      "banner_name": "Yajuuu-pedia",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/06a42b3da80913f7819dcb6163d65b9e_6321522068763496040_transformed.jpg"
-    },
-    "fr": {
-      "banner_name": "Compendium Ya-hoho!",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/545351f4436bbf53ed92c585e000e04a_472921152809795250_transformed.jpg"
-    },
-    "ru": {
-      "banner_name": "Энциклопедия я-хо-хо!",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/79f12f783fe944a09efa04b93e46885a_5472439065871953261_transformed.jpg"
-    },
-    "th": {
-      "banner_name": "สารานุกรมยะฮู้วว!",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/e0f001135c82fb6d12c5c6b6ef5927cf_4465528595631814827_transformed.jpg"
-    },
-    "vi": {
-      "banner_name": "Cẩm Nang Ya-hoho!",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/e2a8af42df5b9fc8c1c05e39f7b7266c_7391682456407680117_transformed.jpg"
-    },
-    "de": {
-      "banner_name": "Enzyklopädie Ja-hoho!",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/e0f427333997f90fb8ce4f75c2fb8d4b_3307125560102887406_transformed.jpg"
-    },
-    "id": {
-      "banner_name": "Kompendium Ya-hoho!",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/0951171ee94bc49faa3cb8a5fd515087_2419084073544856572_transformed.jpg"
-    },
-    "pt": {
-      "banner_name": "Compêndio Ya-hoho!",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/ea4aabc6c2510dadcf33d37d9cfee178_1522706553725211532_transformed.jpg"
-    },
-    "tr": {
-      "banner_name": "Ya-hoho! Atlası",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/85688df5234e4f4a0c69a3f7cbd7e407_6881513299551431738_transformed.jpg"
-    },
-    "it": {
-      "banner_name": "Ya-hoho-pedia",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/8276d8496441bcc1a0711ef461f6a580_9072996253231558964_transformed.jpg"
-    }
-  },
-  "21633": {
-    "UpOrangeList": [
-      10000104
-    ],
-    "UpPurpleList": [
-      10000127,
-      10000121,
-      10000034
-    ],
-    "UIGF_pool_type": 400,
-    "start_time": "2026/04/08 06:00",
-    "end_time": "2026/04/28 17:59",
-    "version_number": "6.5",
-    "order_number": 1,
-    "zh-cn": {
-      "banner_name": "饮羽散红",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/92a97d6cfbcc2a0c1249111d94e2612d_4733485681464317629_transformed.jpg"
-    },
-    "en-us": {
-      "banner_name": "Piercing Shot's Crimson Wake",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/0f8e43a8ccfef3aa280d0957275b4cd7_1886091996222144953_transformed.jpg"
-    },
-    "zh-tw": {
-      "banner_name": "飲羽散紅",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/5c5653299eb5ab9e7b7e59bac8a76352_6121952072085469372_transformed.jpg"
-    },
-    "ja": {
-      "banner_name": "紅を散らす矢羽",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/d8fe6453b6c6f1c97cc864c28751dd38_7700060625594317919_transformed.jpg"
-    },
-    "ko": {
-      "banner_name": "붉은 꽃을 꿰뚫는 깃",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/391f65cbdfd5584229e9b9d105ea2aba_2537912269739089737_transformed.jpg"
-    },
-    "es": {
-      "banner_name": "Disparo carmesí",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/3f226fe4acb8afe1ea08ef56493e9ce3_2955746768432635090_transformed.jpg"
-    },
-    "fr": {
-      "banner_name": "Transpercement au sillage écarlate",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/bada78c4edfdc011f9c9948cc2465744_2281014402969974245_transformed.jpg"
-    },
-    "ru": {
-      "banner_name": "Багровый всполох меткого выстрела",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/cb21ee0971ed6a9227c273bd5065d6e8_8022723530651722834_transformed.jpg"
-    },
-    "th": {
-      "banner_name": "ศรทะลวงปีกแดงฉาน",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/72e96fcc8ddf017aea57b4119deb6807_3006391973626303982_transformed.jpg"
-    },
-    "vi": {
-      "banner_name": "Sắc Đỏ Xuyên Phá",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/b445a94fea01beb5fc49dd95d386b3bf_199644570433974397_transformed.jpg"
-    },
-    "de": {
-      "banner_name": "Sprudelndes Rot am Ende des Pfeils",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/56eab597e73f39d2db79e85698e9d207_8114018388295882224_transformed.jpg"
-    },
-    "id": {
-      "banner_name": "Sayap Merah Penembus Cakrawala",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/d5294c04bf464b58fc621837192a70ab_6838235998032749696_transformed.jpg"
-    },
-    "pt": {
-      "banner_name": "Dispersão Carmesim",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/7cc85d4a6d0e643e210c95c6b2ea2182_4296793395528121179_transformed.jpg"
-    },
-    "tr": {
-      "banner_name": "Delici Atışın Kızıl Uyanışı",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/484368e7cacde4c0e81a20c7f6779a1d_1221024270959697134_transformed.jpg"
-    },
-    "it": {
-      "banner_name": "Dispersione cremisi",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/1471cc469251c57f912f20ce7674a1a9_257805249164579490_transformed.jpg"
-    }
-  },
-  "21634": {
-    "UpOrangeList": [
-      15516,
-      15514
-    ],
-    "UpPurpleList": [
-      15430,
-      11405,
-      12403,
-      13401,
-      14409
+      14402
     ],
     "UIGF_pool_type": 302,
     "start_time": "2026/04/08 06:00",
-    "end_time": "2026/04/28 17:59",
-    "version_number": "6.5",
+    "end_time": "2026/06/09 17:59",
+    "version_number": "6.6",
     "order_number": 1,
     "zh-cn": {
       "banner_name": "神铸赋形",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/638c48116d4835671de729f4b6a9e560_9077595635024466630_transformed.jpg"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/41cab98498a6ace360ad2d70771810a5_1167046717001320916_transformed.jpg"
     },
     "en-us": {
       "banner_name": "Epitome Invocation",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/579ad70cab210cf96783cc0f69e884f6_1685435050569878233_transformed.jpg"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/5ebab901f3d92506e84e865db7ff9350_3635706319256022701_transformed.jpg"
     },
     "zh-tw": {
       "banner_name": "神鑄賦形",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/c886a825a638d85049132ca2a2817ea1_8704945973959267858_transformed.jpg"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/478a5a5d7ad03a8038c7a944a2435d4c_7081425788912953146_transformed.jpg"
     },
     "ja": {
       "banner_name": "神鋳賦形",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/1cc2f0f2cfe26a0df38b1e64c1ba135a_8397564745493329886_transformed.jpg"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/0f857803fe92d06a7e8d73c844b5aa8e_2607890675719783050_transformed.jpg"
     },
     "ko": {
       "banner_name": "신의 주조",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/0626512b6ba1b55c27d814f7e082ce7c_4765651180585465563_transformed.jpg"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/2fcd9d4214073b58b88c91abd28b9fa8_8949346290422196113_transformed.jpg"
     },
     "es": {
       "banner_name": "Encarnación divina",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/aecfe4faf3b2c7ecffaf539206dcc751_4695380593726682334_transformed.jpg"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/6f6ddb73e79839f089a5f116dcbe9d67_9210550110634019576_transformed.jpg"
     },
     "fr": {
       "banner_name": "Incarnation divine",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/10652bd75173fa751fba9ec9aeda9ca6_8047827098520295110_transformed.jpg"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/a8fcd71853779b2cc77abd1a8c76f2a7_2165744403896731281_transformed.jpg"
     },
     "ru": {
       "banner_name": "Воплощение божества",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/f0a38db8c259dfb136cf1a6ad80fdf0f_5097630240271773487_transformed.jpg"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/ea4d6b9a8ee9110de52aa95d2e3677fc_8449102186383008191_transformed.jpg"
     },
     "th": {
       "banner_name": "สรรค์สร้างเซียน",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/90547522ff91d0a2c51889ad6243aa4b_1513384883570572696_transformed.jpg"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/aed4e2698b2ad090997534af0943600c_5323504649243944744_transformed.jpg"
     },
     "vi": {
       "banner_name": "Thân Hình Thần Đúc",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/b36c4d6c892027ae78fb0215a5bfa1b8_3486086137994666653_transformed.jpg"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/bca180cbdd4f09da552fae490cbe713c_5493871665749181289_transformed.jpg"
     },
     "de": {
       "banner_name": "Göttliches Werk",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/5785c2b739b934925e6cdc7a707e02d9_2447838319685562671_transformed.jpg"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/e06ac7869349ae74d25e833baf9f6968_5701280611491884888_transformed.jpg"
     },
     "id": {
       "banner_name": "Epitome Invocation",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/7323d761fc0e18464cceef36f66d9cfb_3815796144638585953_transformed.jpg"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/88c108b081497edc5597ebc795729dd0_7543046887769972343_transformed.jpg"
     },
     "pt": {
       "banner_name": "Encarnação Divina",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/917d564d02bce624df5b2a573c430e77_8146678308893869525_transformed.jpg"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/c1a530460fd6d72aaf68c7d92695e769_9144798570052655140_transformed.jpg"
     },
     "tr": {
       "banner_name": "İlahi Çağrı Etkinlik Dileği",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/8edd7df7cd554bd9e22782c5423dcb82_8086741078754911546_transformed.jpg"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/662604130ef4eb7fef92b47a3161a801_4589863364300311858_transformed.jpg"
     },
     "it": {
       "banner_name": "Incarnazione divina",
-      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/03/25/7768b5fe52e2ee66c961cc606835a1db_6363276486875390167_transformed.jpg"
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/3bacfaebf4bb82c99cc00121f5f0753e_3186040591797544805_transformed.jpg"
     }
   }
 }
