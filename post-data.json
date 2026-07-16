@@ -3,6 +3,69 @@
     [
       {
         "UpOrangeList": [
+          10000125
+        ],
+        "UpPurpleList": [
+          10000124,
+          10000105,
+          10000097
+        ],
+        "Name": "伴月同眠",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/c8fb39c62c6a8ec60faab54c67e5f025_4328241174560449438_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/c8fb39c62c6a8ec60faab54c67e5f025_4328241174560449438_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 301
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          10000052
+        ],
+        "UpPurpleList": [
+          10000124,
+          10000105,
+          10000097
+        ],
+        "Name": "影寂天下人",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/5e7a7348730900c4b4cf210f5c061693_2349137515764696348_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/5e7a7348730900c4b4cf210f5c061693_2349137515764696348_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 400
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          14522,
+          13509
+        ],
+        "UpPurpleList": [
+          14430,
+          11403,
+          12402,
+          13407,
+          15401
+        ],
+        "Name": "神铸赋形",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/d5fdbf8997d440f25848244365596855_6259960005832090377_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/d5fdbf8997d440f25848244365596855_6259960005832090377_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 302
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
           10000133
         ],
         "UpPurpleList": [
@@ -15,7 +78,7 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/e3291fbde4889a6b5c6f498fe10d3f25_5202897138544319925_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/e3291fbde4889a6b5c6f498fe10d3f25_5202897138544319925_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 301
       }
@@ -35,7 +98,7 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/224b737812e20929c4485452a2f1e1bc_7347526875978743745_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/224b737812e20929c4485452a2f1e1bc_7347526875978743745_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 400
       }
@@ -58,13 +121,76 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/331e1ba3b0d467685cc70edce96fd72c_5362978686770159579_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/331e1ba3b0d467685cc70edce96fd72c_5362978686770159579_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 302
       }
     ]
   ],
   "en-us": [
+    [
+      {
+        "UpOrangeList": [
+          10000125
+        ],
+        "UpPurpleList": [
+          10000124,
+          10000105,
+          10000097
+        ],
+        "Name": "Event Wish Somnias a Luna",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/ed9a488eb3715b7de3a15015a6706c9d_4609553862097974572_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/ed9a488eb3715b7de3a15015a6706c9d_4609553862097974572_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 301
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          10000052
+        ],
+        "UpPurpleList": [
+          10000124,
+          10000105,
+          10000097
+        ],
+        "Name": "Event Wish Reign of Serenity",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/feed9d723c2e7d5fb441dafee3c13d81_8435188004196210117_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/feed9d723c2e7d5fb441dafee3c13d81_8435188004196210117_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 400
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          14522,
+          13509
+        ],
+        "UpPurpleList": [
+          14430,
+          11403,
+          12402,
+          13407,
+          15401
+        ],
+        "Name": "Event Wish Epitome Invocation",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/4e3d27bc1355385ce167ae7eaa14a870_8724727087742838379_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/4e3d27bc1355385ce167ae7eaa14a870_8724727087742838379_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 302
+      }
+    ],
     [
       {
         "UpOrangeList": [
@@ -80,7 +206,7 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/9051504c6cc2742ff981816ef64341b0_2963061423775561785_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/9051504c6cc2742ff981816ef64341b0_2963061423775561785_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 301
       }
@@ -100,7 +226,7 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/6688ebcd1be4d6fb447367af5166d302_8781030942944991750_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/6688ebcd1be4d6fb447367af5166d302_8781030942944991750_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 400
       }
@@ -123,13 +249,76 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/72f9f68c96f10bad8f09b6e4e2779a04_5696032299474729046_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/72f9f68c96f10bad8f09b6e4e2779a04_5696032299474729046_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 302
       }
     ]
   ],
   "zh-tw": [
+    [
+      {
+        "UpOrangeList": [
+          10000125
+        ],
+        "UpPurpleList": [
+          10000124,
+          10000105,
+          10000097
+        ],
+        "Name": "伴月同眠",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/7e40554dcd09f86f51b0d330ec631c3a_2327061370933739396_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/7e40554dcd09f86f51b0d330ec631c3a_2327061370933739396_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 301
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          10000052
+        ],
+        "UpPurpleList": [
+          10000124,
+          10000105,
+          10000097
+        ],
+        "Name": "影寂天下人",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/b67822c52b96ff88473b53bd896ca91b_2400909550862171898_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/b67822c52b96ff88473b53bd896ca91b_2400909550862171898_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 400
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          14522,
+          13509
+        ],
+        "UpPurpleList": [
+          14430,
+          11403,
+          12402,
+          13407,
+          15401
+        ],
+        "Name": "神鑄賦形",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/b0b1b761603568d0ca9f9b19f2a012ed_4327587292090422128_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/b0b1b761603568d0ca9f9b19f2a012ed_4327587292090422128_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 302
+      }
+    ],
     [
       {
         "UpOrangeList": [
@@ -145,7 +334,7 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/d3a261ae645e1b2d0cefcd6f4fd3a19c_6576432371877734639_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/d3a261ae645e1b2d0cefcd6f4fd3a19c_6576432371877734639_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 301
       }
@@ -165,7 +354,7 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/7a73a980ad6c6662bb7e41ee27b057ce_5446213695933525737_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/7a73a980ad6c6662bb7e41ee27b057ce_5446213695933525737_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 400
       }
@@ -188,13 +377,76 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/f834984a14885f433f72c8ae11fc2f15_3261384331564223932_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/f834984a14885f433f72c8ae11fc2f15_3261384331564223932_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 302
       }
     ]
   ],
   "ja": [
+    [
+      {
+        "UpOrangeList": [
+          10000125
+        ],
+        "UpPurpleList": [
+          10000124,
+          10000105,
+          10000097
+        ],
+        "Name": "月と共に眠る",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/a06748a8d363bbb30b91ebacab702ee4_7147542537950741325_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/a06748a8d363bbb30b91ebacab702ee4_7147542537950741325_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 301
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          10000052
+        ],
+        "UpPurpleList": [
+          10000124,
+          10000105,
+          10000097
+        ],
+        "Name": "影寂の天下人",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/de174e39f46c9d01a6b3d38de8933074_8650458263149566872_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/de174e39f46c9d01a6b3d38de8933074_8650458263149566872_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 400
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          14522,
+          13509
+        ],
+        "UpPurpleList": [
+          14430,
+          11403,
+          12402,
+          13407,
+          15401
+        ],
+        "Name": "神鋳賦形",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/95e4d37db46b3542158df8a4260f55b8_7153775810229879109_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/95e4d37db46b3542158df8a4260f55b8_7153775810229879109_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 302
+      }
+    ],
     [
       {
         "UpOrangeList": [
@@ -210,7 +462,7 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/fb4fe2e0204f781960154d9ca1be4101_8366544734174855657_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/fb4fe2e0204f781960154d9ca1be4101_8366544734174855657_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 301
       }
@@ -230,7 +482,7 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/c391ff37e690d1431211761e9e46f33a_5066258178566323060_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/c391ff37e690d1431211761e9e46f33a_5066258178566323060_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 400
       }
@@ -253,13 +505,76 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/7b4cf0d9afa8460af24301e0e93ffc80_8838399192118615387_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/7b4cf0d9afa8460af24301e0e93ffc80_8838399192118615387_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 302
       }
     ]
   ],
   "ko": [
+    [
+      {
+        "UpOrangeList": [
+          10000125
+        ],
+        "UpPurpleList": [
+          10000124,
+          10000105,
+          10000097
+        ],
+        "Name": "달과 함께 잠든 밤",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/fa4ecd9178f363bd3f8b382b62d665a7_4543234416536709775_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/fa4ecd9178f363bd3f8b382b62d665a7_4543234416536709775_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 301
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          10000052
+        ],
+        "UpPurpleList": [
+          10000124,
+          10000105,
+          10000097
+        ],
+        "Name": "정토 좇는 천하인",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/9a9d98f0592280b836b42ad5b816971b_594754921541290263_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/9a9d98f0592280b836b42ad5b816971b_594754921541290263_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 400
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          14522,
+          13509
+        ],
+        "UpPurpleList": [
+          14430,
+          11403,
+          12402,
+          13407,
+          15401
+        ],
+        "Name": "신의 주조",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/6d1e3eb3453b6c832cc73de011fbbaae_1231249650935820820_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/6d1e3eb3453b6c832cc73de011fbbaae_1231249650935820820_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 302
+      }
+    ],
     [
       {
         "UpOrangeList": [
@@ -275,7 +590,7 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/3019c012643f049b54f8b3aa33f7b280_385088560740600381_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/3019c012643f049b54f8b3aa33f7b280_385088560740600381_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 301
       }
@@ -295,7 +610,7 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/b29e25434dd8789a24a7d8d9cefb4107_5367127274757283_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/b29e25434dd8789a24a7d8d9cefb4107_5367127274757283_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 400
       }
@@ -318,13 +633,76 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/50dfa7dc56ef31e914cf978ecb8e1a4c_1466204790584182676_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/50dfa7dc56ef31e914cf978ecb8e1a4c_1466204790584182676_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 302
       }
     ]
   ],
   "es": [
+    [
+      {
+        "UpOrangeList": [
+          10000125
+        ],
+        "UpPurpleList": [
+          10000124,
+          10000105,
+          10000097
+        ],
+        "Name": "Somnias a Luna",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/4717cf6fd514a71ebccb083e842457b5_9157043926188762739_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/4717cf6fd514a71ebccb083e842457b5_9157043926188762739_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 301
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          10000052
+        ],
+        "UpPurpleList": [
+          10000124,
+          10000105,
+          10000097
+        ],
+        "Name": "Reino de la serenidad",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/36b1048073def1d6eeaa3f4a820c8edf_6866899350891818516_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/36b1048073def1d6eeaa3f4a820c8edf_6866899350891818516_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 400
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          14522,
+          13509
+        ],
+        "UpPurpleList": [
+          14430,
+          11403,
+          12402,
+          13407,
+          15401
+        ],
+        "Name": "Encarnación divina",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/64cac0fc30c441a9978d31e9a3648343_1412903590585923094_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/64cac0fc30c441a9978d31e9a3648343_1412903590585923094_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 302
+      }
+    ],
     [
       {
         "UpOrangeList": [
@@ -340,7 +718,7 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/a7f51da133530c056a8db8817c3c89a5_1330174865225075960_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/a7f51da133530c056a8db8817c3c89a5_1330174865225075960_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 301
       }
@@ -360,7 +738,7 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/23/54e47c2b93551f98584d34563a2b3038_3331400676137715366_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/23/54e47c2b93551f98584d34563a2b3038_3331400676137715366_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 400
       }
@@ -383,13 +761,76 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/c93164fed4bd695b4610318fb5de6954_84808581649763922_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/c93164fed4bd695b4610318fb5de6954_84808581649763922_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 302
       }
     ]
   ],
   "fr": [
+    [
+      {
+        "UpOrangeList": [
+          10000125
+        ],
+        "UpPurpleList": [
+          10000124,
+          10000105,
+          10000097
+        ],
+        "Name": "Rêve sous l'ombre lunaire",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/2774c204f9ffab387d1a9a942b63fd04_1035261854737020580_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/2774c204f9ffab387d1a9a942b63fd04_1035261854737020580_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 301
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          10000052
+        ],
+        "UpPurpleList": [
+          10000124,
+          10000105,
+          10000097
+        ],
+        "Name": "Règne de sérénité",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/0d467458ee1c712be23dfd3c58c84627_4916489936117097965_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/0d467458ee1c712be23dfd3c58c84627_4916489936117097965_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 400
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          14522,
+          13509
+        ],
+        "UpPurpleList": [
+          14430,
+          11403,
+          12402,
+          13407,
+          15401
+        ],
+        "Name": "Incarnation divine",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/6dbd6f15eb093413fc9366b635bf8c05_5944463930633558365_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/6dbd6f15eb093413fc9366b635bf8c05_5944463930633558365_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 302
+      }
+    ],
     [
       {
         "UpOrangeList": [
@@ -405,7 +846,7 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/1710584915c8feffd5ed085edb1ee99b_3874246018063373277_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/1710584915c8feffd5ed085edb1ee99b_3874246018063373277_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 301
       }
@@ -425,7 +866,7 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/dc83c3ca9f0c7a2e6c0703320df76e7d_4188629191690032485_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/dc83c3ca9f0c7a2e6c0703320df76e7d_4188629191690032485_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 400
       }
@@ -448,13 +889,76 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/0a528e6eb35084bab69dc14ff29dd026_6867301242061980182_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/0a528e6eb35084bab69dc14ff29dd026_6867301242061980182_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 302
       }
     ]
   ],
   "ru": [
+    [
+      {
+        "UpOrangeList": [
+          10000125
+        ],
+        "UpPurpleList": [
+          10000124,
+          10000105,
+          10000097
+        ],
+        "Name": "Лунные сны",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/6c3bb2c7fef7a5e4cd2c107adb216cc8_3996174511244435641_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/6c3bb2c7fef7a5e4cd2c107adb216cc8_3996174511244435641_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 301
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          10000052
+        ],
+        "UpPurpleList": [
+          10000124,
+          10000105,
+          10000097
+        ],
+        "Name": "Господство безмятежности",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/a2c4560dc3eee790288cf05d3d5adb15_6139294783225599447_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/a2c4560dc3eee790288cf05d3d5adb15_6139294783225599447_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 400
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          14522,
+          13509
+        ],
+        "UpPurpleList": [
+          14430,
+          11403,
+          12402,
+          13407,
+          15401
+        ],
+        "Name": "Воплощение божества",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/ebc4b8dc0b50499934737b5c39481e91_3367722577623927778_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/ebc4b8dc0b50499934737b5c39481e91_3367722577623927778_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 302
+      }
+    ],
     [
       {
         "UpOrangeList": [
@@ -470,7 +974,7 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/8f60d7726c1b2b04afc6c858c4011540_5847894686581953801_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/8f60d7726c1b2b04afc6c858c4011540_5847894686581953801_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 301
       }
@@ -490,7 +994,7 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/e0c69385fe3968206b3445384e302095_7783023086251054595_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/e0c69385fe3968206b3445384e302095_7783023086251054595_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 400
       }
@@ -513,13 +1017,76 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/60af5cac1168fcb114f1cfc41d2946fb_4120870787052661090_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/60af5cac1168fcb114f1cfc41d2946fb_4120870787052661090_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 302
       }
     ]
   ],
   "th": [
+    [
+      {
+        "UpOrangeList": [
+          10000125
+        ],
+        "UpPurpleList": [
+          10000124,
+          10000105,
+          10000097
+        ],
+        "Name": "นิทราเคียงจันทร์",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/6511bbe65678c20172bd769755c2cddc_1748101810479417909_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/6511bbe65678c20172bd769755c2cddc_1748101810479417909_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 301
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          10000052
+        ],
+        "UpPurpleList": [
+          10000124,
+          10000105,
+          10000097
+        ],
+        "Name": "บัลลังก์แห่งนิรันดร์",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/e90fd7a455f1f9928454cbc49f70e019_2187053493286172605_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/e90fd7a455f1f9928454cbc49f70e019_2187053493286172605_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 400
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          14522,
+          13509
+        ],
+        "UpPurpleList": [
+          14430,
+          11403,
+          12402,
+          13407,
+          15401
+        ],
+        "Name": "สรรค์สร้างเซียน",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/d0a8ee487f4797f4f1d598f525326739_5023796302520656606_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/d0a8ee487f4797f4f1d598f525326739_5023796302520656606_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 302
+      }
+    ],
     [
       {
         "UpOrangeList": [
@@ -535,7 +1102,7 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/44dba4a36abb9fd1bf0c3a140aac1116_999297793625589844_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/44dba4a36abb9fd1bf0c3a140aac1116_999297793625589844_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 301
       }
@@ -555,7 +1122,7 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/7f5c0cf1d70a91738576fb4386fb0e81_1658825089818415529_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/7f5c0cf1d70a91738576fb4386fb0e81_1658825089818415529_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 400
       }
@@ -578,13 +1145,76 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/1f1825e5d4f6ab140fdfb9dcc4234b79_5755170194947939530_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/1f1825e5d4f6ab140fdfb9dcc4234b79_5755170194947939530_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 302
       }
     ]
   ],
   "vi": [
+    [
+      {
+        "UpOrangeList": [
+          10000125
+        ],
+        "UpPurpleList": [
+          10000124,
+          10000105,
+          10000097
+        ],
+        "Name": "Cùng Trăng Say Giấc",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/15d3bce62b079ba30e94689e55bf2dc7_6551806785665939319_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/15d3bce62b079ba30e94689e55bf2dc7_6551806785665939319_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 301
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          10000052
+        ],
+        "UpPurpleList": [
+          10000124,
+          10000105,
+          10000097
+        ],
+        "Name": "Cô Độc Giữa Nhân Gian",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/f29f1e790210b2215b4fbca3ac3978a4_23200410513105752_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/f29f1e790210b2215b4fbca3ac3978a4_23200410513105752_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 400
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          14522,
+          13509
+        ],
+        "UpPurpleList": [
+          14430,
+          11403,
+          12402,
+          13407,
+          15401
+        ],
+        "Name": "Thân Hình Thần Đúc",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/f26dab91287e8421ac367bf0164146c9_5194987948393867400_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/f26dab91287e8421ac367bf0164146c9_5194987948393867400_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 302
+      }
+    ],
     [
       {
         "UpOrangeList": [
@@ -600,7 +1230,7 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/e26ec6184d8c9615abb8d969c5cf3b3d_8141694827389724628_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/e26ec6184d8c9615abb8d969c5cf3b3d_8141694827389724628_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 301
       }
@@ -620,7 +1250,7 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/4501101bb08d58cdd4b477760c18d746_3160137248466293227_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/4501101bb08d58cdd4b477760c18d746_3160137248466293227_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 400
       }
@@ -643,13 +1273,76 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/9ef0af95810405a2522f0bde823bf88b_3788231653305757465_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/9ef0af95810405a2522f0bde823bf88b_3788231653305757465_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 302
       }
     ]
   ],
   "de": [
+    [
+      {
+        "UpOrangeList": [
+          10000125
+        ],
+        "UpPurpleList": [
+          10000124,
+          10000105,
+          10000097
+        ],
+        "Name": "Somnias a Luna",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/7db1d843144c1cffe05b942e4cc2b089_6265672762246934140_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/7db1d843144c1cffe05b942e4cc2b089_6265672762246934140_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 301
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          10000052
+        ],
+        "UpPurpleList": [
+          10000124,
+          10000105,
+          10000097
+        ],
+        "Name": "Im Schatten der Welt",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/b39b08197dcf5477e4029c9f20b75deb_4081582165008304455_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/b39b08197dcf5477e4029c9f20b75deb_4081582165008304455_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 400
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          14522,
+          13509
+        ],
+        "UpPurpleList": [
+          14430,
+          11403,
+          12402,
+          13407,
+          15401
+        ],
+        "Name": "Göttliches Werk",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/d1d124571766061192ba0aab371cf377_9466402827105179_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/d1d124571766061192ba0aab371cf377_9466402827105179_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 302
+      }
+    ],
     [
       {
         "UpOrangeList": [
@@ -665,7 +1358,7 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/5b0ea3a44f89df1a33e4229bdb696f7c_3815142670154077892_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/5b0ea3a44f89df1a33e4229bdb696f7c_3815142670154077892_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 301
       }
@@ -685,7 +1378,7 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/12a5b448c90132156d3b54451b60c7dd_6708900151941309043_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/12a5b448c90132156d3b54451b60c7dd_6708900151941309043_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 400
       }
@@ -708,13 +1401,76 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/2eea5809f4afc8b1ccc35db3ee8f91e3_4336686526983075835_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/2eea5809f4afc8b1ccc35db3ee8f91e3_4336686526983075835_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 302
       }
     ]
   ],
   "id": [
+    [
+      {
+        "UpOrangeList": [
+          10000125
+        ],
+        "UpPurpleList": [
+          10000124,
+          10000105,
+          10000097
+        ],
+        "Name": "Somnias a Luna",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/3532c25fb1e02378b7d562b67a1eebc6_5070049809383941100_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/3532c25fb1e02378b7d562b67a1eebc6_5070049809383941100_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 301
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          10000052
+        ],
+        "UpPurpleList": [
+          10000124,
+          10000105,
+          10000097
+        ],
+        "Name": "Sang Penguasa Tunggal",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/ed5bd933b3a3dda7f545ec471e258727_8805324375336088294_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/ed5bd933b3a3dda7f545ec471e258727_8805324375336088294_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 400
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          14522,
+          13509
+        ],
+        "UpPurpleList": [
+          14430,
+          11403,
+          12402,
+          13407,
+          15401
+        ],
+        "Name": "Epitome Invocation",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/0921d2cc8feffc5aae08c84c79f08aab_834659189820253345_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/0921d2cc8feffc5aae08c84c79f08aab_834659189820253345_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 302
+      }
+    ],
     [
       {
         "UpOrangeList": [
@@ -730,7 +1486,7 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/616e3a1992a11a495d25d384cf052cfd_2915355245973707717_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/616e3a1992a11a495d25d384cf052cfd_2915355245973707717_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 301
       }
@@ -750,7 +1506,7 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/e703624dfdae770652f6e1c5bef76f53_4997037891948845794_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/e703624dfdae770652f6e1c5bef76f53_4997037891948845794_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 400
       }
@@ -773,13 +1529,76 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/074e1e035aa11d86d2c3d2f77a0dbb71_8197878107775429691_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/074e1e035aa11d86d2c3d2f77a0dbb71_8197878107775429691_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 302
       }
     ]
   ],
   "pt": [
+    [
+      {
+        "UpOrangeList": [
+          10000125
+        ],
+        "UpPurpleList": [
+          10000124,
+          10000105,
+          10000097
+        ],
+        "Name": "Sonhos da Sombra da Lua",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/f9375b3acb115a94dff4975d149c71da_4738892629369436229_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/f9375b3acb115a94dff4975d149c71da_4738892629369436229_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 301
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          10000052
+        ],
+        "UpPurpleList": [
+          10000124,
+          10000105,
+          10000097
+        ],
+        "Name": "Reino da Serenidade",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/25b4af636ff5e7b694be250d6bca69ac_6456296611174202412_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/25b4af636ff5e7b694be250d6bca69ac_6456296611174202412_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 400
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          14522,
+          13509
+        ],
+        "UpPurpleList": [
+          14430,
+          11403,
+          12402,
+          13407,
+          15401
+        ],
+        "Name": "Encarnação Divina",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/104b9f5ec025b7878feeb204650dd3dd_7241043857746991228_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/104b9f5ec025b7878feeb204650dd3dd_7241043857746991228_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 302
+      }
+    ],
     [
       {
         "UpOrangeList": [
@@ -795,7 +1614,7 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/a9c8bb65d2c8daebe57e1d1cb744c33f_520929236591929946_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/a9c8bb65d2c8daebe57e1d1cb744c33f_520929236591929946_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 301
       }
@@ -815,7 +1634,7 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/0696b31ea2966d6c98f9a86cbf25fe81_5374774058768282858_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/0696b31ea2966d6c98f9a86cbf25fe81_5374774058768282858_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 400
       }
@@ -838,13 +1657,76 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/f5eb1d6201a270e15f49500256fcebb8_1793386189116529012_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/f5eb1d6201a270e15f49500256fcebb8_1793386189116529012_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 302
       }
     ]
   ],
   "tr": [
+    [
+      {
+        "UpOrangeList": [
+          10000125
+        ],
+        "UpPurpleList": [
+          10000124,
+          10000105,
+          10000097
+        ],
+        "Name": "Ayın Gölgesinde Bir Rüya Etkinlik Dileği",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/91c70c1a6aabd33f2d84913af38cb915_4871391222563898132_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/91c70c1a6aabd33f2d84913af38cb915_4871391222563898132_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 301
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          10000052
+        ],
+        "UpPurpleList": [
+          10000124,
+          10000105,
+          10000097
+        ],
+        "Name": "Huzur Saltanatı Etkinlik Dileği",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/e126c7674552137b6a93ab3e3049a5d5_8229009906587043861_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/e126c7674552137b6a93ab3e3049a5d5_8229009906587043861_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 400
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          14522,
+          13509
+        ],
+        "UpPurpleList": [
+          14430,
+          11403,
+          12402,
+          13407,
+          15401
+        ],
+        "Name": "İlahi Çağrı Etkinlik Dileği",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/4f4640e249e30d9edba912a29557cdca_8104004455338646978_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/4f4640e249e30d9edba912a29557cdca_8104004455338646978_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 302
+      }
+    ],
     [
       {
         "UpOrangeList": [
@@ -860,7 +1742,7 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/b0ccc76d960d32a7c0d8058c34ff3f72_1571462882046530776_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/b0ccc76d960d32a7c0d8058c34ff3f72_1571462882046530776_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 301
       }
@@ -880,7 +1762,7 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/26c70f0694e34d4fb95c134f118f8848_2687389450866360690_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/26c70f0694e34d4fb95c134f118f8848_2687389450866360690_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 400
       }
@@ -903,13 +1785,76 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/98821e06a8d4cc201f75ac7516c51123_2864471549845980936_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/98821e06a8d4cc201f75ac7516c51123_2864471549845980936_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 302
       }
     ]
   ],
   "it": [
+    [
+      {
+        "UpOrangeList": [
+          10000125
+        ],
+        "UpPurpleList": [
+          10000124,
+          10000105,
+          10000097
+        ],
+        "Name": "Somnias a Luna",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/cb627a428520229b68e13e596ace7c55_5881694562334069576_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/cb627a428520229b68e13e596ace7c55_5881694562334069576_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 301
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          10000052
+        ],
+        "UpPurpleList": [
+          10000124,
+          10000105,
+          10000097
+        ],
+        "Name": "Regno della serenità",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/d58782f7d16f0604a6072e76305932c9_4567871042014613279_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/d58782f7d16f0604a6072e76305932c9_4567871042014613279_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 400
+      }
+    ],
+    [
+      {
+        "UpOrangeList": [
+          14522,
+          13509
+        ],
+        "UpPurpleList": [
+          14430,
+          11403,
+          12402,
+          13407,
+          15401
+        ],
+        "Name": "Incarnazione divina",
+        "Version": "6.7",
+        "Order": 2,
+        "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/60f252bc6c712443f4de6920c6d98237_3040690832612205172_transformed.jpg",
+        "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/07/07/60f252bc6c712443f4de6920c6d98237_3040690832612205172_transformed.jpg",
+        "From": "2026-07-21T18:00",
+        "To": "2026-08-11T14:59",
+        "Type": 302
+      }
+    ],
     [
       {
         "UpOrangeList": [
@@ -925,7 +1870,7 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/dcc3ef14209e385d91e2631f6232ca36_8064291109312782288_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/dcc3ef14209e385d91e2631f6232ca36_8064291109312782288_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 301
       }
@@ -945,7 +1890,7 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/a2a189244d3290339cb0b6982f6c29f6_6055886584674694195_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/a2a189244d3290339cb0b6982f6c29f6_6055886584674694195_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 400
       }
@@ -968,7 +1913,7 @@
         "Order": 1,
         "Banner": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/9e3a7ebace88a5b674b4c9ec78d3bac1_3050977251705614488_transformed.jpg",
         "Banner2": "https://cnb.cool/DGP-Studio/CurrentBannerWatcher/-/git/raw/main/upload/ann/2026/06/17/9e3a7ebace88a5b674b4c9ec78d3bac1_3050977251705614488_transformed.jpg",
-        "From": "2026-05-20T06:00",
+        "From": "2026-07-01T06:00",
         "To": "2026-07-21T17:59",
         "Type": 302
       }

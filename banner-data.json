@@ -1,4 +1,232 @@
 {
+  "21757": {
+    "UpOrangeList": [
+      10000125
+    ],
+    "UpPurpleList": [
+      10000124,
+      10000105,
+      10000097
+    ],
+    "UIGF_pool_type": 301,
+    "start_time": "2026/07/21 18:00",
+    "end_time": "2026/08/11 14:59",
+    "version_number": "6.7",
+    "order_number": 2,
+    "zh-cn": {
+      "banner_name": "伴月同眠",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/c8fb39c62c6a8ec60faab54c67e5f025_4328241174560449438_transformed.jpg"
+    },
+    "en-us": {
+      "banner_name": "Event Wish Somnias a Luna",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/ed9a488eb3715b7de3a15015a6706c9d_4609553862097974572_transformed.jpg"
+    },
+    "zh-tw": {
+      "banner_name": "伴月同眠",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/7e40554dcd09f86f51b0d330ec631c3a_2327061370933739396_transformed.jpg"
+    },
+    "ja": {
+      "banner_name": "月と共に眠る",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/a06748a8d363bbb30b91ebacab702ee4_7147542537950741325_transformed.jpg"
+    },
+    "ko": {
+      "banner_name": "달과 함께 잠든 밤",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/fa4ecd9178f363bd3f8b382b62d665a7_4543234416536709775_transformed.jpg"
+    },
+    "es": {
+      "banner_name": "Somnias a Luna",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/4717cf6fd514a71ebccb083e842457b5_9157043926188762739_transformed.jpg"
+    },
+    "fr": {
+      "banner_name": "Rêve sous l'ombre lunaire",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/2774c204f9ffab387d1a9a942b63fd04_1035261854737020580_transformed.jpg"
+    },
+    "ru": {
+      "banner_name": "Лунные сны",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/6c3bb2c7fef7a5e4cd2c107adb216cc8_3996174511244435641_transformed.jpg"
+    },
+    "th": {
+      "banner_name": "นิทราเคียงจันทร์",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/6511bbe65678c20172bd769755c2cddc_1748101810479417909_transformed.jpg"
+    },
+    "vi": {
+      "banner_name": "Cùng Trăng Say Giấc",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/15d3bce62b079ba30e94689e55bf2dc7_6551806785665939319_transformed.jpg"
+    },
+    "de": {
+      "banner_name": "Somnias a Luna",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/7db1d843144c1cffe05b942e4cc2b089_6265672762246934140_transformed.jpg"
+    },
+    "id": {
+      "banner_name": "Somnias a Luna",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/3532c25fb1e02378b7d562b67a1eebc6_5070049809383941100_transformed.jpg"
+    },
+    "pt": {
+      "banner_name": "Sonhos da Sombra da Lua",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/f9375b3acb115a94dff4975d149c71da_4738892629369436229_transformed.jpg"
+    },
+    "tr": {
+      "banner_name": "Ayın Gölgesinde Bir Rüya Etkinlik Dileği",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/91c70c1a6aabd33f2d84913af38cb915_4871391222563898132_transformed.jpg"
+    },
+    "it": {
+      "banner_name": "Somnias a Luna",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/cb627a428520229b68e13e596ace7c55_5881694562334069576_transformed.jpg"
+    }
+  },
+  "21758": {
+    "UpOrangeList": [
+      10000052
+    ],
+    "UpPurpleList": [
+      10000124,
+      10000105,
+      10000097
+    ],
+    "UIGF_pool_type": 400,
+    "start_time": "2026/07/21 18:00",
+    "end_time": "2026/08/11 14:59",
+    "version_number": "6.7",
+    "order_number": 2,
+    "zh-cn": {
+      "banner_name": "影寂天下人",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/5e7a7348730900c4b4cf210f5c061693_2349137515764696348_transformed.jpg"
+    },
+    "en-us": {
+      "banner_name": "Event Wish Reign of Serenity",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/feed9d723c2e7d5fb441dafee3c13d81_8435188004196210117_transformed.jpg"
+    },
+    "zh-tw": {
+      "banner_name": "影寂天下人",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/b67822c52b96ff88473b53bd896ca91b_2400909550862171898_transformed.jpg"
+    },
+    "ja": {
+      "banner_name": "影寂の天下人",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/de174e39f46c9d01a6b3d38de8933074_8650458263149566872_transformed.jpg"
+    },
+    "ko": {
+      "banner_name": "정토 좇는 천하인",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/9a9d98f0592280b836b42ad5b816971b_594754921541290263_transformed.jpg"
+    },
+    "es": {
+      "banner_name": "Reino de la serenidad",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/36b1048073def1d6eeaa3f4a820c8edf_6866899350891818516_transformed.jpg"
+    },
+    "fr": {
+      "banner_name": "Règne de sérénité",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/0d467458ee1c712be23dfd3c58c84627_4916489936117097965_transformed.jpg"
+    },
+    "ru": {
+      "banner_name": "Господство безмятежности",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/a2c4560dc3eee790288cf05d3d5adb15_6139294783225599447_transformed.jpg"
+    },
+    "th": {
+      "banner_name": "บัลลังก์แห่งนิรันดร์",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/e90fd7a455f1f9928454cbc49f70e019_2187053493286172605_transformed.jpg"
+    },
+    "vi": {
+      "banner_name": "Cô Độc Giữa Nhân Gian",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/f29f1e790210b2215b4fbca3ac3978a4_23200410513105752_transformed.jpg"
+    },
+    "de": {
+      "banner_name": "Im Schatten der Welt",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/b39b08197dcf5477e4029c9f20b75deb_4081582165008304455_transformed.jpg"
+    },
+    "id": {
+      "banner_name": "Sang Penguasa Tunggal",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/ed5bd933b3a3dda7f545ec471e258727_8805324375336088294_transformed.jpg"
+    },
+    "pt": {
+      "banner_name": "Reino da Serenidade",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/25b4af636ff5e7b694be250d6bca69ac_6456296611174202412_transformed.jpg"
+    },
+    "tr": {
+      "banner_name": "Huzur Saltanatı Etkinlik Dileği",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/e126c7674552137b6a93ab3e3049a5d5_8229009906587043861_transformed.jpg"
+    },
+    "it": {
+      "banner_name": "Regno della serenità",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/d58782f7d16f0604a6072e76305932c9_4567871042014613279_transformed.jpg"
+    }
+  },
+  "21759": {
+    "UpOrangeList": [
+      14522,
+      13509
+    ],
+    "UpPurpleList": [
+      14430,
+      11403,
+      12402,
+      13407,
+      15401
+    ],
+    "UIGF_pool_type": 302,
+    "start_time": "2026/07/21 18:00",
+    "end_time": "2026/08/11 14:59",
+    "version_number": "6.7",
+    "order_number": 2,
+    "zh-cn": {
+      "banner_name": "神铸赋形",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/d5fdbf8997d440f25848244365596855_6259960005832090377_transformed.jpg"
+    },
+    "en-us": {
+      "banner_name": "Event Wish Epitome Invocation",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/4e3d27bc1355385ce167ae7eaa14a870_8724727087742838379_transformed.jpg"
+    },
+    "zh-tw": {
+      "banner_name": "神鑄賦形",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/b0b1b761603568d0ca9f9b19f2a012ed_4327587292090422128_transformed.jpg"
+    },
+    "ja": {
+      "banner_name": "神鋳賦形",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/95e4d37db46b3542158df8a4260f55b8_7153775810229879109_transformed.jpg"
+    },
+    "ko": {
+      "banner_name": "신의 주조",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/6d1e3eb3453b6c832cc73de011fbbaae_1231249650935820820_transformed.jpg"
+    },
+    "es": {
+      "banner_name": "Encarnación divina",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/64cac0fc30c441a9978d31e9a3648343_1412903590585923094_transformed.jpg"
+    },
+    "fr": {
+      "banner_name": "Incarnation divine",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/6dbd6f15eb093413fc9366b635bf8c05_5944463930633558365_transformed.jpg"
+    },
+    "ru": {
+      "banner_name": "Воплощение божества",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/ebc4b8dc0b50499934737b5c39481e91_3367722577623927778_transformed.jpg"
+    },
+    "th": {
+      "banner_name": "สรรค์สร้างเซียน",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/d0a8ee487f4797f4f1d598f525326739_5023796302520656606_transformed.jpg"
+    },
+    "vi": {
+      "banner_name": "Thân Hình Thần Đúc",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/f26dab91287e8421ac367bf0164146c9_5194987948393867400_transformed.jpg"
+    },
+    "de": {
+      "banner_name": "Göttliches Werk",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/d1d124571766061192ba0aab371cf377_9466402827105179_transformed.jpg"
+    },
+    "id": {
+      "banner_name": "Epitome Invocation",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/0921d2cc8feffc5aae08c84c79f08aab_834659189820253345_transformed.jpg"
+    },
+    "pt": {
+      "banner_name": "Encarnação Divina",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/104b9f5ec025b7878feeb204650dd3dd_7241043857746991228_transformed.jpg"
+    },
+    "tr": {
+      "banner_name": "İlahi Çağrı Etkinlik Dileği",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/4f4640e249e30d9edba912a29557cdca_8104004455338646978_transformed.jpg"
+    },
+    "it": {
+      "banner_name": "Incarnazione divina",
+      "banner_image": "https://sdk.hoyoverse.com/upload/ann/2026/07/07/60f252bc6c712443f4de6920c6d98237_3040690832612205172_transformed.jpg"
+    }
+  },
   "21743": {
     "UpOrangeList": [
       10000133
@@ -9,7 +237,7 @@
       10000085
     ],
     "UIGF_pool_type": 301,
-    "start_time": "2026/05/20 06:00",
+    "start_time": "2026/07/01 06:00",
     "end_time": "2026/07/21 17:59",
     "version_number": "6.7",
     "order_number": 1,
@@ -84,7 +312,7 @@
       10000085
     ],
     "UIGF_pool_type": 400,
-    "start_time": "2026/05/20 06:00",
+    "start_time": "2026/07/01 06:00",
     "end_time": "2026/07/21 17:59",
     "version_number": "6.7",
     "order_number": 1,
@@ -162,7 +390,7 @@
       15403
     ],
     "UIGF_pool_type": 302,
-    "start_time": "2026/05/20 06:00",
+    "start_time": "2026/07/01 06:00",
     "end_time": "2026/07/21 17:59",
     "version_number": "6.7",
     "order_number": 1,
