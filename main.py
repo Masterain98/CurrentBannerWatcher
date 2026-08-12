@@ -14,6 +14,10 @@ from announcement_client import (
     fetch_announcement_snapshot,
 )
 from banner_constants import TARGET_LANGUAGES
+from banner_schedule import (
+    BannerScheduleResolutionError,
+    resolve_relative_banner_start,
+)
 from push import create_banner, validate_run_mode
 from BannerMeta import BannerMeta
 from colorama import Fore, Back, Style
@@ -52,6 +56,31 @@ def convert_chinese_version(version_text):
         if chinese_ver in version_text:
             return numeric_ver
     return version_text  # Return original if no match found
+
+
+def _escape_workflow_command_property(value: str) -> str:
+    return (
+        value.replace("%", "%25")
+        .replace("\r", "%0D")
+        .replace("\n", "%0A")
+        .replace(":", "%3A")
+        .replace(",", "%2C")
+    )
+
+
+def _escape_workflow_command_data(value: str) -> str:
+    return value.replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
+
+
+def emit_github_actions_warning(title: str, message: str) -> None:
+    """Create a warning annotation when running inside GitHub Actions."""
+    if os.getenv("GITHUB_ACTIONS", "").lower() != "true":
+        return
+    sys.stdout.write(
+        f"::warning title={_escape_workflow_command_property(title)}::"
+        f"{_escape_workflow_command_data(message)}\n"
+    )
+    sys.stdout.flush()
 
 
 def get_item_id_by_name(name: str, client: HttpClient | None = None) -> int:
@@ -272,45 +301,23 @@ def announcement_to_banner_meta(
             else:
                 raise ValueError(f"Unknown version format in start_time: {start_time}")
 
-            try:
-                patch_notes = [b for b in all_announcements if
-                              (b["subtitle"] == version + "版本更新说明") or
-                              (any(chinese + "版本更新说明" in b["subtitle"] for chinese in CHINESE_VERSION_MAP.keys()))]
-                if patch_notes:
-                    patch_note = BeautifulSoup(patch_notes[0]["content"], "html.parser").text
-                    patch_time_pattern = (r"(?:〓更新时间〓<t class=\"t_(gl|lc)\"( contenteditable=\"false\")?>)"
-                                          r"(?P<start>20\d{2}/\d{2}/\d{2} \d{2}:\d{2}(:\d{2})?)"
-                                          r"(?:</t>开始)")
-                else:
-                    raise IndexError("No patch notes found")
-            except IndexError:
-                try:
-                    patch_notes = [b for b in all_announcements if
-                                  (b["subtitle"] == version + "版本更新维护预告") or
-                                  (any(chinese + "版本更新维护预告" in b["subtitle"] for chinese in CHINESE_VERSION_MAP.keys()))]
-                    if patch_notes:
-                        patch_note = BeautifulSoup(patch_notes[0]["content"], "html.parser").text
-                        logger.info("\n%s[Patch Note] Patch note: %s", Fore.LIGHTBLUE_EX, patch_note)
-                        patch_time_pattern = (r"(?:预计将于<t class=\"t_(gl|lc)\"( contenteditable=\"false\")?>)"
-                                              r"(?P<start>20\d{2}/\d{2}/\d{2} \d{2}:\d{2}(:\d{2})?)"
-                                              r"(?:</t>进行版本更新维护)")
-                    else:
-                        raise IndexError("No maintenance announcement found")
-                except IndexError:
-                    for b in all_announcements:
-                        logger.debug("%s[Debug] %s", Fore.RED, b["subtitle"])
-                        logger.debug("%s[Debug] %s", Fore.RED, b["content"])
-                    logger.info(
-                        "%s[Patch Note] No update log found; game is most likely under maintenance",
-                        Fore.LIGHTBLUE_EX,
-                    )
-                    sys.exit(500)
-            try:
-                start_time = re.search(patch_time_pattern, patch_note).group("start")
-            except AttributeError as exc:
-                raise ValueError(
-                    f"Unknown time format\nPatch Note: {patch_note}\nPattern: {patch_time_pattern}"
-                ) from exc
+            resolution = resolve_relative_banner_start(
+                version_text=version_text,
+                numeric_version=version,
+                announcements=all_announcements,
+                chinese_version_map=CHINESE_VERSION_MAP,
+            )
+            start_time = resolution.start_time
+            for evidence in resolution.evidence:
+                logger.info(
+                    "%s[Patch Note] Schedule evidence: type=%s ann_id=%s "
+                    "subtitle=%s start_time=%s",
+                    Fore.LIGHTBLUE_EX,
+                    evidence.source_type,
+                    evidence.announcement_id,
+                    evidence.subtitle,
+                    evidence.start_time,
+                )
             logger.info("%s[Patch Note] Found patch time: %s", Fore.LIGHTBLUE_EX, start_time)
         else:
             version = "99.99"
@@ -506,7 +513,16 @@ def run() -> None:
         Style.RESET_ALL,
     )
     shared_http_client = get_default_http_client()
-    refresh_all_banner_data(shared_http_client)
+    try:
+        refresh_all_banner_data(shared_http_client)
+    except BannerScheduleResolutionError as exc:
+        message = (
+            f"{exc}. Existing banner-data.json and post-data.json were preserved; "
+            "no banner publication request was sent."
+        )
+        logger.warning("Banner publication skipped: %s", message)
+        emit_github_actions_warning("Banner publication skipped", message)
+        return
     create_banner(run_mode, client=shared_http_client)
 
 
