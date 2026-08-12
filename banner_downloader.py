@@ -9,7 +9,14 @@ IMAGE_URL_PREFIX = "https://sdk.hoyoverse.com/"
 
 
 def image_destination(image_url: str) -> Path:
-    return Path(image_url.replace(IMAGE_URL_PREFIX, ""))
+    if not image_url.startswith(IMAGE_URL_PREFIX):
+        raise ValueError(f"Unsupported banner image URL: {image_url}")
+
+    working_directory = Path.cwd().resolve()
+    destination = (working_directory / image_url.removeprefix(IMAGE_URL_PREFIX)).resolve()
+    if destination == working_directory or not destination.is_relative_to(working_directory):
+        raise ValueError(f"Banner image URL escapes the working directory: {image_url}")
+    return destination
 
 
 def cache_image_urls(image_urls: Iterable[str], client: HttpClient) -> None:

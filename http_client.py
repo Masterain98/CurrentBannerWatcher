@@ -1,6 +1,7 @@
 import logging
 from dataclasses import dataclass
 from pathlib import Path
+from tempfile import NamedTemporaryFile
 from typing import Any
 
 import requests
@@ -82,6 +83,12 @@ class HttpClient:
         context: str,
         retry: bool,
     ) -> JsonHttpResponse:
+        """POST JSON, retrying only when the caller declares the operation idempotent.
+
+        ``retry=True`` selects the read session and may resend the request body
+        after transient failures. Publication and other non-idempotent callers
+        must pass ``retry=False``.
+        """
         session = self.read_session if retry else self.write_session
         return self._request_json(
             session,
@@ -93,15 +100,42 @@ class HttpClient:
         )
 
     def download_file(self, url: str, destination: Path, *, context: str) -> None:
+        temporary_path: Path | None = None
         try:
+            working_directory = Path.cwd().resolve()
+            resolved_destination = destination.resolve()
+            if (
+                resolved_destination == working_directory
+                or not resolved_destination.is_relative_to(working_directory)
+            ):
+                raise ValueError(
+                    f"Download destination must stay inside the working directory: {destination}"
+                )
+
             with self.read_session.get(url, timeout=IMAGE_TIMEOUT, stream=True) as response:
                 response.raise_for_status()
-                destination.parent.mkdir(parents=True, exist_ok=True)
-                with destination.open("wb") as output:
+                resolved_destination.parent.mkdir(parents=True, exist_ok=True)
+                with NamedTemporaryFile(
+                    mode="wb",
+                    prefix=".banner-download-",
+                    dir=resolved_destination.parent,
+                    delete=False,
+                ) as output:
+                    temporary_path = Path(output.name)
                     for chunk in response.iter_content(chunk_size=64 * 1024):
                         if chunk:
                             output.write(chunk)
-        except (OSError, requests.RequestException) as exc:
+                temporary_path.replace(resolved_destination)
+                temporary_path = None
+        except (OSError, requests.RequestException, ValueError) as exc:
+            if temporary_path is not None:
+                try:
+                    temporary_path.unlink(missing_ok=True)
+                except OSError:
+                    logger.exception(
+                        "Failed to remove incomplete download path=%s",
+                        temporary_path,
+                    )
             logger.exception("%s", context)
             raise HttpClientError(f"{context}: {exc}") from exc
 

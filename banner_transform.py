@@ -9,6 +9,12 @@ def transform_banner_data(data: dict[str, dict[str, Any]]) -> dict[str, list[lis
 
     new_data: dict[str, list[list[dict[str, Any]]]] = {language: [] for language in LANGUAGES}
     for announcement_id, banner in data.items():
+        missing_fields = [field for field in GENERIC_METADATA_FIELDS if field not in banner]
+        if missing_fields:
+            raise ValueError(
+                f"Banner ann_id={announcement_id} is missing metadata fields: "
+                f"{', '.join(missing_fields)}"
+            )
         generic_metadata = {field: banner[field] for field in GENERIC_METADATA_FIELDS}
         for language in LANGUAGES:
             language_data = banner.get(language)

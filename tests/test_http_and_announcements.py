@@ -5,7 +5,7 @@ import requests
 
 from announcement_client import fetch_announcement_snapshot
 from banner_constants import LANGUAGES
-from banner_downloader import cache_image_urls
+from banner_downloader import cache_image_urls, image_destination
 from http_client import (
     HttpClient,
     HttpClientError,
@@ -41,7 +41,10 @@ class FakeResponse:
 
     def iter_content(self, chunk_size):
         assert chunk_size == 64 * 1024
-        yield from self._chunks
+        for chunk in self._chunks:
+            if isinstance(chunk, Exception):
+                raise chunk
+            yield chunk
 
     def __enter__(self):
         return self
@@ -88,6 +91,16 @@ def test_read_and_write_posts_use_separate_sessions_without_publish_retry():
     assert write_session.calls[0][2]["timeout"] == (5, 30)
 
 
+def test_default_write_session_has_no_retries():
+    client = HttpClient()
+
+    read_adapter = client.read_session.get_adapter("https://example.test")
+    write_adapter = client.write_session.get_adapter("https://example.test")
+
+    assert read_adapter.max_retries.total == 2
+    assert write_adapter.max_retries.total == 0
+
+
 @pytest.mark.parametrize(
     "response",
     [
@@ -124,6 +137,40 @@ def test_download_uses_image_timeout_and_deduplicates_urls(tmp_path, monkeypatch
     assert Path("upload/banner.jpg").read_bytes() == b"abcdef"
 
 
+def test_image_destination_rejects_foreign_hosts_and_traversal(tmp_path, monkeypatch):
+    monkeypatch.chdir(tmp_path)
+
+    with pytest.raises(ValueError, match="Unsupported banner image URL"):
+        image_destination("https://example.test/upload/banner.jpg")
+    with pytest.raises(ValueError, match="escapes the working directory"):
+        image_destination("https://sdk.hoyoverse.com/../outside.jpg")
+
+
+def test_failed_download_preserves_existing_file_and_removes_temporary_file(
+    tmp_path,
+    monkeypatch,
+):
+    monkeypatch.chdir(tmp_path)
+    destination = Path("upload/banner.jpg")
+    destination.parent.mkdir()
+    destination.write_bytes(b"existing")
+    response = FakeResponse(chunks=[b"replacement", requests.ConnectionError("stream failed")])
+    client = HttpClient(
+        read_session=RecordingSession([response]),
+        write_session=RecordingSession([]),
+    )
+
+    with pytest.raises(HttpClientError, match="stream failed"):
+        client.download_file(
+            "https://sdk.hoyoverse.com/upload/banner.jpg",
+            destination,
+            context="failed image",
+        )
+
+    assert destination.read_bytes() == b"existing"
+    assert list(destination.parent.glob(".banner-download-*")) == []
+
+
 class SnapshotClient:
     def __init__(self):
         self.languages = []
@@ -153,3 +200,20 @@ def test_announcement_snapshot_fetches_each_language_once_and_indexes_by_id():
     assert len(client.languages) == 15
     assert snapshot.by_id["ja"][42]["content"] == "content-ja"
     assert snapshot.ordered["zh-cn"][0]["ann_id"] == 42
+
+
+class FailedSnapshotClient:
+    def get_json(self, url, *, params, context):
+        return JsonHttpResponse(
+            payload={"retcode": -1, "message": "maintenance", "data": {"list": []}},
+            status_code=200,
+            text="{}",
+        )
+
+
+def test_announcement_api_errors_include_retcode_message_and_language():
+    with pytest.raises(
+        ValueError,
+        match=r"language=zh-cn.*retcode=-1.*message='maintenance'",
+    ):
+        fetch_announcement_snapshot(FailedSnapshotClient())

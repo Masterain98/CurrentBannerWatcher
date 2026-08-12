@@ -40,12 +40,25 @@ def fetch_announcement_snapshot(client: HttpClient) -> AnnouncementSnapshot:
             params=announcement_params(language),
             context=f"Failed to fetch announcement list for language={language}",
         )
+        retcode = response.payload.get("retcode")
+        message = response.payload.get("message")
+        status_context = f"retcode={retcode!r} message={message!r}"
+        if retcode not in (None, 0):
+            raise ValueError(
+                f"Announcement API failed for language={language} ({status_context})"
+            )
         data = response.payload.get("data")
         if not isinstance(data, dict):
-            raise ValueError(f"Announcement response for language={language} has no object data field")
+            raise ValueError(
+                f"Announcement response for language={language} has no object data field "
+                f"({status_context})"
+            )
         announcements = data.get("list")
         if not isinstance(announcements, list):
-            raise ValueError(f"Announcement response for language={language} has no list field")
+            raise ValueError(
+                f"Announcement response for language={language} has no list field "
+                f"({status_context})"
+            )
 
         language_index: dict[int, dict[str, Any]] = {}
         for position, announcement in enumerate(announcements):

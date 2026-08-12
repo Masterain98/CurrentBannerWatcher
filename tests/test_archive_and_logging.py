@@ -3,10 +3,12 @@ import os
 from pathlib import Path
 
 import pytest
+import yaml
 
 import main
 from announcement_client import AnnouncementSnapshot
 from banner_constants import LANGUAGES
+from BannerMeta import BannerMeta
 from http_client import JsonHttpResponse
 from logging_config import configure_logging
 
@@ -69,9 +71,15 @@ def test_existing_monitoring_content_is_info_and_old_debug_content_is_debug(capl
         "subtitle": "subtitle",
         "content": "full monitored announcement body",
     }
+    offline_client = ItemClient()
 
     with caplog.at_level(logging.INFO):
-        assert main.announcement_to_banner_meta(announcement, [], snapshot=snapshot) is None
+        assert main.announcement_to_banner_meta(
+            announcement,
+            [],
+            snapshot=snapshot,
+            client=offline_client,
+        ) is None
         main.convert_chinese_version("「月之一」")
 
     assert "full monitored announcement body" in caplog.text
@@ -111,10 +119,106 @@ def test_item_ids_are_cached_for_the_duration_of_a_run():
     assert client.names == ["A", "B"]
 
 
-def test_workflow_connects_log_level_and_defaults_to_info():
-    workflow = (Path(__file__).parents[1] / ".github/workflows/banner-generator.yml").read_text(
-        encoding="utf-8"
+class MissingItemClient:
+    def post_json(self, url, *, body, context, retry):
+        return JsonHttpResponse(payload={}, status_code=200, text="{}")
+
+
+def test_item_lookup_rejects_a_missing_item_id():
+    with pytest.raises(ValueError, match="invalid item_id name=Unknown"):
+        main.get_item_id_by_name("Unknown", MissingItemClient())
+
+
+def test_missing_localization_falls_back_to_chinese_metadata(caplog):
+    chinese_meta = BannerMeta(
+        lang="zh-cn",
+        ann_id=42,
+        version="1.0",
+        order=1,
+        name="Chinese name",
+        uigf_banner_type=301,
+        banner_image_url="https://sdk.hoyoverse.com/upload/zh-cn.jpg",
+        banner_image_url_backup=None,
+        start_time="2026-01-01",
+        end_time="2026-01-02",
+        up_orange_list=[1],
+        up_purple_list=[2, 3, 4],
+    )
+    by_id = {
+        language: {
+            42: {
+                "ann_id": 42,
+                "subtitle": f"name-{language}",
+                "banner": f"https://sdk.hoyoverse.com/upload/{language}.jpg",
+            }
+        }
+        for language in LANGUAGES
+    }
+    by_id["ja"] = {}
+    snapshot = AnnouncementSnapshot(ordered={}, by_id=by_id)
+
+    with caplog.at_level(logging.WARNING):
+        localized = main.localize_banner_meta(chinese_meta, snapshot)
+
+    japanese = next(meta for meta in localized if meta.lang == "ja")
+    assert japanese.name == chinese_meta.name
+    assert japanese.banner_image_url == chinese_meta.banner_image_url
+    assert "language=ja ann_id=42" in caplog.text
+
+
+def test_run_forwards_the_configured_mode(monkeypatch):
+    shared_client = object()
+    calls = []
+    monkeypatch.setattr(main, "RUN_MODE", "debug")
+    monkeypatch.setattr(main, "configure_logging", lambda: None)
+    monkeypatch.setattr(main, "get_default_http_client", lambda: shared_client)
+    monkeypatch.setattr(main, "refresh_all_banner_data", calls.append)
+    monkeypatch.setattr(
+        main,
+        "create_banner",
+        lambda mode, *, client: calls.append((mode, client)),
     )
 
-    assert "default: 'info'" in workflow
-    assert "LOG_LEVEL: ${{ inputs.logLevel }}" in workflow
+    main.run()
+
+    assert calls == [shared_client, ("debug", shared_client)]
+
+
+def test_run_rejects_an_invalid_mode_before_network_work(monkeypatch):
+    monkeypatch.setattr(main, "RUN_MODE", "staging")
+    monkeypatch.setattr(main, "configure_logging", lambda: None)
+    monkeypatch.setattr(
+        main,
+        "get_default_http_client",
+        lambda: pytest.fail("network client must not be created"),
+    )
+
+    with pytest.raises(ValueError, match="Invalid run mode 'staging'"):
+        main.run()
+
+
+def test_workflow_connects_log_level_and_defaults_to_info():
+    workflow = yaml.load(
+        (Path(__file__).parents[1] / ".github/workflows/banner-generator.yml").read_text(
+            encoding="utf-8"
+        ),
+        Loader=yaml.BaseLoader,
+    )
+    dispatch = workflow["on"]["workflow_dispatch"]
+    generate_step = next(
+        step
+        for step in workflow["jobs"]["build"]["steps"]
+        if step.get("name") == "Generate Config"
+    )
+    commit_step = next(
+        step
+        for step in workflow["jobs"]["build"]["steps"]
+        if step.get("name") == "Commit Output"
+    )
+
+    assert dispatch["inputs"]["logLevel"]["default"] == "info"
+    assert generate_step["env"]["LOG_LEVEL"] == "${{ inputs.logLevel }}"
+    assert commit_step["uses"] == (
+        "stefanzweifel/git-auto-commit-action@"
+        "4a55954c782fc1ea30b9056cd3e7a2b40ca8887d"
+    )

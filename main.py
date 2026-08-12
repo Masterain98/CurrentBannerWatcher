@@ -2,6 +2,7 @@ import os
 import re
 import json
 import logging
+import sys
 from pathlib import Path
 from urllib.parse import urlencode
 
@@ -13,7 +14,7 @@ from announcement_client import (
     fetch_announcement_snapshot,
 )
 from banner_constants import TARGET_LANGUAGES
-from push import create_banner
+from push import create_banner, validate_run_mode
 from BannerMeta import BannerMeta
 from colorama import Fore, Back, Style
 from http_client import HttpClient, get_default_http_client
@@ -69,7 +70,12 @@ def get_item_id_by_name(name: str, client: HttpClient | None = None) -> int:
         retry=True,
     )
     logger.debug("%s[API] UIGF API result: %s -> %s", Fore.BLUE, name, response.payload)
-    return response.payload.get("item_id")
+    item_id = response.payload.get("item_id")
+    if type(item_id) is not int:
+        raise ValueError(
+            f"UIGF item lookup returned invalid item_id name={name}: {item_id!r}"
+        )
+    return item_id
 
 
 def resolve_item_ids(
@@ -144,7 +150,7 @@ def get_banner_name_by_subtitle(subtitle: str) -> str:
 def announcement_to_banner_meta(
     chs_ann: dict,
     all_announcements: list,
-    snapshot: AnnouncementSnapshot | None = None,
+    snapshot: AnnouncementSnapshot,
     item_id_cache: dict[str, int] | None = None,
     client: HttpClient | None = None,
 ) -> list[BannerMeta] | None:
@@ -154,9 +160,7 @@ def announcement_to_banner_meta(
     """
     print_separator()
     http_client = client or get_default_http_client()
-    announcement_snapshot = snapshot or fetch_announcement_snapshot(http_client)
     resolved_item_ids = item_id_cache if item_id_cache is not None else {}
-    banner_meta_list = []
     uigf_pool_type = 0
 
     banner_name = get_banner_name_by_subtitle(chs_ann["subtitle"])  # BannerMeta.name
@@ -248,8 +252,10 @@ def announcement_to_banner_meta(
             start_time = time_result.group("start")
             end_time = time_result.group("end")
             logger.info("%s[Time Parsing] Found banner time: %s ~ %s", Fore.LIGHTRED_EX, start_time, end_time)
-        except AttributeError:
-            raise ValueError(f"Unknown time format\nAnnouncement Content: {content_text}\nPattern: {time_pattern}")
+        except AttributeError as exc:
+            raise ValueError(
+                f"Unknown time format\nAnnouncement Content: {content_text}\nPattern: {time_pattern}"
+            ) from exc
         if "更新后" in start_time:
             order = 1
             logger.debug(
@@ -298,11 +304,13 @@ def announcement_to_banner_meta(
                         "%s[Patch Note] No update log found; game is most likely under maintenance",
                         Fore.LIGHTBLUE_EX,
                     )
-                    exit(500)
+                    sys.exit(500)
             try:
                 start_time = re.search(patch_time_pattern, patch_note).group("start")
-            except AttributeError:
-                raise ValueError(f"Unknown time format\nPatch Note: {patch_note}\nPattern: {patch_time_pattern}")
+            except AttributeError as exc:
+                raise ValueError(
+                    f"Unknown time format\nPatch Note: {patch_note}\nPattern: {patch_time_pattern}"
+                ) from exc
             logger.info("%s[Patch Note] Found patch time: %s", Fore.LIGHTBLUE_EX, start_time)
         else:
             version = "99.99"
@@ -337,22 +345,37 @@ def announcement_to_banner_meta(
         up_purple_list=purple_id_list
     )
     logger.info("\n%s[BannerMeta] %s", Fore.LIGHTGREEN_EX, banner_meta.model_dump_json())
-    banner_meta_list.append(banner_meta)
+    return localize_banner_meta(banner_meta, snapshot)
 
-    for lang in TARGET_LANGUAGES:
-        this_meta = banner_meta.model_copy()
-        this_meta.lang = lang
-        matched_ann = announcement_snapshot.by_id[lang].get(chs_ann["ann_id"])
-        if matched_ann is None:
-            raise ValueError(
-                f"Missing localized banner announcement language={lang} ann_id={chs_ann['ann_id']}"
+
+def localize_banner_meta(
+    chinese_meta: BannerMeta,
+    snapshot: AnnouncementSnapshot,
+) -> list[BannerMeta]:
+    """Build every locale from a Chinese banner, falling back when localization lags."""
+    banner_meta_list = [chinese_meta]
+    for language in TARGET_LANGUAGES:
+        localized_meta = chinese_meta.model_copy()
+        localized_meta.lang = language
+        matched_announcement = snapshot.by_id[language].get(chinese_meta.ann_id)
+        if matched_announcement is None:
+            logger.warning(
+                "Missing localized banner announcement language=%s ann_id=%s; "
+                "falling back to zh-cn name and image",
+                language,
+                chinese_meta.ann_id,
             )
-        banner_name = get_banner_name_by_subtitle(matched_ann["subtitle"])
-        this_meta.name = banner_name
-        banner_image = matched_ann.get("banner", "")
-        this_meta.banner_image_url = banner_image
-        logger.info("%s[BannerMeta] %s", Fore.LIGHTGREEN_EX, this_meta.model_dump_json())
-        banner_meta_list.append(this_meta)
+        else:
+            localized_meta.name = get_banner_name_by_subtitle(
+                matched_announcement["subtitle"]
+            )
+            localized_meta.banner_image_url = matched_announcement.get("banner", "")
+        logger.info(
+            "%s[BannerMeta] %s",
+            Fore.LIGHTGREEN_EX,
+            localized_meta.model_dump_json(),
+        )
+        banner_meta_list.append(localized_meta)
 
     return banner_meta_list
 
@@ -475,6 +498,7 @@ def refresh_all_banner_data(client: HttpClient | None = None) -> None:
 
 def run() -> None:
     configure_logging()
+    run_mode = validate_run_mode(RUN_MODE)
     logger.info(
         "%s%s======== Starting Banner Data Collection ========%s\n",
         Back.WHITE,
@@ -483,7 +507,7 @@ def run() -> None:
     )
     shared_http_client = get_default_http_client()
     refresh_all_banner_data(shared_http_client)
-    create_banner(client=shared_http_client)
+    create_banner(run_mode, client=shared_http_client)
 
 
 if __name__ == "__main__":

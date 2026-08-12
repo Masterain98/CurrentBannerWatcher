@@ -13,6 +13,14 @@ from logging_config import configure_logging
 
 
 logger = logging.getLogger(__name__)
+VALID_RUN_MODES = frozenset({"production", "debug"})
+
+
+def validate_run_mode(mode: str) -> str:
+    if mode not in VALID_RUN_MODES:
+        choices = ", ".join(sorted(VALID_RUN_MODES))
+        raise ValueError(f"Invalid run mode {mode!r}; expected one of: {choices}")
+    return mode
 
 
 def update_banner(client: HttpClient | None = None) -> None:
@@ -65,6 +73,7 @@ def create_banner(
     mode: str = "production",
     client: HttpClient | None = None,
 ) -> None:
+    mode = validate_run_mode(mode)
     http_client = client or get_default_http_client()
     with Path("banner-data.json").open("r", encoding="utf-8") as file:
         data = json.load(file)
@@ -83,10 +92,14 @@ def create_banner(
         publish_banner_data(new_data, endpoint_template, http_client)
 
 
+def run() -> None:
+    configure_logging()
+    create_banner(os.getenv("run_mode", "production"))
+
+
 if __name__ == "__main__":
     try:
-        configure_logging()
-        create_banner(os.getenv("run_mode"))
+        run()
         # update_banner()
     except Exception:
         logger.exception("Banner publishing failed")
