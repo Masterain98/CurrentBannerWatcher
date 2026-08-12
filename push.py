@@ -1,153 +1,93 @@
-import requests
 import json
+import logging
 import os
+import warnings
+from pathlib import Path
+
+from banner_constants import LANGUAGE_TO_LOCALE
+from banner_downloader import cache_banner_images, cache_image_urls
+from banner_publisher import publish_banner_data, publish_legacy_banner
+from banner_transform import transform_banner_data
+from http_client import HttpClient, get_default_http_client
+from logging_config import configure_logging
 
 
-def update_banner():
+logger = logging.getLogger(__name__)
+
+
+def update_banner(client: HttpClient | None = None) -> None:
+    """Deprecated interactive banner updater kept for backward compatibility."""
+    warnings.warn(
+        "update_banner() is deprecated and retained only for backward compatibility",
+        DeprecationWarning,
+        stacklevel=2,
+    )
+    http_client = client or get_default_http_client()
     url = os.getenv("POST_ENDPOINT")
     if url is None:
         raise AttributeError("POST_ENDPOINT is not set.")
-    with open("banner-data.json", "r", encoding="utf-8") as f:
-        data = json.loads(f.read())
-    for k, v in data.items():
-        print("Current ann_id: " + str(k))
-        print("Sample data: " + str(v["zh-cn"]))
+
+    with Path("banner-data.json").open("r", encoding="utf-8") as file:
+        data = json.load(file)
+
+    downloaded_images: set[str] = set()
+    for announcement_id, banner in data.items():
+        logger.info("Current ann_id: %s", announcement_id)
+        logger.info("Sample data: %s", banner["zh-cn"])
         version_input = input("Please enter [Version]: ")
         order_input = input("Please enter [Order] (1,2,3): ")
         type_input = input("Please enter [UIGF-Type] 301(1)/400(2)/302(w): ")
-        for lang, data in v.items():
-            match lang:
-                case "zh-cn":
-                    locale = "CHS"
-                case "en-us":
-                    locale = "EN"
-                case "zh-tw":
-                    locale = "CHT"
-                case "ja":
-                    locale = "JP"
-                case "ko":
-                    locale = "KR"
-                case "es":
-                    locale = "ES"
-                case "fr":
-                    locale = "FR"
-                case "ru":
-                    locale = "RU"
-                case "th":
-                    locale = "TH"
-                case "vi":
-                    locale = "VI"
-                case "de":
-                    locale = "DE"
-                case "id":
-                    locale = "ID"
-                case "pt":
-                    locale = "PT"
-                case "it":
-                    locale = "IT"
-                case "tr":
-                    locale = "TR"
-                case __:
-                    break
+        for language in LANGUAGE_TO_LOCALE:
+            language_data = banner.get(language)
+            if not isinstance(language_data, dict):
+                continue
             body = {
                 "version": version_input,
-                "locale": locale,
+                "locale": LANGUAGE_TO_LOCALE[language],
                 "order": int(order_input),
                 "type": int(type_input),
-                "name": data["banner_name"],
-                "banner": data["banner_image"]
+                "name": language_data["banner_name"],
+                "banner": language_data["banner_image"],
             }
-            print("Sending data: " + str(body))
-            result = requests.post(url, json=body)
-            print("Result: " + str(result.status_code) + "\n" + "=" * 20)
-            image_data = requests.get(data["banner_image"])
-            os.makedirs(os.path.dirname(data["banner_image"].replace('https://sdk.hoyoverse.com/', "")), exist_ok=True)
-            open(data["banner_image"].replace('https://sdk.hoyoverse.com/', ""), 'wb').write(image_data.content)
+            publish_legacy_banner(
+                url,
+                body,
+                language=language,
+                client=http_client,
+            )
+            image_url = language_data["banner_image"]
+            if image_url not in downloaded_images:
+                cache_image_urls([image_url], http_client)
+                downloaded_images.add(image_url)
 
 
-def create_banner(mode: str = "production"):
-    new_data = {}
-    with open("banner-data.json", "r", encoding="utf-8") as f:
-        data = json.loads(f.read())
-    for lang in list(item for item in list(data.values())[0].keys() if len(item) <= 5):
-        new_data[lang] = []
-    banner_list = list(data.values())
-    for banner in banner_list:
-        generic_metadata = {k: banner[k] for k in list(banner.keys()) if len(k) > 5}
-        for lang in [k for k in list(banner.keys()) if len(k) <= 5]:
-            this_post = generic_metadata.copy()
-            this_post = this_post | banner[lang]
-            this_post["Name"] = this_post.pop("banner_name")
-            this_post["Version"] = this_post.pop("version_number")
-            this_post["Order"] = this_post.pop("order_number")
-            this_post["Banner"] = this_post.pop("banner_image")
-            this_post["Banner2"] = this_post["Banner"].replace("sdk.hoyoverse.com", "cnb.cool/DGP-Studio"
-                                                                                    "/CurrentBannerWatcher/-/git/raw/main")
-            this_post["From"] = this_post.pop("start_time").replace("/", "-").replace(" ", "T")
-            this_post["To"] = this_post.pop("end_time").replace("/", "-").replace(" ", "T")
-            this_post["Type"] = this_post.pop("UIGF_pool_type")
-            new_data[lang].append([this_post])
+def create_banner(
+    mode: str = "production",
+    client: HttpClient | None = None,
+) -> None:
+    http_client = client or get_default_http_client()
+    with Path("banner-data.json").open("r", encoding="utf-8") as file:
+        data = json.load(file)
 
-            # Download Image
-            image_data = requests.get(this_post["Banner"])
-            os.makedirs(os.path.dirname(this_post["Banner"].replace('https://sdk.hoyoverse.com/', "")), exist_ok=True)
-            open(this_post["Banner"].replace('https://sdk.hoyoverse.com/', ""), 'wb').write(image_data.content)
+    new_data = transform_banner_data(data)
+    cache_banner_images(new_data, http_client)
 
-    # Start of Debug #
-    print(new_data)
-    with open("post-data.json", "w", encoding="utf-8") as outfile:
+    logger.info("%s", new_data)
+    with Path("post-data.json").open("w", encoding="utf-8") as outfile:
         json.dump(new_data, outfile, indent=2, ensure_ascii=False)
-    # END of Debug #
 
-    for lang in new_data.keys():
-        match lang:
-            case "zh-cn":
-                locale = "CHS"
-            case "en-us":
-                locale = "EN"
-            case "zh-tw":
-                locale = "CHT"
-            case "ja":
-                locale = "JP"
-            case "ko":
-                locale = "KR"
-            case "es":
-                locale = "ES"
-            case "fr":
-                locale = "FR"
-            case "ru":
-                locale = "RU"
-            case "th":
-                locale = "TH"
-            case "vi":
-                locale = "VI"
-            case "de":
-                locale = "DE"
-            case "id":
-                locale = "ID"
-            case "pt":
-                locale = "PT"
-            case "it":
-                locale = "IT"
-            case "tr":
-                locale = "TR"
-            case __:
-                break
-        for banner in new_data[lang]:
-            print("Sending data: " + str(banner))
-            if mode == "production":
-                url = os.getenv("CREATION_POST_ENDPOINT")
-                if url is None:
-                    raise AttributeError("CREATION_POST_ENDPOINT env is not set.")
-                url = url.format(locale=locale)
-                print("URL: " + url)
-                return_result = requests.post(url, json=banner)
-                print("status_code: " + str(return_result.status_code))
-                print("content: " + json.loads(return_result.content.decode("utf-8"))["message"])
-                print("Full content: " + str(return_result.content.decode("utf-8")))
-                print("=" * 20)
+    if mode == "production":
+        endpoint_template = os.getenv("CREATION_POST_ENDPOINT")
+        if endpoint_template is None:
+            raise AttributeError("CREATION_POST_ENDPOINT env is not set.")
+        publish_banner_data(new_data, endpoint_template, http_client)
 
 
 if __name__ == "__main__":
-    create_banner(os.getenv("run_mode"))
-    # update_banner()
+    try:
+        configure_logging()
+        create_banner(os.getenv("run_mode"))
+        # update_banner()
+    except Exception:
+        logger.exception("Banner publishing failed")
+        raise

@@ -3,41 +3,44 @@ name: ConfigMaker
 on:
   workflow_dispatch:
     inputs:
-       logLevel:
+      logLevel:
         description: 'Log level'
         required: true
-        default: 'warning'
+        default: 'info'
         type: choice
         options:
-        - info
-        - warning
-        - debug
-  
+          - info
+          - warning
+          - debug
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: checkout repo content
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           token: ${{ secrets.TOKEN }}
 
       - name: setup python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
-          python-version: '3.12'
-      - run: pip install -r requirements.txt
+          python-version: '3.14'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
 
       - name: Generate Config
         env:
-            POST_URL: ${{ secrets.POST_URL }}
-            CREATION_POST_ENDPOINT: ${{ secrets.CREATION_POST_ENDPOINT }}
-        run : |
+          POST_URL: ${{ secrets.POST_URL }}
+          CREATION_POST_ENDPOINT: ${{ secrets.CREATION_POST_ENDPOINT }}
+          LOG_LEVEL: ${{ inputs.logLevel }}
+        run: |
           python ${{ github.workspace }}/main.py
 
       - name: Commit Output
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: Automated Change
           branch: main
