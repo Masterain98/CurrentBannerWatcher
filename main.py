@@ -1,17 +1,29 @@
 import os
-import requests
 import re
 import json
-from bs4 import BeautifulSoup
-from push import create_banner
-from BannerMeta import BannerMeta
-from colorama import init, Fore, Back, Style
+import logging
+import sys
+from pathlib import Path
+from urllib.parse import urlencode
 
-# Initialize colorama
-init(autoreset=True)
+from bs4 import BeautifulSoup
+from announcement_client import (
+    ANNOUNCEMENT_URL,
+    AnnouncementSnapshot,
+    announcement_params,
+    fetch_announcement_snapshot,
+)
+from banner_constants import TARGET_LANGUAGES
+from push import create_banner, validate_run_mode
+from BannerMeta import BannerMeta
+from colorama import Fore, Back, Style
+from http_client import HttpClient, get_default_http_client
+from logging_config import configure_logging
+
+
+logger = logging.getLogger(__name__)
 
 RUN_MODE = os.getenv("run_mode", "production")
-DEBUG = True if RUN_MODE == "debug" else False
 
 CHINESE_VERSION_MAP = {
     "「月之一」": "6.0",
@@ -30,20 +42,20 @@ ANNOUNCEMENT_COUNT = 1
 def print_separator():
     global ANNOUNCEMENT_COUNT
     separator = f"\n{Fore.WHITE}{Back.BLACK}╔══════════════════ Announcement {ANNOUNCEMENT_COUNT} ══════════════════╗{Style.RESET_ALL}"
-    print(separator)
+    logger.info("%s", separator)
     ANNOUNCEMENT_COUNT += 1
 
 def convert_chinese_version(version_text):
     """Convert Chinese version format to numeric version"""
-    if DEBUG:
-        print(f"{Fore.LIGHTYELLOW_EX}[Conversion] Converting Chinese version: {version_text}")
+    logger.debug("%s[Conversion] Converting Chinese version: %s", Fore.LIGHTYELLOW_EX, version_text)
     for chinese_ver, numeric_ver in CHINESE_VERSION_MAP.items():
         if chinese_ver in version_text:
             return numeric_ver
     return version_text  # Return original if no match found
 
 
-def get_item_id_by_name(name: str) -> int:
+def get_item_id_by_name(name: str, client: HttpClient | None = None) -> int:
+    http_client = client or get_default_http_client()
     url = "https://api.uigf.org/translate/"
     body = {
         "lang": "zh-cn",
@@ -51,13 +63,32 @@ def get_item_id_by_name(name: str) -> int:
         "game": "genshin",
         "item_name": name
     }
-    this_result = requests.post(url, json=body)
-    if DEBUG:
-        print(f"{Fore.BLUE}[API] UIGF API result: {name} -> {this_result.json()}")
-    try:
-        return this_result.json().get("item_id")
-    except KeyError:
-        return 0
+    response = http_client.post_json(
+        url,
+        body=body,
+        context=f"Failed to query UIGF item id name={name}",
+        retry=True,
+    )
+    logger.debug("%s[API] UIGF API result: %s -> %s", Fore.BLUE, name, response.payload)
+    item_id = response.payload.get("item_id")
+    if type(item_id) is not int:
+        raise ValueError(
+            f"UIGF item lookup returned invalid item_id name={name}: {item_id!r}"
+        )
+    return item_id
+
+
+def resolve_item_ids(
+    names: list[str],
+    cache: dict[str, int],
+    client: HttpClient,
+) -> list[int]:
+    resolved: list[int] = []
+    for name in names:
+        if name not in cache:
+            cache[name] = get_item_id_by_name(name, client)
+        resolved.append(cache[name])
+    return resolved
 
 
 def get_banner_name_by_subtitle(subtitle: str) -> str:
@@ -116,21 +147,28 @@ def get_banner_name_by_subtitle(subtitle: str) -> str:
     return subtitle
 
 
-def announcement_to_banner_meta(chs_ann: dict, all_announcements: list) -> list[BannerMeta] | None:
+def announcement_to_banner_meta(
+    chs_ann: dict,
+    all_announcements: list,
+    snapshot: AnnouncementSnapshot,
+    item_id_cache: dict[str, int] | None = None,
+    client: HttpClient | None = None,
+) -> list[BannerMeta] | None:
     """
     Convert an announcement to a list of BannerMeta objects, each list represent a banner in different language.
     Uses the CHS announcement as the base to parse most of the data and other languages data inherit from CHS.
     """
     print_separator()
-    banner_meta_list = []
+    http_client = client or get_default_http_client()
+    resolved_item_ids = item_id_cache if item_id_cache is not None else {}
     uigf_pool_type = 0
 
     banner_name = get_banner_name_by_subtitle(chs_ann["subtitle"])  # BannerMeta.name
     banner_image_url = chs_ann.get("banner", "")  # BannerMeta.banner_image_url
     content_text = BeautifulSoup(chs_ann["content"], "html.parser").text
-    print(f"{Fore.GREEN}[Content] Content text: {content_text}")
+    logger.info("%s[Content] Content text: %s", Fore.GREEN, content_text)
     if "概率UP" in chs_ann["title"]:
-        print("")
+        logger.info("")
         if "概率提升角色" in content_text:
             if "※ 本祈愿属于「角色活动祈愿」" in content_text:
                 uigf_pool_type = 301
@@ -140,42 +178,42 @@ def announcement_to_banner_meta(chs_ann: dict, all_announcements: list) -> list[
             characters_re_list = re.findall(r"[\u4e00-\u9fa5]+(?=\(风\)|\(火\)|\(水\)|\(冰\)|\(雷\)|\(岩\)|\(草\))", content_text)
             characters_list = []
             [characters_list.append(x) for x in characters_re_list if x not in characters_list]
-            characters_id_list = [get_item_id_by_name(x) for x in characters_list]
-            print(f"\n{Fore.MAGENTA}[Character Parsing] Characters list: {characters_list}")
-            print(f"{Fore.MAGENTA}[Character Parsing] Characters ID list: {characters_id_list}")
+            characters_id_list = resolve_item_ids(characters_list, resolved_item_ids, http_client)
+            logger.info("\n%s[Character Parsing] Characters list: %s", Fore.MAGENTA, characters_list)
+            logger.info("%s[Character Parsing] Characters ID list: %s", Fore.MAGENTA, characters_id_list)
             if len(characters_id_list) != 4:
                 raise RuntimeError("Character banner must have 4 characters")
             orange_id_list = [characters_id_list[0]]
             purple_id_list = characters_id_list[1:]
-            print(f"{Fore.MAGENTA}[Character Parsing] Orange ID: {orange_id_list}")
-            print(f"{Fore.MAGENTA}[Character Parsing] Purple ID: {purple_id_list}\n")
+            logger.info("%s[Character Parsing] Orange ID: %s", Fore.MAGENTA, orange_id_list)
+            logger.info("%s[Character Parsing] Purple ID: %s\n", Fore.MAGENTA, purple_id_list)
         elif "神铸赋形" in chs_ann["subtitle"]:
             uigf_pool_type = 302
             weapon_re_list = re.findall(r"·([\u4e00-\u9fa5]+)", content_text)
             weapon_list = []
             [weapon_list.append(x) for x in weapon_re_list if x not in weapon_list]
-            weapon_id_list = [get_item_id_by_name(x) for x in weapon_list]
-            print(f"\n{Fore.MAGENTA}[Weapon Parsing] Weapon list: {weapon_list}")
-            print(f"{Fore.MAGENTA}[Weapon Parsing] Weapon ID list: {weapon_id_list}")
+            weapon_id_list = resolve_item_ids(weapon_list, resolved_item_ids, http_client)
+            logger.info("\n%s[Weapon Parsing] Weapon list: %s", Fore.MAGENTA, weapon_list)
+            logger.info("%s[Weapon Parsing] Weapon ID list: %s", Fore.MAGENTA, weapon_id_list)
             if len(weapon_id_list) != 7:
                 raise RuntimeError("Weapon banner must have 7 weapons")
             orange_id_list = weapon_id_list[:2]
             purple_id_list = weapon_id_list[2:]
-            print(f"{Fore.MAGENTA}[Weapon Parsing] Orange ID: {orange_id_list}")
-            print(f"{Fore.MAGENTA}[Weapon Parsing] Purple ID: {purple_id_list}\n")
+            logger.info("%s[Weapon Parsing] Orange ID: %s", Fore.MAGENTA, orange_id_list)
+            logger.info("%s[Weapon Parsing] Purple ID: %s\n", Fore.MAGENTA, purple_id_list)
         else:
             raise RuntimeError("Unknown banner type")
     elif "本祈愿属于「集录祈愿」" in content_text:
         uigf_pool_type = 500
         content_text_no_space = content_text.replace(" ", "")
         orange_characters_re_list = re.search(r"5星角色：(?P<r>.*?)5星武器：", content_text_no_space).group("r").split("/")
-        print(f"{Fore.CYAN}[Gacha Parsing] Orange characters re list: {orange_characters_re_list}")
+        logger.info("%s[Gacha Parsing] Orange characters re list: %s", Fore.CYAN, orange_characters_re_list)
         purple_characters_re_list = re.search(r"4星角色：(?P<r>.*?)(?=4星武器：)", content_text_no_space).group("r").split("/")
-        print(f"{Fore.CYAN}[Gacha Parsing] Purple characters re list: {purple_characters_re_list}")
+        logger.info("%s[Gacha Parsing] Purple characters re list: %s", Fore.CYAN, purple_characters_re_list)
         orange_weapons_re_list = re.search(r"5星武器：(?P<r>.*?)4星角色：", content_text_no_space).group("r").split("/")
-        print(f"{Fore.CYAN}[Gacha Parsing] Orange weapons re list: {orange_weapons_re_list}")
+        logger.info("%s[Gacha Parsing] Orange weapons re list: %s", Fore.CYAN, orange_weapons_re_list)
         purple_weapons_re_list = re.search(r"4星武器：(?P<r>.*?)(?=※)", content_text_no_space).group("r").split("/")
-        print(f"{Fore.CYAN}[Gacha Parsing] Purple weapons re list: {purple_weapons_re_list}")
+        logger.info("%s[Gacha Parsing] Purple weapons re list: %s", Fore.CYAN, purple_weapons_re_list)
         orange_list = []
         [orange_list.append(x) for x in orange_characters_re_list if x not in orange_list]
         [orange_list.append(x) for x in orange_weapons_re_list if x not in orange_list]
@@ -183,16 +221,16 @@ def announcement_to_banner_meta(chs_ann: dict, all_announcements: list) -> list[
         [purple_list.append(x) for x in purple_characters_re_list if x not in purple_list]
         [purple_list.append(x) for x in purple_weapons_re_list if x not in purple_list]
 
-        orange_id_list = [get_item_id_by_name(x) for x in orange_list]
-        purple_id_list = [get_item_id_by_name(x) for x in purple_list]
-        print(f"{Fore.CYAN}[Gacha Parsing] Orange list: {orange_list}")
-        print(f"{Fore.CYAN}[Gacha Parsing] Purple list: {purple_list}")
-        print(f"{Fore.CYAN}[Gacha Parsing] Orange ID list: {orange_id_list}")
-        print(f"{Fore.CYAN}[Gacha Parsing] Purple ID list: {purple_id_list}")
-        print(f"{Fore.CYAN}[Gacha Parsing] Total count of Orange: {len(orange_id_list)}")
-        print(f"{Fore.CYAN}[Gacha Parsing] Total count of Purple: {len(purple_id_list)}\n")
+        orange_id_list = resolve_item_ids(orange_list, resolved_item_ids, http_client)
+        purple_id_list = resolve_item_ids(purple_list, resolved_item_ids, http_client)
+        logger.info("%s[Gacha Parsing] Orange list: %s", Fore.CYAN, orange_list)
+        logger.info("%s[Gacha Parsing] Purple list: %s", Fore.CYAN, purple_list)
+        logger.info("%s[Gacha Parsing] Orange ID list: %s", Fore.CYAN, orange_id_list)
+        logger.info("%s[Gacha Parsing] Purple ID list: %s", Fore.CYAN, purple_id_list)
+        logger.info("%s[Gacha Parsing] Total count of Orange: %s", Fore.CYAN, len(orange_id_list))
+        logger.info("%s[Gacha Parsing] Total count of Purple: %s\n", Fore.CYAN, len(purple_id_list))
     else:
-        print(f"{Fore.LIGHTYELLOW_EX}[Content] Not a banner announcement: {chs_ann['subtitle']}\n")
+        logger.info("%s[Content] Not a banner announcement: %s\n", Fore.LIGHTYELLOW_EX, chs_ann["subtitle"])
         return None
 
     if uigf_pool_type != 0:
@@ -213,13 +251,17 @@ def announcement_to_banner_meta(chs_ann: dict, all_announcements: list) -> list[
             time_result = re.search(time_pattern, content_text)
             start_time = time_result.group("start")
             end_time = time_result.group("end")
-            print(f"{Fore.LIGHTRED_EX}[Time Parsing] Found banner time: {start_time} ~ {end_time}")
-        except AttributeError:
-            raise ValueError(f"Unknown time format\nAnnouncement Content: {content_text}\nPattern: {time_pattern}")
+            logger.info("%s[Time Parsing] Found banner time: %s ~ %s", Fore.LIGHTRED_EX, start_time, end_time)
+        except AttributeError as exc:
+            raise ValueError(
+                f"Unknown time format\nAnnouncement Content: {content_text}\nPattern: {time_pattern}"
+            ) from exc
         if "更新后" in start_time:
             order = 1
-            if DEBUG:
-                print(f"{Fore.LIGHTRED_EX}[Time Parsing] Start time is relative, need to find accurate time in update log")
+            logger.debug(
+                "%s[Time Parsing] Start time is relative, need to find accurate time in update log",
+                Fore.LIGHTRED_EX,
+            )
             version_match = re.search(r"^(\d\.\d|「月之[一二三四五六七八九]」)", start_time)
             if version_match:
                 version_text = version_match.group(0)
@@ -248,24 +290,28 @@ def announcement_to_banner_meta(chs_ann: dict, all_announcements: list) -> list[
                                   (any(chinese + "版本更新维护预告" in b["subtitle"] for chinese in CHINESE_VERSION_MAP.keys()))]
                     if patch_notes:
                         patch_note = BeautifulSoup(patch_notes[0]["content"], "html.parser").text
-                        print(f"\n{Fore.LIGHTBLUE_EX}[Patch Note] Patch note: {patch_note}")
+                        logger.info("\n%s[Patch Note] Patch note: %s", Fore.LIGHTBLUE_EX, patch_note)
                         patch_time_pattern = (r"(?:预计将于<t class=\"t_(gl|lc)\"( contenteditable=\"false\")?>)"
                                               r"(?P<start>20\d{2}/\d{2}/\d{2} \d{2}:\d{2}(:\d{2})?)"
                                               r"(?:</t>进行版本更新维护)")
                     else:
                         raise IndexError("No maintenance announcement found")
                 except IndexError:
-                    if DEBUG:
-                        for b in all_announcements:
-                            print(f"{Fore.RED}[Debug] {b['subtitle']}")
-                            print(f"{Fore.RED}[Debug] {b['content']}")
-                    print(f"{Fore.LIGHTBLUE_EX}[Patch Note] No update log found; game is most likely under maintenance")
-                    exit(500)
+                    for b in all_announcements:
+                        logger.debug("%s[Debug] %s", Fore.RED, b["subtitle"])
+                        logger.debug("%s[Debug] %s", Fore.RED, b["content"])
+                    logger.info(
+                        "%s[Patch Note] No update log found; game is most likely under maintenance",
+                        Fore.LIGHTBLUE_EX,
+                    )
+                    sys.exit(500)
             try:
                 start_time = re.search(patch_time_pattern, patch_note).group("start")
-            except AttributeError:
-                raise ValueError(f"Unknown time format\nPatch Note: {patch_note}\nPattern: {patch_time_pattern}")
-            print(f"{Fore.LIGHTBLUE_EX}[Patch Note] Found patch time: {start_time}")
+            except AttributeError as exc:
+                raise ValueError(
+                    f"Unknown time format\nPatch Note: {patch_note}\nPattern: {patch_time_pattern}"
+                ) from exc
+            logger.info("%s[Patch Note] Found patch time: %s", Fore.LIGHTBLUE_EX, start_time)
         else:
             version = "99.99"
             order = 2
@@ -298,104 +344,130 @@ def announcement_to_banner_meta(chs_ann: dict, all_announcements: list) -> list[
         up_orange_list=orange_id_list,
         up_purple_list=purple_id_list
     )
-    print(f"\n{Fore.LIGHTGREEN_EX}[BannerMeta] {banner_meta.model_dump_json()}")
-    banner_meta_list.append(banner_meta)
+    logger.info("\n%s[BannerMeta] %s", Fore.LIGHTGREEN_EX, banner_meta.model_dump_json())
+    return localize_banner_meta(banner_meta, snapshot)
 
-    target_language = ["en-us", "zh-tw", "ja", "ko", "es", "fr",
-                       "ru", "th", "vi", "de", "id", "pt", "tr", "it"]
-    for lang in target_language:
-        this_meta = banner_meta.model_copy()
-        this_meta.lang = lang
-        url = "https://sg-hk4e-api-static.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?"
-        params = {
-            "game": "hk4e",
-            "game_biz": "hk4e_global",
-            "region": "os_asia",
-            "bundle_id": "hk4e_global",
-            "channel_id": "1",
-            "level": "55",
-            "platform": "pc",
-            "lang": lang,
-        }
-        for k, v in params.items():
-            url += f"{k}={v}&"
-        url += "uid=100000000"
-        this_lang_ann = requests.get(url).json().get("data").get("list")
-        matched_ann = [ann for ann in this_lang_ann if ann["ann_id"] == chs_ann["ann_id"]]
-        banner_name = get_banner_name_by_subtitle(matched_ann[0]["subtitle"])
-        this_meta.name = banner_name
-        banner_image = matched_ann[0].get("banner", "")
-        this_meta.banner_image_url = banner_image
-        print(f"{Fore.LIGHTGREEN_EX}[BannerMeta] {this_meta.model_dump_json()}")
-        banner_meta_list.append(this_meta)
+
+def localize_banner_meta(
+    chinese_meta: BannerMeta,
+    snapshot: AnnouncementSnapshot,
+) -> list[BannerMeta]:
+    """Build every locale from a Chinese banner, falling back when localization lags."""
+    banner_meta_list = [chinese_meta]
+    for language in TARGET_LANGUAGES:
+        localized_meta = chinese_meta.model_copy()
+        localized_meta.lang = language
+        matched_announcement = snapshot.by_id[language].get(chinese_meta.ann_id)
+        if matched_announcement is None:
+            logger.warning(
+                "Missing localized banner announcement language=%s ann_id=%s; "
+                "falling back to zh-cn name and image",
+                language,
+                chinese_meta.ann_id,
+            )
+        else:
+            localized_meta.name = get_banner_name_by_subtitle(
+                matched_announcement["subtitle"]
+            )
+            localized_meta.banner_image_url = matched_announcement.get("banner", "")
+        logger.info(
+            "%s[BannerMeta] %s",
+            Fore.LIGHTGREEN_EX,
+            localized_meta.model_dump_json(),
+        )
+        banner_meta_list.append(localized_meta)
 
     return banner_meta_list
 
 
-def archive_announcement(ann: dict):
-    import os, requests
-    ann_id = ann["ann_id"]
-    base_dir = "ann_archive"
-    ann_dir = os.path.join(base_dir, str(ann_id))
-    os.makedirs(ann_dir, exist_ok=True)
-    # Save zh-cn content
-    with open(os.path.join(ann_dir, "zh-cn.txt"), "w", encoding="utf-8") as f:
-        f.write(ann["content"])
-    target_languages = ["en-us", "zh-tw", "ja", "ko", "es", "fr", "ru", "th", "vi", "de", "id", "pt", "tr", "it"]
-    for lang in target_languages:
-        url = "https://sg-hk4e-api-static.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?"
-        params = {
-            "game": "hk4e",
-            "game_biz": "hk4e_global",
-            "region": "os_asia",
-            "bundle_id": "hk4e_global",
-            "channel_id": "1",
-            "level": "55",
-            "platform": "pc",
-            "lang": lang,
-        }
-        for k, v in params.items():
-            url += f"{k}={v}&"
-        url += "uid=100000000"
-        try:
-            ann_list = requests.get(url).json().get("data", {}).get("list", [])
-            matched = [a for a in ann_list if a["ann_id"] == ann_id]
-            if matched:
-                with open(os.path.join(ann_dir, f"{lang}.txt"), "w", encoding="utf-8") as f:
-                    f.write(matched[0]["content"])
-        except Exception:
-            pass
+def _write_archive_file(path: Path, content: str, *, language: str, announcement_id: int) -> None:
+    try:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(content, encoding="utf-8")
+    except OSError:
+        logger.exception(
+            "Failed to archive announcement language=%s ann_id=%s path=%s",
+            language,
+            announcement_id,
+            path,
+        )
+        raise
 
 
-def refresh_all_banner_data():
+def archive_announcement(ann: dict, snapshot: AnnouncementSnapshot) -> None:
+    announcement_id = ann["ann_id"]
+    announcement_dir = Path("ann_archive") / str(announcement_id)
+    _write_archive_file(
+        announcement_dir / "zh-cn.txt",
+        ann["content"],
+        language="zh-cn",
+        announcement_id=announcement_id,
+    )
+
+    for language in TARGET_LANGUAGES:
+        localized = snapshot.by_id[language].get(announcement_id)
+        if localized is None:
+            logger.warning(
+                "Missing archive announcement language=%s ann_id=%s",
+                language,
+                announcement_id,
+            )
+            continue
+        _write_archive_file(
+            announcement_dir / f"{language}.txt",
+            localized["content"],
+            language=language,
+            announcement_id=announcement_id,
+        )
+
+
+def update_banner_announcement_list(
+    announcement_ids: list[int],
+    path: Path = Path("ann_archive/banner_ann_list.txt"),
+) -> None:
+    try:
+        existing_ids = path.read_text(encoding="utf-8").splitlines() if path.exists() else []
+        ordered_ids: list[str] = []
+        seen: set[str] = set()
+        for announcement_id in [*existing_ids, *(str(value) for value in announcement_ids)]:
+            normalized_id = announcement_id.strip()
+            if normalized_id and normalized_id not in seen:
+                seen.add(normalized_id)
+                ordered_ids.append(normalized_id)
+
+        serialized = "".join(f"{announcement_id}\n" for announcement_id in ordered_ids)
+        if path.exists() and path.read_text(encoding="utf-8") == serialized:
+            return
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(serialized, encoding="utf-8")
+    except OSError:
+        logger.exception("Failed to update banner announcement list path=%s", path)
+        raise
+
+
+def refresh_all_banner_data(client: HttpClient | None = None) -> None:
+    http_client = client or get_default_http_client()
     return_result = {}
-    url = "https://sg-hk4e-api-static.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?"
-    params = {
-        "game": "hk4e",
-        "game_biz": "hk4e_global",
-        "region": "os_asia",
-        "bundle_id": "hk4e_global",
-        "channel_id": "1",
-        "level": "55",
-        "platform": "pc",
-        "lang": "zh-cn",
-    }
-    for k, v in params.items():
-        url += f"{k}={v}&"
-    url += "uid=100000000"
-    print(f"{Fore.YELLOW}[HTTP] zh-cn URL: {url}\n")
-    banner_data = requests.get(url).json().get("data").get("list")
+    item_id_cache: dict[str, int] = {}
+    banner_announcement_ids: list[int] = []
+    url = f"{ANNOUNCEMENT_URL}?{urlencode(announcement_params('zh-cn'))}"
+    logger.info("%s[HTTP] zh-cn URL: %s\n", Fore.YELLOW, url)
+    snapshot = fetch_announcement_snapshot(http_client)
+    banner_data = snapshot.ordered["zh-cn"]
     for ann in banner_data:
         # Archive each announcement's raw content
-        archive_announcement(ann)
-        this_banner_data = announcement_to_banner_meta(ann, banner_data)
+        archive_announcement(ann, snapshot)
+        this_banner_data = announcement_to_banner_meta(
+            ann,
+            banner_data,
+            snapshot,
+            item_id_cache,
+            http_client,
+        )
         if this_banner_data is None:
             continue
         else:
-            # Append banner announcement id to banner_ann_list.txt
-            banner_list_file = os.path.join("ann_archive", "banner_ann_list.txt")
-            with open(banner_list_file, "a", encoding="utf-8") as f:
-                f.write(str(ann["ann_id"]) + "\n")
+            banner_announcement_ids.append(ann["ann_id"])
             this_banner_dict = {}
             this_banner_ann_id = this_banner_data[0].ann_id
 
@@ -412,12 +484,35 @@ def refresh_all_banner_data():
                     "banner_image": lang_banner.banner_image_url
                 }
             return_result[this_banner_ann_id] = this_banner_dict
-    with open("banner-data.json", "w", encoding="utf-8") as f:
-        f.write(json.dumps(return_result, indent=2, ensure_ascii=False))
-    print(f"{Fore.LIGHTGREEN_EX}[Finish] Done\n")
+    try:
+        Path("banner-data.json").write_text(
+            json.dumps(return_result, indent=2, ensure_ascii=False),
+            encoding="utf-8",
+        )
+        update_banner_announcement_list(banner_announcement_ids)
+    except OSError:
+        logger.exception("Failed to write generated banner data")
+        raise
+    logger.info("%s[Finish] Done\n", Fore.LIGHTGREEN_EX)
+
+
+def run() -> None:
+    configure_logging()
+    run_mode = validate_run_mode(RUN_MODE)
+    logger.info(
+        "%s%s======== Starting Banner Data Collection ========%s\n",
+        Back.WHITE,
+        Fore.BLACK,
+        Style.RESET_ALL,
+    )
+    shared_http_client = get_default_http_client()
+    refresh_all_banner_data(shared_http_client)
+    create_banner(run_mode, client=shared_http_client)
 
 
 if __name__ == "__main__":
-    print(f"{Back.WHITE}{Fore.BLACK}======== Starting Banner Data Collection ========{Style.RESET_ALL}\n")
-    refresh_all_banner_data()
-    create_banner()
+    try:
+        run()
+    except Exception:
+        logger.exception("Banner data collection failed")
+        raise

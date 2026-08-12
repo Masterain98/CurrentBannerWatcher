@@ -1,0 +1,224 @@
+import logging
+import os
+from pathlib import Path
+
+import pytest
+import yaml
+
+import main
+from announcement_client import AnnouncementSnapshot
+from banner_constants import LANGUAGES
+from BannerMeta import BannerMeta
+from http_client import JsonHttpResponse
+from logging_config import configure_logging
+
+
+def test_banner_announcement_list_preserves_history_and_is_idempotent(tmp_path):
+    path = tmp_path / "ann_archive" / "banner_ann_list.txt"
+    path.parent.mkdir()
+    path.write_text("12\n10\n12\n", encoding="utf-8")
+
+    main.update_banner_announcement_list([10, 14, 14, 16], path)
+    first_result = path.read_bytes()
+    main.update_banner_announcement_list([10, 14, 14, 16], path)
+
+    assert first_result.decode("utf-8") == os.linesep.join(["12", "10", "14", "16", ""])
+    assert path.read_bytes() == first_result
+
+
+def test_archive_uses_snapshot_without_network_and_warns_for_missing_language(
+    tmp_path,
+    monkeypatch,
+    caplog,
+):
+    monkeypatch.chdir(tmp_path)
+    announcement = {"ann_id": 42, "content": "zh content"}
+    by_id = {
+        language: ({42: {"ann_id": 42, "content": f"{language} content"}} if language != "ja" else {})
+        for language in LANGUAGES
+    }
+    snapshot = AnnouncementSnapshot(ordered={}, by_id=by_id)
+
+    with caplog.at_level(logging.WARNING):
+        main.archive_announcement(announcement, snapshot)
+
+    assert Path("ann_archive/42/zh-cn.txt").read_text(encoding="utf-8") == "zh content"
+    assert Path("ann_archive/42/en-us.txt").read_text(encoding="utf-8") == "en-us content"
+    assert not Path("ann_archive/42/ja.txt").exists()
+    assert "language=ja ann_id=42" in caplog.text
+
+
+def test_archive_write_errors_are_logged_and_reraised(tmp_path, monkeypatch, caplog):
+    def fail_write(self, content, encoding):
+        raise OSError("disk full")
+
+    monkeypatch.setattr(Path, "write_text", fail_write)
+    path = tmp_path / "ann_archive" / "42" / "zh-cn.txt"
+
+    with caplog.at_level(logging.ERROR):
+        with pytest.raises(OSError, match="disk full"):
+            main._write_archive_file(path, "content", language="zh-cn", announcement_id=42)
+
+    assert "language=zh-cn ann_id=42" in caplog.text
+    assert "disk full" in caplog.text
+
+
+def test_existing_monitoring_content_is_info_and_old_debug_content_is_debug(caplog):
+    snapshot = AnnouncementSnapshot(ordered={}, by_id={language: {} for language in LANGUAGES})
+    announcement = {
+        "ann_id": 1,
+        "title": "ordinary announcement",
+        "subtitle": "subtitle",
+        "content": "full monitored announcement body",
+    }
+    offline_client = ItemClient()
+
+    with caplog.at_level(logging.INFO):
+        assert main.announcement_to_banner_meta(
+            announcement,
+            [],
+            snapshot=snapshot,
+            client=offline_client,
+        ) is None
+        main.convert_chinese_version("「月之一」")
+
+    assert "full monitored announcement body" in caplog.text
+    assert "Converting Chinese version" not in caplog.text
+
+    caplog.clear()
+    with caplog.at_level(logging.DEBUG):
+        main.convert_chinese_version("「月之一」")
+    assert "Converting Chinese version" in caplog.text
+
+
+def test_invalid_log_level_fails_explicitly():
+    with pytest.raises(ValueError, match="Invalid LOG_LEVEL"):
+        configure_logging("verbose")
+
+
+class ItemClient:
+    def __init__(self):
+        self.names = []
+
+    def post_json(self, url, *, body, context, retry):
+        self.names.append(body["item_name"])
+        return JsonHttpResponse(
+            payload={"item_id": len(self.names)},
+            status_code=200,
+            text="{}",
+        )
+
+
+def test_item_ids_are_cached_for_the_duration_of_a_run():
+    client = ItemClient()
+    cache = {}
+
+    resolved = main.resolve_item_ids(["A", "B", "A"], cache, client)
+
+    assert resolved == [1, 2, 1]
+    assert client.names == ["A", "B"]
+
+
+class MissingItemClient:
+    def post_json(self, url, *, body, context, retry):
+        return JsonHttpResponse(payload={}, status_code=200, text="{}")
+
+
+def test_item_lookup_rejects_a_missing_item_id():
+    with pytest.raises(ValueError, match="invalid item_id name=Unknown"):
+        main.get_item_id_by_name("Unknown", MissingItemClient())
+
+
+def test_missing_localization_falls_back_to_chinese_metadata(caplog):
+    chinese_meta = BannerMeta(
+        lang="zh-cn",
+        ann_id=42,
+        version="1.0",
+        order=1,
+        name="Chinese name",
+        uigf_banner_type=301,
+        banner_image_url="https://sdk.hoyoverse.com/upload/zh-cn.jpg",
+        banner_image_url_backup=None,
+        start_time="2026-01-01",
+        end_time="2026-01-02",
+        up_orange_list=[1],
+        up_purple_list=[2, 3, 4],
+    )
+    by_id = {
+        language: {
+            42: {
+                "ann_id": 42,
+                "subtitle": f"name-{language}",
+                "banner": f"https://sdk.hoyoverse.com/upload/{language}.jpg",
+            }
+        }
+        for language in LANGUAGES
+    }
+    by_id["ja"] = {}
+    snapshot = AnnouncementSnapshot(ordered={}, by_id=by_id)
+
+    with caplog.at_level(logging.WARNING):
+        localized = main.localize_banner_meta(chinese_meta, snapshot)
+
+    japanese = next(meta for meta in localized if meta.lang == "ja")
+    assert japanese.name == chinese_meta.name
+    assert japanese.banner_image_url == chinese_meta.banner_image_url
+    assert "language=ja ann_id=42" in caplog.text
+
+
+def test_run_forwards_the_configured_mode(monkeypatch):
+    shared_client = object()
+    calls = []
+    monkeypatch.setattr(main, "RUN_MODE", "debug")
+    monkeypatch.setattr(main, "configure_logging", lambda: None)
+    monkeypatch.setattr(main, "get_default_http_client", lambda: shared_client)
+    monkeypatch.setattr(main, "refresh_all_banner_data", calls.append)
+    monkeypatch.setattr(
+        main,
+        "create_banner",
+        lambda mode, *, client: calls.append((mode, client)),
+    )
+
+    main.run()
+
+    assert calls == [shared_client, ("debug", shared_client)]
+
+
+def test_run_rejects_an_invalid_mode_before_network_work(monkeypatch):
+    monkeypatch.setattr(main, "RUN_MODE", "staging")
+    monkeypatch.setattr(main, "configure_logging", lambda: None)
+    monkeypatch.setattr(
+        main,
+        "get_default_http_client",
+        lambda: pytest.fail("network client must not be created"),
+    )
+
+    with pytest.raises(ValueError, match="Invalid run mode 'staging'"):
+        main.run()
+
+
+def test_workflow_connects_log_level_and_defaults_to_info():
+    workflow = yaml.load(
+        (Path(__file__).parents[1] / ".github/workflows/banner-generator.yml").read_text(
+            encoding="utf-8"
+        ),
+        Loader=yaml.BaseLoader,
+    )
+    dispatch = workflow["on"]["workflow_dispatch"]
+    generate_step = next(
+        step
+        for step in workflow["jobs"]["build"]["steps"]
+        if step.get("name") == "Generate Config"
+    )
+    commit_step = next(
+        step
+        for step in workflow["jobs"]["build"]["steps"]
+        if step.get("name") == "Commit Output"
+    )
+
+    assert dispatch["inputs"]["logLevel"]["default"] == "info"
+    assert generate_step["env"]["LOG_LEVEL"] == "${{ inputs.logLevel }}"
+    assert commit_step["uses"] == (
+        "stefanzweifel/git-auto-commit-action@"
+        "4a55954c782fc1ea30b9056cd3e7a2b40ca8887d"
+    )
